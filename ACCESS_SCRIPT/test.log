@@ -1,0 +1,1372 @@
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+dataPoolPath C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data/datapool/Access_Regression.xlsx
+{Id=1.0, Test_Case_Name=Submit_With_Add_Files_Excel, Test_Case_Tag=TC_TAG_001, Test_Case_Description=Submit E-File with multiple uploads (Add excel files), Case_Number=A-000-000, Segment=INV - Investigation, Security_Classification=BPI Document – May Not Be Released Under APO, Document_Type=APO, Title=, Page_Count=, Filed_On_Behalf_Of=Test, File_1=test_file_1.xlsx, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=0, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=2.0, Test_Case_Name=Submit_With_Similar_Submission_Excel, Test_Case_Tag=TC_TAG_002, Test_Case_Description=Submit E-File with multiple uploads (similar submission with excel file ), Case_Number=A-000-000, Segment=INV - Investigation, Security_Classification=Public Document, Document_Type=Brief, Title=, Page_Count=, Filed_On_Behalf_Of=Test, File_1=test_file_1.xlsx, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=0, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=3.0, Test_Case_Name=Submit_With_Add_Files_Pdf, Test_Case_Tag=TC_TAG_003, Test_Case_Description=Submit E-File with multiple uploads (Add pdf files), Case_Number=A-000-000, Segment=INV - Investigation, Security_Classification=BPI Document – May Not Be Released Under APO, Document_Type=APO, Title=, Page_Count=, Filed_On_Behalf_Of=Test, File_1=test_file_1.pdf, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=0, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=4.0, Test_Case_Name=Submit_With_Similar_Submission_Pdf, Test_Case_Tag=TC_TAG_004, Test_Case_Description=Submit E-File with multiple uploads (similar submission with pdf files), Case_Number=A-000-000, Segment=INV - Investigation, Security_Classification=Public Document, Document_Type=Brief, Title=, Page_Count=, Filed_On_Behalf_Of=Test, File_1=test_file_1.pdf, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=0, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=5.0, Test_Case_Name=Submit_As_Manual_Submission, Test_Case_Tag=TC_TAG_005, Test_Case_Description=Submit E-File as manual submission, Case_Number=A-000-000, Segment=INV - Investigation, Security_Classification=Public Document, Document_Type=Data, Title=Title Test, Page_Count=100, Filed_On_Behalf_Of=Test, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=N/A, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=6.0, Test_Case_Name=Validate_Efile_Help_Messages, Test_Case_Tag=TC_TAG_006, Test_Case_Description=Validate E-File fields Help Messages, Case_Number=, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=7.0, Test_Case_Name=Validate_Efile_Error_Messages, Test_Case_Tag=TC_TAG_007, Test_Case_Description=Validate E-File fields Error Messages, Case_Number=, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=8.0, Test_Case_Name=Validate_Update_Profile_Help_Messages, Test_Case_Tag=TC_TAG_008, Test_Case_Description=Validate update profile fields Help Messages, Case_Number=, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=9.0, Test_Case_Name=Validate_Manage_Entry_Of_Appearance_Help_Messages, Test_Case_Tag=TC_TAG_009, Test_Case_Description=Validate manage entry of appearance fields Help Messages, Case_Number=A-000-000, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=10.0, Test_Case_Name=Validate_Manage_APO_Application_Help_Messages, Test_Case_Tag=TC_TAG_010, Test_Case_Description=Validate manage APO application fields Help Messages, Case_Number=A-000-000, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=11.0, Test_Case_Name=Create_Entry_Of_Appearance, Test_Case_Tag=TC_TAG_011, Test_Case_Description=Create and submit an entry of appearance by using an available Case number, Case_Number=A-000-000, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=text 1, Full_Address=2232 pimmit run lane, apt 43 falls church, va, 22043, Active=TRUE}
+{Id=12.0, Test_Case_Name=Create_APO_Application, Test_Case_Tag=TC_TAG_012, Test_Case_Description=Create and submit an APO application by using an available Case number, Case_Number=A-000-000, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=text 2, Full_Address=2233 pimmit run lane, apt 43 falls church, va, 22043, Active=TRUE}
+{Id=13.0, Test_Case_Name=Check_Files_For_Efiles, Test_Case_Tag=TC_TAG_013, Test_Case_Description=Test files for e-file upload (size, format, number of files, file contents and so on), Case_Number=, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=14.0, Test_Case_Name=Validate_EOA_Fields_Populated, Test_Case_Tag=TC_TAG_014, Test_Case_Description=Verify that case number and firm name are populated when displyed under 'Other Entries Of Appearance For My Firm', Case_Number=A-000-000, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=15.0, Test_Case_Name=Validate_APO_Fields_Populated, Test_Case_Tag=TC_TAG_015, Test_Case_Description=Verify that case number and firm name are populated when isplyed under 'Other Entries Of APO For My Firm', Case_Number=A-000-000, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=16.0, Test_Case_Name=Resubmit_EOA_Under_Other_Entries, Test_Case_Tag=TC_TAG_016, Test_Case_Description=Verify that we can submit EOA if displyed under 'Other Entries Of Appearance For My Firm', Case_Number=, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=17.0, Test_Case_Name=Resubmit_APO_Under_Other_Entries, Test_Case_Tag=TC_TAG_017, Test_Case_Description=Verify that we can submit APO if displyed under 'Other Entries Of APO For My Firm', Case_Number=, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=, Full_Address=, Active=TRUE}
+{Id=18.0, Test_Case_Name=Validate_Efile_Register_Help_Messages, Test_Case_Tag=TC_TAG_018, Test_Case_Description=Validate E file register fields Help Messages, Case_Number=, Segment=, Security_Classification=, Document_Type=, Title=, Page_Count=, Filed_On_Behalf_Of=, File_1=, File_2=, File_3=, File_4=, File_5=, Number_of_uploads=, Text_Participant=, Full_Address=, Active=TRUE}
+{Quick Search=Click 'Quick Search' to perform search for selected criteria., Case Number=Enter the case number of the proceeding., Segment=Select the segment of the proceeding., Segment Begin Date=Enter the segment beginning date in mm/dd/yyyy format., Segment End Date=Enter the segment end date in mm/dd/yyyy format., Segment Specific Information=Select the segment specific information of the proceeding. If not listed select “Request” or contact case analyst to add respective segment profile., Security Classification=Select the type of security classification of the document. e.g. Public Document, Document Type=Select the type of document that most closely describes this filing., Filed On Behalf Of (collective entity)=Enter the company/entity, (or if applicable, the collective company/entity name) on whose behalf this submission is filed., Manual Submission=Check this box if the document will be paper filed (manual) and not electronically filed., Bracketing Not Final/1 Day Lag Filing(You must resubmit final version next business day)=Select the checkbox if Bracketing Not Final/1 Day Lag Filing. You must resubmit final version next business day., Comments=Enter information or instructions about the document being filed., Title=Enter the Title of the document being submitted., Upload File(s)=Click 'Browse' or 'Upload File(s)' or 'Choose File(s)' to attach following file types for electronic submission. Limit the length of the filename to 80 characters, Filename should not contain any special characters.
+
+Document Files:
+.pdf - Portable Document Format
+
+Data Files:
+.accdb - Data (MS Access)
+.csv - Comma Separated Values
+.dat - Data
+.dbf - dBase
+.log - SAS log file
+.lst - SAS output file
+.mda - Data (MS Access)
+.mdb - Database (MS Access)
+.prn - Printer Text File
+.SAS - SAS Program
+.sas7bcat - SAS System file catalog
+.sas7bdat - SAS System data set
+.sas7bndx - SAS System index
+.sas7bpgm - SAS System Stored Program
+.sas7bvew - SAS Data Set View
+.sas7mdb - SAS System multidimensional database
+.SD2 - Version 6 SAS dataset
+.ss2 - Version 6 SAS stored program
+.ss7 - Version 7 and Version 8 SAS stored program
+.txt - Text File
+.xls - MS Excel
+.xlsx - MS Excel new format
+.zip - Compressed Archive File
+.egp - SAS Enterprise Guide Project
+
+Video Files:
+.mp4 - MPEG-4
+.mpg - MPEG 1 System Stream
+.wmv - Windows Media File
+
+Size Limit:
+1. User can upload up to 5 PDF each with 5 MB limit totaling 25 MB.
+2. User can upload 1 data file up to 25 MB or upload multiple data files totaling 25 MB.
+3. There is a 25 MB limit for PDF and data file(s) uploaded in one attempt.
+4. If an individual data file is greater than 25 MB, it must be submitted manually on CD-ROM or DVD., Submit=Click 'Submit' to transmit information in the form to the system., Reset=Click 'Reset' to undo the edits you have made in the form., Cancel=Click 'Cancel' to return back to home page. Edits to the form will not be saved.}
+{Quick Search=Click 'Quick Search' to perform search for selected criteria., Title=Enter job title., Country Code=Enter Country Code. Country Code is required for non-USA numbers., Phone(area/city code + number)=Enter primary phone number. Please do not format it in any way - ( ) space etc., Firm/Organization Address=Enter Firm/Organization Address., Firm/Organization Phone(area/city code + number)=Enter Firm/Organization Phone., Admitted to Practice in(U.S. Jurisdictions and Courts only)=Enter U.S. jurisdiction(s) and court(s) where you are admitted to practice law, otherwise leave Blank., Security Question 1=Select a question from the list that you can easily remember., Answer 1=Enter the answer for the question. Note: the answer is not case sensitive., Security Question 2=Select the second question from the list that you can easily remember., Answer 2=Enter the answer for the second question. Note: the answer is not case sensitive., Proxy(Lead Attorneys Only: Designate up to two APO-authorized Proxy users.)=If you are an E-Filer listed as the Lead Attorney on the APO Service List for a segment, you may designate up to two Proxy users to access BPI documents on your behalf. This designation applies for all segments in which you are listed as the Lead Attorney, therefore select only a support staff Proxy user that has signed your firm’s internal Acknowledgment for Support Staff for each of the segments in which you are the Lead Attorney. Similarly, select only an attorney Proxy user that appears as an authorized applicant on all the same APO service lists in which you are the Lead Attorney. Unauthorized access to third party BPI by a Proxy user constitutes an APO violation., PIN (4 digits)=Select Permanent 4 digit Personal Identification Number (PIN). You will need this to access BPI portion of the site or for future update to your profile. You will not be able to change PIN once it is set. Please select a PIN that you will remember., Confirm PIN=Re-enter the same PIN to confirm the PIN., Submit=Click 'Submit' to transmit information in the form to the system., Reset=Click 'Reset' to undo the edits you have made in the form., Cancel=Click 'Cancel' to return back to home page. Edits to the form will not be saved.}
+{Full Name=Enter user's Full Name such as John A. Doe, Title=Enter job title., Country Code=Enter Country Code. Country Code is required for non-USA numbers., Phone(area/city code + number)=Enter primary phone number. Please do not format it in any way - ( ) space etc., Firm/Organization Name=Select the firm/organization in which you are employed. If your firm/organization name is not found in the list, please select 'Others' and enter your firm/organization name in the box below., If Others, Enter Firm:=Enter firm or organization name., Firm/Organization Address=Enter Firm/Organization Address., Firm/Organization Phone(area/city code + number)=Enter Firm/Organization Phone., Admitted to Practice in(U.S. Jurisdictions and Courts only)=Enter U.S. jurisdiction(s) and court(s) where you are admitted to practice law, otherwise leave Blank., Case No. and Segment=Provide one active case number and segment in which you plan to participate by e-filing a submission, e.g., A-000-000 POR 01/01/2010 – 12/31/2010. If you will not e-file any submissions or will not access BPI portion of the site, hit 'Cancel' below and register as a Guest User instead., Username=Enter an email address as your username. This email address must be your own individual email address used in the normal course of business for your firm/organization. Do not enter a group or general email address., Password=Enter your desired password. The password must be a minimum of 12 characters, and contain at least 1 uppercase, lowercase letter, number, and special character., Confirm Password=Re-enter the same password to confirm the password., Security Question 1=Select a question from the list that you can easily remember., Answer 1=Enter the answer for the question. Note: the answer is not case sensitive., Security Question 2=Select the second question from the list that you can easily remember., Answer 2=Enter the answer for the second question. Note: the answer is not case sensitive., Security Code=Enter the letters you see in the image below., Submit=Click 'Submit' to transmit information in the form to the system., Reset=Click 'Reset' to undo the edits you have made in the form., Cancel=Click 'Cancel' to return back to home page. Edits to the form will not be saved.}
+{Filed Name=Case Number, Given Value=abcd}
+{Filed Name=Case Number, Given Value=A-000}
+{Filed Name=Case Number, Given Value=}
+{Filed Name=Case Number, Given Value=A-000-000}
+{Filed Name=Segment, Given Value=}
+{Filed Name=Segment, Given Value=CCR - Changed Circumstances}
+{Filed Name=Segment Specific Information, Given Value=}
+{Filed Name=Segment Specific Information, Given Value=Request New Segment}
+{Filed Name=Security Classification, Given Value=}
+{Filed Name=Security Classification, Given Value=BPI Document – May Be Released Under APO}
+{Filed Name=Document Type, Given Value=}
+{Filed Name=Document Type, Given Value=APO}
+{Filed Name=Filed On Behalf Of (collective entity), Given Value=}
+{Filed Name=Filed On Behalf Of (collective entity), Given Value=test}
+{Filed Name=Title, Given Value=}
+{Filed Name=Title, Given Value=title}
+{Quick Search=Click 'Quick Search' to perform search for selected criteria., Is participant(s) represented by counsel?=Select Yes if participant(s) are represented by counsel., Participant Type(s)=Check all that apply., Interested Party (Organization or Company) Name(s)=List name of organization or company. Where members are requested, enter their names, separated by commas. If there is not enough space to provide all names, you may attach a PDF with a list of names to your Entry of Appearance. In this box enter “See attached.” and click Submit. Then on the confirmation page, click on “Add EOA Supporting Docs”. You will be taken to an E-File page, where you can upload your list of names as a PDF., Additional Information=If inputting more than one company per participant category, or if more than one category is applicable per company, provide narrative description of how each organization/company qualifies as an interested party., Submit=Click 'Submit' to transmit information in the form to the system., Cancel=Click 'Cancel' to return back to home page. Edits to the form will not be saved.}
+{Quick Search=Click 'Quick Search' to perform search for selected criteria., Case Number=Enter the case number of the proceeding., Case Segment=Select the segment of the proceeding., Date of Request=For Administrative Review: Enter the date in which the notice of the Initiation of Antidumping and Countervailing Duty Administrative Review was published in the Federal Register. You may not file an APO application until the notice is published.
+
+For Scope Inquiry, Anti Circumvention Inquiry, New Shipper Review segment: Enter Date of Request., This application is:=Select the type of application., Provide narrative description of amendments:=Enter the description of amendments. This is required for amended APO application., Participant Type(s)=Check all that apply., Interested Party (Organization or Company) Name(s)=List name of organization or company. Where members are requested, enter their names, separated by commas. If there is not enough space to provide all names, you may attach a PDF with a list of names to your APO application. In this box enter “See attached.” and click Submit. Then on the confirmation page, click on “Add Public APO Supporting Docs”. You will be taken to an E-File page, where you can upload your list of names as a PDF., Additional Information=If inputting more than one company per participant category, or if more than one category is applicable per company, provide narrative description of how each organization/company qualifies as an interested party., Part a: Choose Internal Non-Attorney Applicants=Choose non-attorneys from your firm to be included in the APO application. This list only includes active e-filers from your firm who have checked the box in their User Profile indicating consent to have others from the same firm include the user in an APO application., Part b: Other External Applicants=To add applicants not employed by your firm to the APO application, enter the name of the person, the organization, and address. You must also obtain dated signatures of these other external applicants and attach them as a file using the ‘Add Public APO Supporting Docs’ feature that is available after you click the Submit button., Submit=Click 'Submit' to transmit information in the form to the system., Cancel=Click 'Cancel' to return back to home page. Edits to the form will not be saved.}
+{File_Name=9MB_1.pdf|9MB_2.pdf|9MB_3.pdf|9MB_4.pdf|9MB_5.pdf|9MB_6.pdf|9MB_7.pdf|9MB_8.pdf|9MB_9.pdf|9MB_10.pdf|18MB.zip, Expected_Message=Total number of uploaded files has exceeded}
+{File_Name=9MB_1.pdf|9MB_2.pdf|9MB_3.pdf|9MB_4.pdf|9MB_5.pdf, Expected_Message=Following file(s) don't contain any issues:
+9MB_1.pdf
+9MB_2.pdf
+9MB_3.pdf
+9MB_4.pdf
+9MB_5.pdf}
+{File_Name=Non OCR.pdf|Non OCR 2 pages.pdf, Expected_Message=We found the following problems with your document(s).
+
+File Name: Non OCR.pdf
+This PDF contains 1 image-only (i.e. no searchable text) page(s). Here are the page numbers of the first 5 occurrences.
+There is no searchable text on page no: 1
+Use this link PDF Cheat Sheet to OCR Pages for instructions on correcting your document.
+
+File Name: Non OCR 2 pages.pdf
+This PDF contains 2 image-only (i.e. no searchable text) page(s). Here are the page numbers of the first 5 occurrences.
+There is no searchable text on page no: 1
+There is no searchable text on page no: 2
+Use this link PDF Cheat Sheet to OCR Pages for instructions on correcting your document.}
+{File_Name=50MB.zip, Expected_Message=Following file(s) don't contain any issues:
+50MB.zip}
+{File_Name=Test for comments.pdf, Expected_Message=We found the following problems with your document(s).
+
+File Name: Test for comments.pdf
+Unauthorized comment type(s) found in the document. Here are the page numbers of the first 5 occurrences:
+A comment type of 'highlight' has been found on page no: 1
+A comment type of 'text' has been found on page no: 1
+A comment type of 'freetext' has been found on page no: 1
+A comment type of 'freetext' has been found on page no: 1
+Use this link How to remove Comments and Links for instructions on correcting your document.}
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+testNgTemplate C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data/template/testng_template.xml
+testNgPath C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/testng.xml
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[TestNG] Running:
+  C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT\testng.xml
+
+Executing Before class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+{field_name=user name, field_tag=userName, locator_type=xpath, locator_value=//input[contains(@id, 'txtUsername')]}
+{field_name=password, field_tag=password, locator_type=xpath, locator_value=//input[contains(@id, 'txtPassword')]}
+{field_name=Agreement, field_tag=Agreement, locator_type=xpath, locator_value=//input[contains(@id, 'chkAgreement')]}
+{field_name=E-file link, field_tag=EFileDocument, locator_type=xpath, locator_value=//a[text()='E-File Document']}
+{field_name=update profile, field_tag=updateProfile, locator_type=xpath, locator_value=//a[text()='Update Profile']}
+{field_name=Manage Entry of Appearance, field_tag=manageEntryOfAppearance, locator_type=xpath, locator_value=//a[text()='Manage Entry of Appearance']}
+{field_name=manage APO Application, field_tag=manageAPOApplication, locator_type=xpath, locator_value=//a[text()='Manage APO Application']}
+{field_name=logout, field_tag=linkLogout, locator_type=xpath, locator_value=//a[text()='Logout']}
+{field_name=logout, field_tag=linkEfileRegister, locator_type=xpath, locator_value=//a[text()='E-Filer Registration']}
+{field_name=check e files, field_tag=checkEfiles, locator_type=xpath, locator_value=//a[text()='Check File(s)']}
+{field_name=acces link, field_tag=AccessLink, locator_type=xpath, locator_value=//span[contains(text(), 'ACCESS')]}
+{field_name=case numbere, field_tag=txtCaseNumber, locator_type=xpath, locator_value=//span[text()='Case Number']/ancestor::tr[1]/td[4]//input}
+{field_name=Firm Name, field_tag=txtFirmName, locator_type=xpath, locator_value=//span[text()='Firm Name']/ancestor::tr[1]/td[4]//textarea}
+{field_name=case numbere APO, field_tag=APOtxtCaseNumber, locator_type=xpath, locator_value=//span[text()='Case Number']/ancestor::tr[1]/td[3]//input}
+{field_name=Is participant(s) represented by counsel?, field_tag=SelectIsparticipantrepresentedcounsel, locator_type=xpath, locator_value=//span[text()='Is participant(s) represented by counsel?']/ancestor::tr[1]/td[4]//select}
+{field_name=title, field_tag=txtTitle, locator_type=xpath, locator_value=//span[text()='Title']/ancestor::tr[1]/td[4]//input}
+{field_name=Manual submission, field_tag=manualSubmission, locator_type=xpath, locator_value=//span[text()='Manual Submission']/ancestor::tr[1]/td[4]//input}
+{field_name=page count, field_tag=txtPageCount, locator_type=xpath, locator_value=//span[text()='Page Count']/ancestor::tr[1]/td[4]//input}
+{field_name=segment, field_tag=Segment, locator_type=xpath, locator_value=//span[text()='Segment']/ancestor::tr[1]/td[4]//select}
+{field_name=Case Segment, field_tag=CaseSegment, locator_type=xpath, locator_value=//span[text()='Case Segment']/ancestor::tr[1]/td[4]//select}
+{field_name=Case Segment APO, field_tag=CaseSegmentAPO, locator_type=xpath, locator_value=//span[text()='Case Segment']/ancestor::tr[1]/td[3]//select}
+{field_name=Security Classification, field_tag=SecurityClassification, locator_type=xpath, locator_value=//span[text()='Security Classification']/ancestor::tr[1]/td[4]//select}
+{field_name=Document Type, field_tag=DocumentType, locator_type=xpath, locator_value=//span[text()='Document Type']/ancestor::tr[1]/td[4]//select}
+{field_name=select fields, field_tag=filedSelect_1, locator_type=xpath, locator_value=//span[text()='~val~']/ancestor::tr[1]/td[4]//select}
+{field_name=Filed On Behalf Of (collective entity), field_tag=FiledOnBehalfOf, locator_type=xpath, locator_value=//span[text()='Filed On Behalf Of (collective entity)']/ancestor::tr[1]//textarea}
+{field_name=file to upload text 1, field_tag=fileUploadText1, locator_type=xpath, locator_value=//input[@id='ctl00_ctl00_ContentPlaceHolder1_maincontent_txtTitle1']}
+{field_name=file to upload text 2, field_tag=fileUploadText2, locator_type=xpath, locator_value=//input[@id='ctl00_ctl00_ContentPlaceHolder1_maincontent_txtTitle2']}
+{field_name=file to upload text 3, field_tag=fileUploadText3, locator_type=xpath, locator_value=//input[@id='ctl00_ctl00_ContentPlaceHolder1_maincontent_txtTitle3']}
+{field_name=file to upload text 4, field_tag=fileUploadText4, locator_type=xpath, locator_value=//input[@id='ctl00_ctl00_ContentPlaceHolder1_maincontent_txtTitle4']}
+{field_name=file to upload text 5, field_tag=fileUploadText5, locator_type=xpath, locator_value=//input[@id='ctl00_ctl00_ContentPlaceHolder1_maincontent_txtTitle5']}
+{field_name=file to upload button 1, field_tag=fileUploadButton1, locator_type=ID, locator_value=ctl00_ctl00_ContentPlaceHolder1_maincontent_fileupload1}
+{field_name=file to upload button 2, field_tag=fileUploadButton2, locator_type=ID, locator_value=ctl00_ctl00_ContentPlaceHolder1_maincontent_fileupload2}
+{field_name=file to upload button 3, field_tag=fileUploadButton3, locator_type=ID, locator_value=ctl00_ctl00_ContentPlaceHolder1_maincontent_fileupload3}
+{field_name=file to upload button 4, field_tag=fileUploadButton4, locator_type=ID, locator_value=ctl00_ctl00_ContentPlaceHolder1_maincontent_fileupload4}
+{field_name=file to upload button 5, field_tag=fileUploadButton5, locator_type=ID, locator_value=ctl00_ctl00_ContentPlaceHolder1_maincontent_fileupload5}
+{field_name=upload files for checcking, field_tag=uploadCheckFilesButton, locator_type=ID, locator_value=ctl00_ctl00_ContentPlaceHolder1_maincontent_fileupload1}
+{field_name=submit button, field_tag=submitButton, locator_type=xpath, locator_value=//table//input[contains(@id, 'ctl00_ctl00_ContentPlaceHolder1_maincontent_btnSubmit')]}
+{field_name=check files button, field_tag=checkFilesButton, locator_type=ID, locator_value=btnSubmitClone}
+{field_name=Created bar code, field_tag=barCode, locator_type=xpath, locator_value=//span[text()='Bar Code:']/ancestor::td[1]/following-sibling::td[1]/span[1]}
+{field_name=Add more files button, field_tag=addMoreFiles, locator_type=xpath, locator_value=//input[@id='ctl00_ContentPlaceHolder1_btnAddAttachment']}
+{field_name=similar submission button, field_tag=similarSubmissionButton, locator_type=xpath, locator_value=//input[@value = 'E-File Similar Submission']}
+{field_name=field help link 1, field_tag=fieldHelpLink_1, locator_type=xpath, locator_value=//span[.= '~val~']/ancestor::tr[1]/td[3]/input[1]}
+{field_name=field help link 2, field_tag=fieldHelpLink_2, locator_type=xpath, locator_value=//span[contains(., '~val~')]/ancestor::tbody[1]/tr[1]//input[1]}
+{field_name=field help link 3, field_tag=fieldHelpLink_3, locator_type=xpath, locator_value=//input[@value='~val~']/ancestor::td[1]/following-sibling::td[1]/input[1]}
+{field_name=field help link 4, field_tag=fieldHelpLink_4, locator_type=xpath, locator_value=//input[@value='Quick Search']/following-sibling::input[1]}
+{field_name=field help link 5, field_tag=fieldHelpLink_5, locator_type=xpath, locator_value=//span[text()='~val~']/following-sibling::input[1]}
+{field_name=field help link 3, field_tag=fieldHelpLink_6, locator_type=xpath, locator_value=//input[@value='~val~']/following-sibling::input[1]}
+{field_name=Help message, field_tag=helpMessage, locator_type=xpath, locator_value=//span[@id='lblMessage']}
+{field_name=invalid Case number error, field_tag=invalidCaseNumber, locator_type=xpath, locator_value=//span[contains(., 'ERROR: Invalid Case Number')]}
+{field_name=field error link 1, field_tag=fieldError_1, locator_type=xpath, locator_value=//span[.= '~val~']/ancestor::tr[1]/td[4]//span}
+{field_name=field error link 2, field_tag=fieldError_title, locator_type=xpath, locator_value=//input[contains(@name, 'txtTitle1')]/following-sibling::span}
+{field_name=field error link 3, field_tag=fieldError_fileUpload, locator_type=xpath, locator_value=//input[contains(@name, 'fileupload1')]/following-sibling::span}
+{field_name=Home page, field_tag=HomePage, locator_type=xpath, locator_value=//a[contains(., 'Home')]}
+{field_name=Filed On Behalf Of ERROR, field_tag=FiledOnBehalfOfError, locator_type=xpath, locator_value=//span[text()='Filed On Behalf Of (collective entity)']/ancestor::tr[1]//textarea/following-sibling::span[1]}
+{field_name=button accept, field_tag=buttonAccept, locator_type=xpath, locator_value=//input[@value= 'Accept']}
+{field_name=case numbere link 1, field_tag=EoaCaseNumberLink, locator_type=xpath, locator_value=//a[text()='Create New Entry of Appearance']/following-sibling::div[1]//a[text()= '~val~']}
+{field_name=case numbere link 2, field_tag=EoaCaseNumberLink_2, locator_type=xpath, locator_value=//span[text()='Other Entries Of Appearance For My Firm']/parent::div[1]/following-sibling::div[1]//a[text()= '~val~']}
+{field_name=case numbere EOA ALL, field_tag=EoaCaseNumberLinkAll, locator_type=xpath, locator_value=//a[text()='Create New Entry of Appearance']/following-sibling::div[1]//td[2]/a}
+{field_name=case numbere EOA ALL 2, field_tag=EoaCaseNumberLinkAll_2, locator_type=xpath, locator_value=//span[text()='Other Entries Of Appearance For My Firm']/parent::div[1]/following-sibling::div[1]//td[2]/a}
+{field_name=EOA Action link, field_tag=EoaActionLink, locator_type=xpath, locator_value=//span[text()='Other Entries Of Appearance For My Firm']/parent::div[1]/following-sibling::div[1]//img}
+{field_name=case numbere link 1, field_tag=ApoCaseNumberLink, locator_type=xpath, locator_value=//a[text()='Create New APO Application']/following-sibling::div[1]//a[text()= '~val~']}
+{field_name=case numbere link 2, field_tag=ApoCaseNumberLink_2, locator_type=xpath, locator_value=//span[text()='Other APO Applications for my firm']/parent::div[1]/following-sibling::div[1]//a[text()= '~val~']}
+{field_name=case numbere link ALL, field_tag=ApoCaseNumberLinkAll, locator_type=xpath, locator_value=//a[text()='Create New APO Application']/following-sibling::div[1]//td[2]/a}
+{field_name=case numbere link ALL 2, field_tag=ApoCaseNumberLinkAll_2, locator_type=xpath, locator_value=//span[text()='Other APO Applications for my firm']/parent::div[1]/following-sibling::div[1]//td[2]/a}
+{field_name=APO Action link, field_tag=ApoActionLink, locator_type=xpath, locator_value=//span[text()='Other APO Applications for my firm']/parent::div[1]/following-sibling::div[1]//img}
+{field_name=Create new Entry of appearance, field_tag=entryOfAppearanceLink, locator_type=xpath, locator_value=//a[contains(@id, 'lnkCreateEOA')]}
+{field_name=Create new APO, field_tag=NewAPOLink, locator_type=xpath, locator_value=//a[contains(@id, 'lnkCreateAPO')]}
+{field_name=participant 1, field_tag=checkParticipant, locator_type=xpath, locator_value=//input[contains(@id, 'chkParticipant1')]}
+{field_name=txt participant 1, field_tag=txtParticipant, locator_type=xpath, locator_value=//textarea[contains(@id, 'txtParticipant1')]}
+{field_name=Full Address, field_tag=FullAddress, locator_type=xpath, locator_value=//textarea[contains(@name, 'txtAddress')]}
+{field_name=Entry of Appearance exists msg, field_tag=EntryofAppearanceExistMsg, locator_type=xpath, locator_value=//span[contains(., 'Entry of Appearance already submitted')]}
+{field_name=APO exists msg, field_tag=APOExistMsg, locator_type=xpath, locator_value=//span[contains(., 'APO already submitted for this case segment')]}
+{field_name=Request or admin review date, field_tag=requestAdminReviewDate, locator_type=xpath, locator_value=//span[(text()='Date of Request') or (text()='Administrative Review Initiation FR publication on')]/ancestor::tr[1]/td[3]//input[1]}
+{field_name=displayed message after upload, field_tag=uploadDisplayedMessage, locator_type=xpath, locator_value=//span[@id='ctl00_ctl00_ContentPlaceHolder1_maincontent_lblMessage']}
+{field_name=file progress bar, field_tag=fileProgress, locator_type=xpath, locator_value=//div[@id='processingStatus']}
+beforeMethod()
+beforeMethod()
+Submit_With_Add_Files_Excel
+Submit_With_Add_Files_Excel
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Creating Process...
+"chrome.exe","3700","Console","1","75,512 K","Running","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:12","adfs.trade.gov - Google Chrome"
+"chrome.exe","27852","Console","1","6,324 K","Running","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+"chrome.exe","10328","Console","1","8,052 K","Running","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+"chrome.exe","23692","Console","1","40,468 K","Running","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:08","N/A"
+"chrome.exe","15128","Console","1","26,828 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:02","N/A"
+"chrome.exe","27352","Console","1","23,376 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+"chrome.exe","33596","Console","1","36,592 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+"chrome.exe","30304","Console","1","17,304 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+3700
+27852
+10328
+23692
+15128
+27352
+33596
+30304
+Creating Process...
+"chromedriver.exe","40964","Console","1","10,056 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+40964
+userDir C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT
+this a windows machine
+C:/libs
+highlight acces link
+acces link highlighted 
+Click  on  element E-file link
+Enter text for  case numbere
+element.sendKeys(value);
+A-000-000 entred
+select INV - Investigation from element segment
+select BPI Document – May Not Be Released Under APO from element Security Classification
+select APO from element Document Type
+Enter text for  Filed On Behalf Of (collective entity)
+element.sendKeys(value);
+Test entred
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+Enter text for  file to upload text 1
+element.sendKeys(value);
+Iteration: 0 _ File: 1 entred
+Enter text for file to upload button 1
+Click  on  element submit button
+highlight Created bar code
+Created bar code highlighted 
+Get the text of the element Created bar code
+afterMethod()
+Submit_With_Add_Files_Excel
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Submit_With_Similar_Submission_Excel
+Submit_With_Similar_Submission_Excel
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element E-file link
+Enter text for  case numbere
+element.sendKeys(value);
+A-000-000 entred
+select INV - Investigation from element segment
+select Public Document from element Security Classification
+select Brief from element Document Type
+Enter text for  Filed On Behalf Of (collective entity)
+element.sendKeys(value);
+Test entred
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+Enter text for  file to upload text 1
+element.sendKeys(value);
+Iteration: 0 _ File: 1 entred
+Enter text for file to upload button 1
+Click  on  element submit button
+highlight Created bar code
+Created bar code highlighted 
+Get the text of the element Created bar code
+afterMethod()
+Submit_With_Similar_Submission_Excel
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Submit_With_Add_Files_Pdf
+Submit_With_Add_Files_Pdf
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element E-file link
+Enter text for  case numbere
+element.sendKeys(value);
+A-000-000 entred
+select INV - Investigation from element segment
+select BPI Document – May Not Be Released Under APO from element Security Classification
+select APO from element Document Type
+Enter text for  Filed On Behalf Of (collective entity)
+element.sendKeys(value);
+Test entred
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+Enter text for  file to upload text 1
+element.sendKeys(value);
+Iteration: 0 _ File: 1 entred
+Enter text for file to upload button 1
+Click  on  element submit button
+highlight Created bar code
+Created bar code highlighted 
+Get the text of the element Created bar code
+afterMethod()
+Submit_With_Add_Files_Pdf
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Submit_With_Similar_Submission_Pdf
+Submit_With_Similar_Submission_Pdf
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element E-file link
+Enter text for  case numbere
+element.sendKeys(value);
+A-000-000 entred
+select INV - Investigation from element segment
+select Public Document from element Security Classification
+select Brief from element Document Type
+Enter text for  Filed On Behalf Of (collective entity)
+element.sendKeys(value);
+Test entred
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+Enter text for  file to upload text 1
+element.sendKeys(value);
+Iteration: 0 _ File: 1 entred
+Enter text for file to upload button 1
+Click  on  element submit button
+highlight Created bar code
+Created bar code highlighted 
+Get the text of the element Created bar code
+afterMethod()
+Submit_With_Similar_Submission_Pdf
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Submit_As_Manual_Submission
+Submit_As_Manual_Submission
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element E-file link
+Enter text for  case numbere
+element.sendKeys(value);
+A-000-000 entred
+select INV - Investigation from element segment
+select Public Document from element Security Classification
+select Data from element Document Type
+Enter text for  Filed On Behalf Of (collective entity)
+element.sendKeys(value);
+Test entred
+Click  on  element Manual submission
+Enter text for  title
+element.sendKeys(value);
+Title Test entred
+Enter text for  page count
+element.sendKeys(value);
+100 entred
+Click  on  element submit button
+highlight Created bar code
+Created bar code highlighted 
+Get the text of the element Created bar code
+afterMethod()
+Submit_As_Manual_Submission
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Validate_Efile_Help_Messages
+Validate_Efile_Help_Messages
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element E-file link
+highlight field help link 4
+field help link 4 highlighted 
+Click  on  element field help link 4
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+Scroll to element field help link 2
+highlight field help link 2
+field help link 2 highlighted 
+Click  on  element field help link 2
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+Scroll to element field help link 2
+highlight field help link 2
+field help link 2 highlighted 
+Click  on  element field help link 2
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+Scroll to element field help link 3
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+afterMethod()
+Validate_Efile_Help_Messages
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Validate_Efile_Error_Messages
+Validate_Efile_Error_Messages
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element E-file link
+Enter text for  case numbere
+element.sendKeys(value);
+abcd entred
+Click  on  element submit button
+highlight invalid Case number error
+invalid Case number error highlighted 
+unhighlight invalid Case number error
+invalid Case number errorunhighlighted 
+Enter text for  case numbere
+element.sendKeys(value);
+A-000 entred
+Click  on  element submit button
+highlight invalid Case number error
+invalid Case number error highlighted 
+unhighlight invalid Case number error
+invalid Case number errorunhighlighted 
+Enter text for  case numbere
+element.sendKeys(value);
+ entred
+Click  on  element submit button
+Get the Style of the element field error link 1
+highlight field error link 1
+field error link 1 highlighted 
+unhighlight field error link 1
+field error link 1unhighlighted 
+Enter text for  case numbere
+element.sendKeys(value);
+A-000-000 entred
+Click  on  element submit button
+Get the Style of the element field error link 1
+highlight case numbere
+case numbere highlighted 
+unhighlight case numbere
+case numbereunhighlighted 
+Click  on  element submit button
+Get the Style of the element field error link 1
+highlight field error link 1
+field error link 1 highlighted 
+unhighlight field error link 1
+field error link 1unhighlighted 
+select CCR - Changed Circumstances from element select fields
+CCR - Changed Circumstances selected
+Click  on  element submit button
+Get the Style of the element field error link 1
+highlight select fields
+select fields highlighted 
+unhighlight select fields
+select fieldsunhighlighted 
+Click  on  element submit button
+Get the Style of the element field error link 1
+highlight field error link 1
+field error link 1 highlighted 
+unhighlight field error link 1
+field error link 1unhighlighted 
+select Request New Segment from element select fields
+Request New Segment selected
+Click  on  element submit button
+Get the Style of the element field error link 1
+highlight select fields
+select fields highlighted 
+unhighlight select fields
+select fieldsunhighlighted 
+Click  on  element submit button
+Get the Style of the element field error link 1
+highlight field error link 1
+field error link 1 highlighted 
+unhighlight field error link 1
+field error link 1unhighlighted 
+select BPI Document – May Be Released Under APO from element select fields
+BPI Document – May Be Released Under APO selected
+Click  on  element submit button
+Get the Style of the element field error link 1
+highlight select fields
+select fields highlighted 
+unhighlight select fields
+select fieldsunhighlighted 
+Click  on  element submit button
+Get the Style of the element field error link 1
+highlight field error link 1
+field error link 1 highlighted 
+unhighlight field error link 1
+field error link 1unhighlighted 
+select APO from element select fields
+APO selected
+Click  on  element submit button
+Get the Style of the element field error link 1
+highlight select fields
+select fields highlighted 
+unhighlight select fields
+select fieldsunhighlighted 
+Enter text for  Filed On Behalf Of (collective entity)
+element.sendKeys(value);
+ entred
+Click  on  element submit button
+Get the Style of the element Filed On Behalf Of ERROR
+highlight Filed On Behalf Of ERROR
+Filed On Behalf Of ERROR highlighted 
+unhighlight Filed On Behalf Of ERROR
+Filed On Behalf Of ERRORunhighlighted 
+Enter text for  Filed On Behalf Of (collective entity)
+element.sendKeys(value);
+test entred
+Click  on  element submit button
+Get the Style of the element Filed On Behalf Of ERROR
+highlight Filed On Behalf Of (collective entity)
+Filed On Behalf Of (collective entity) highlighted 
+unhighlight Filed On Behalf Of (collective entity)
+Filed On Behalf Of (collective entity)unhighlighted 
+Scroll to element field help link 2
+Enter text for  file to upload text 1
+element.sendKeys(value);
+ entred
+Click  on  element submit button
+Get the Style of the element field error link 2
+Get the Style of the element field error link 3
+highlight field error link 2
+field error link 2 highlighted 
+unhighlight field error link 2
+field error link 2unhighlighted 
+highlight field error link 3
+field error link 3 highlighted 
+unhighlight field error link 3
+field error link 3unhighlighted 
+Scroll to element field help link 2
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+Enter text for  case numbere
+element.sendKeys(value);
+ entred
+Enter text for  file to upload text 1
+element.sendKeys(value);
+title entred
+Enter text for file to upload button 1
+Click  on  element submit button
+Get the Style of the element field error link 2
+Get the Style of the element field error link 3
+Scroll to element field help link 2
+highlight file to upload text 1
+file to upload text 1 highlighted 
+unhighlight file to upload text 1
+file to upload text 1unhighlighted 
+highlight file to upload button 1
+file to upload button 1 highlighted 
+unhighlight file to upload button 1
+file to upload button 1unhighlighted 
+afterMethod()
+Validate_Efile_Error_Messages
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Validate_Update_Profile_Help_Messages
+Validate_Update_Profile_Help_Messages
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element update profile
+highlight field help link 4
+field help link 4 highlighted 
+Click  on  element field help link 4
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+Scroll to element field help link 1
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+Scroll to element field help link 3
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+afterMethod()
+Validate_Update_Profile_Help_Messages
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Validate_Manage_Entry_Of_Appearance_Help_Messages
+Validate_Manage_Entry_Of_Appearance_Help_Messages
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element Manage Entry of Appearance
+Scroll to element case numbere link 1
+highlight case numbere link 1
+case numbere link 1 highlighted 
+Click  on  element case numbere link 1
+highlight field help link 4
+field help link 4 highlighted 
+Click  on  element field help link 4
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+Scroll to element field help link 3
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+afterMethod()
+Validate_Manage_Entry_Of_Appearance_Help_Messages
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Validate_Manage_APO_Application_Help_Messages
+Validate_Manage_APO_Application_Help_Messages
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element manage APO Application
+Scroll to element case numbere link 1
+highlight case numbere link 1
+case numbere link 1 highlighted 
+Click  on  element case numbere link 1
+highlight field help link 4
+field help link 4 highlighted 
+Click  on  element field help link 4
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 5
+field help link 5 highlighted 
+Click  on  element field help link 5
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+Scroll to element field help link 3
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+afterMethod()
+Validate_Manage_APO_Application_Help_Messages
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Create_Entry_Of_Appearance
+Create_Entry_Of_Appearance
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element Manage Entry of Appearance
+Click  on  element Create new Entry of appearance
+Enter text for  case numbere
+element.sendKeys(value);
+A-000-000 entred
+select Yes from element Is participant(s) represented by counsel?
+Click  on  element participant 1
+Enter text for  txt participant 1
+element.sendKeys(value);
+text 1 entred
+Enter text for  Full Address
+element.sendKeys(value);
+2232 pimmit run lane, apt 43 falls church, va, 22043 entred
+select element Case Segment
+Dropdown values are CCR - CCR & option1
+Dropdown values are CIRC - CIRC Option
+Dropdown values are CIRC - CIRC Option BK
+Dropdown values are CIRC - CIRC1
+Dropdown values are CIRC - No shipment - Apex Co
+Dropdown values are CIRC - Test New Anti Circ
+Dropdown values are INV
+Dropdown values are NSR 01/01/2010 - 12/31/2011
+Dropdown values are NSR 01/01/2011 - 12/31/2011
+Dropdown values are REM - Remand1
+Dropdown values are REM - Slip Op. 10-100 Test
+Dropdown values are REM - TEst
+Dropdown values are REM - Test & Test
+Dropdown values are REV 01/01/2011 - 12/31/2011
+Dropdown values are REV 01/01/2012 - 12/31/2012
+Dropdown values are REV 01/01/2014 - 12/31/2014
+Dropdown values are REV 01/12/2006 - 02/12/2006
+Dropdown values are REV 03/01/2013 - 03/22/2013
+Dropdown values are REV 05/01/2016 - 05/31/2016
+Dropdown values are REV 08/01/2017 - 08/21/2017
+Dropdown values are S129 - New Test
+Dropdown values are S129 - S129 - 1
+Dropdown values are SCO - Comprehensive List
+Dropdown values are SCO - DS294; & DS350. : (5/1/07-4/30/08)
+Dropdown values are SCO - Jumbo Rolls prod. in TC, convertd in PRC
+Dropdown values are SCO - SCOPE 1
+Dropdown values are SCO - scope 10a
+Dropdown values are SCO - scope 11a
+Dropdown values are SCO - scope 1a
+Dropdown values are SCO - Scope 2- this is test - for
+Dropdown values are SCO - scope 2a
+Dropdown values are SCO - scope 3
+Dropdown values are SCO - scope 3a
+Dropdown values are SCO - scope 4
+Dropdown values are SCO - scope 4a
+Dropdown values are SCO - scope 5
+Dropdown values are SCO - scope 5a
+Dropdown values are SCO - scope 6a
+Dropdown values are SCO - scope 7a
+Dropdown values are SCO - scope 8a
+Dropdown values are SCO - scope 9a
+Dropdown values are SUNR - BKTest20190211
+Dropdown values are SUNR - Test July 2019
+Dropdown values are SUNR - testing
+Dropdown values are SUSP - 
+Dropdown values are SUSP - 2013 Agreement
+Dropdown values are SUSP - 2017
+Dropdown values are SUSP - SSI by SS
+Dropdown values are SUSP - SUSP with POR
+Dropdown values are SUSP - Test SSI 1
+Dropdown values are SUSP - Test SSI for SUSP
+Dropdown values are SUSP - Test SUSP 5
+Dropdown values are 
+Scroll to element Case Segment
+select CCR - CCR & option1 from element Case Segment
+CCR - CCR & option1 selected
+Click  on  element submit button
+Scroll to element Case Segment
+select CIRC - CIRC Option from element Case Segment
+CIRC - CIRC Option selected
+Click  on  element submit button
+Scroll to element Case Segment
+select CIRC - CIRC Option BK from element Case Segment
+CIRC - CIRC Option BK selected
+Click  on  element submit button
+highlight Created bar code
+Created bar code highlighted 
+Get the text of the element Created bar code
+afterMethod()
+Create_Entry_Of_Appearance
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Create_APO_Application
+Create_APO_Application
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element manage APO Application
+Click  on  element Create new APO
+Enter text for  case numbere APO
+element.sendKeys(value);
+A-000-000 entred
+Enter text for  Full Address
+element.sendKeys(value);
+2233 pimmit run lane, apt 43 falls church, va, 22043 entred
+Click  on  element participant 1
+Scroll to element txt participant 1
+Enter text for  txt participant 1
+element.sendKeys(value);
+text 2 entred
+select element Case Segment APO
+Dropdown values are CCR - CCR & option1
+Dropdown values are CIRC - CIRC Option
+Dropdown values are CIRC - CIRC Option BK
+Dropdown values are CIRC - CIRC1
+Dropdown values are CIRC - No shipment - Apex Co
+Dropdown values are CIRC - Test New Anti Circ
+Dropdown values are INV
+Dropdown values are NSR 01/01/2010 - 12/31/2011
+Dropdown values are NSR 01/01/2011 - 12/31/2011
+Dropdown values are REM - Remand1
+Dropdown values are REM - Slip Op. 10-100 Test
+Dropdown values are REM - TEst
+Dropdown values are REM - Test & Test
+Dropdown values are REV 01/01/2011 - 12/31/2011
+Dropdown values are REV 01/01/2012 - 12/31/2012
+Dropdown values are REV 01/01/2014 - 12/31/2014
+Dropdown values are REV 01/12/2006 - 02/12/2006
+Dropdown values are REV 03/01/2013 - 03/22/2013
+Dropdown values are REV 05/01/2016 - 05/31/2016
+Dropdown values are REV 08/01/2017 - 08/21/2017
+Dropdown values are S129 - New Test
+Dropdown values are S129 - S129 - 1
+Dropdown values are SCO - Comprehensive List
+Dropdown values are SCO - DS294; & DS350. : (5/1/07-4/30/08)
+Dropdown values are SCO - Jumbo Rolls prod. in TC, convertd in PRC
+Dropdown values are SCO - SCOPE 1
+Dropdown values are SCO - scope 10a
+Dropdown values are SCO - scope 11a
+Dropdown values are SCO - scope 1a
+Dropdown values are SCO - Scope 2- this is test - for
+Dropdown values are SCO - scope 2a
+Dropdown values are SCO - scope 3
+Dropdown values are SCO - scope 3a
+Dropdown values are SCO - scope 4
+Dropdown values are SCO - scope 4a
+Dropdown values are SCO - scope 5
+Dropdown values are SCO - scope 5a
+Dropdown values are SCO - scope 6a
+Dropdown values are SCO - scope 7a
+Dropdown values are SCO - scope 8a
+Dropdown values are SCO - scope 9a
+Dropdown values are SUNR - BKTest20190211
+Dropdown values are SUNR - Test July 2019
+Dropdown values are SUNR - testing
+Dropdown values are SUSP - 
+Dropdown values are SUSP - 2013 Agreement
+Dropdown values are SUSP - 2017
+Dropdown values are SUSP - SSI by SS
+Dropdown values are SUSP - SUSP with POR
+Dropdown values are SUSP - Test SSI 1
+Dropdown values are SUSP - Test SSI for SUSP
+Dropdown values are SUSP - Test SUSP 5
+Dropdown values are 
+Scroll to element Case Segment APO
+select CCR - CCR & option1 from element Case Segment APO
+CCR - CCR & option1 selected
+Click  on  element submit button
+select CIRC - CIRC Option from element Case Segment APO
+CIRC - CIRC Option selected
+Enter text for  Request or admin review date
+element.sendKeys(value);
+12/04/2019 entred
+Click  on  element submit button
+select CIRC - CIRC Option BK from element Case Segment APO
+CIRC - CIRC Option BK selected
+Enter text for  Request or admin review date
+element.sendKeys(value);
+12/04/2019 entred
+Click  on  element submit button
+highlight Created bar code
+Created bar code highlighted 
+Get the text of the element Created bar code
+afterMethod()
+Create_APO_Application
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Check_Files_For_Efiles
+Check_Files_For_Efiles
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element check e files
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+Enter text for upload files for checcking
+Click  on  element check files button
+Get the text of the element displayed message after upload
+highlight displayed message after upload
+displayed message after upload highlighted 
+unhighlight displayed message after upload
+displayed message after uploadunhighlighted 
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+Enter text for upload files for checcking
+Click  on  element check files button
+progress, waiting...
+progress, waiting...
+progress, waiting...
+progress, waiting...
+Get the text of the element displayed message after upload
+highlight displayed message after upload
+displayed message after upload highlighted 
+unhighlight displayed message after upload
+displayed message after uploadunhighlighted 
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+Enter text for upload files for checcking
+Click  on  element check files button
+Get the text of the element displayed message after upload
+highlight displayed message after upload
+displayed message after upload highlighted 
+unhighlight displayed message after upload
+displayed message after uploadunhighlighted 
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+Enter text for upload files for checcking
+Click  on  element check files button
+progress, waiting...
+progress, waiting...
+progress, waiting...
+progress, waiting...
+progress, waiting...
+Get the text of the element displayed message after upload
+highlight displayed message after upload
+displayed message after upload highlighted 
+unhighlight displayed message after upload
+displayed message after uploadunhighlighted 
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+Enter text for upload files for checcking
+Click  on  element check files button
+Get the text of the element displayed message after upload
+highlight displayed message after upload
+displayed message after upload highlighted 
+unhighlight displayed message after upload
+displayed message after uploadunhighlighted 
+afterMethod()
+Check_Files_For_Efiles
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Other_Entry_Of_Appearance_Check_Fileds
+Validate_EOA_Fields_Populated
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element Manage Entry of Appearance
+Scroll to element case numbere link 2
+highlight case numbere link 2
+case numbere link 2 highlighted 
+Click  on  element case numbere link 2
+Get the value of the element case numbere
+highlight case numbere
+case numbere highlighted 
+Scroll to element Firm Name
+Get the value of the element Firm Name
+highlight Firm Name
+Firm Name highlighted 
+afterMethod()
+Validate_EOA_Fields_Populated
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Other_APO_Application_Check_Fileds
+Validate_APO_Fields_Populated
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element manage APO Application
+Scroll to element case numbere link 2
+highlight case numbere link 2
+case numbere link 2 highlighted 
+Click  on  element case numbere link 2
+Get the value of the element case numbere APO
+highlight case numbere APO
+case numbere APO highlighted 
+Scroll to element Firm Name
+Get the value of the element Firm Name
+highlight Firm Name
+Firm Name highlighted 
+afterMethod()
+Validate_APO_Fields_Populated
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Resubmit_EOA_Under_Other_Entries
+Resubmit_EOA_Under_Other_Entries
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element Manage Entry of Appearance
+Get the text of the element case numbere EOA ALL
+Get the text of the element case numbere EOA ALL 2
+afterMethod()
+Resubmit_EOA_Under_Other_Entries
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Resubmit_APO_Under_Other_Entries
+Resubmit_APO_Under_Other_Entries
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element manage APO Application
+Get the text of the element case numbere link ALL
+Get the text of the element case numbere link ALL 2
+afterMethod()
+Resubmit_APO_Under_Other_Entries
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+beforeMethod()
+beforeMethod()
+Validate_Efile_Register_Help_Messages
+Validate_Efile_Register_Help_Messages
+start Test
+https://access.trade.gov/login.aspx___hmouloud1@gmail.com
+Click  on  element logout
+Click  on  element logout
+Click  on  element button accept
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+Scroll to element field help link 1
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 1
+field help link 1 highlighted 
+Click  on  element field help link 1
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+highlight field help link 3
+field help link 3 highlighted 
+Click  on  element field help link 3
+Get the text of the element Help message
+highlight Help message
+Help message highlighted 
+afterMethod()
+Validate_Efile_Register_Help_Messages
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+Executing After class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\ACCESS_SCRIPT/input_data
+null
+
+===============================================
+Suite
+Total tests run: 18, Failures: 2, Skips: 0
+Configuration Failures: 1, Skips: 0
+===============================================
+

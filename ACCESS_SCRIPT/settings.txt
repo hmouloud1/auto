@@ -1,0 +1,8 @@
+project_name = ACCESS
+env_name = Prod
+time_out = 20
+url = https://access.trade.gov/login.aspx
+user_name = hmouloud1@gmail.com
+password = bENeAPfvk7gy
+#give browser type= ie, firefox or chrome
+browser_type = chrome
