@@ -1,0 +1,9 @@
+PROJECTNAME = ADCVD
+ENVNAME = marioqa
+USERNAME = mouloud.hamdidouche@trade.gov.marioqa
+PASSWORD = Hamdidouche_16eC6mtUC8RKbFYfR2fhdUCmle
+LOGINURL = https://trade--marioqa.my.salesforce.com
+GRANTSERVICE = /services/oauth2/token?grant_type
+GRANTTYPE = password
+CLIENTID = 3MVG9ic.6IFhNpPrG2eostA5oJV8spw6Tre50sbmzecfNvjovsET6C5EFDzzHYZUnh0_fuwhAcnUh7jncuVvJ
+CLIENTSECRET = 088D097E12CB983F3BEAE1CB0EC7878061DDF3273E78F2AF69BA68897D8F4407

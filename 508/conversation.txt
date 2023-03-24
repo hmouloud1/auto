@@ -1,0 +1,115 @@
+Hi 
+
+quick question
+
+Tenon.io will be back tomorrow.
+
+
+You'll be notified here and by email (mouloud.hamdidouche@trade.gov)
+
+
+Go for it
+
+when it says not tested in count column
+
+does this mean tenon has this option , it s not just tested for this current url
+
+
+The things listed as "Not tested" are things we do not currently have tests for. For the most part they're things that cannot be tested reliably or are too subjective/ too complex to test for.
+One perfect example is WCAG 1.4.1 "Use of color". This WCAG Success Criteria says "Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. "
+Effectively determining if color is used as the only* *visual means of conveying information, etc. would be too difficult to test for reliably and without a ton of false positives. 
+ It is important to understand that no accessibility testing tool can provide complete coverage for WCAG, even at the single Success Criterion level. For instance, although we have over 2-dozen tests for WCAG 1.1.1 there are still tons of ways to violate 1.1.1 that no tool will ever be able to test for.
+Automated testing is not a replacement for manual testing, use case testing, or usability testing. Instead, automated testing is an important component of a robust accessibility and quality program aimed at improving efficiency and accuracy at scale.
+
+will it work in other tests
+
+if it is not complicated?
+
+if not, does this mean it s not supported at all by tenon
+
+
+It means it is not supported at all by Tenon
+
+why it is in the list?
+
+just curios
+
+
+I don't understand the question
+
+if "Use of Color" for example will always display Not Tested
+
+why do we keep it in the list
+
+
+Ah, gotcha.  We provide that information because some people want to know which WCAG Success Criterion are tested (or not) by the product.
+
+ok, It makes sense
+
+so what would be display if "not applicable"?
+
+let s say "something about video" and the site I m testing doesn t have videos
+
+
+Sure.  But that would only be for cases where we have a test for videos but they weren't run (because there isn't any video)
+
+But "Use of Color" is probably always applicable, but not tested (because it can't be done effectively)
+
+correct, so what would be displayed for not applicable
+
+
+Right now, just "Not Tested".
+We do have a feature request for displaying whether a test is relevant or not.
+
+hmm, so if it says Not tested , i can't know if it is not applicable or the tool doesn't support
+
+
+Correct
+
+hmm, that s bad... my company is looking for a tool, but they wanna detailed analysis before getting one
+
+
+That makes sense.  Lets set up a time to do a demo 
+
+ok, 
+
+when aree you available
+
+
+I'll have someone reach out via email to discuss
+
+ok sure
+
+hmouloud1@gmail.com
+
+
+Sounds good. I'll have someone shoot you an email to schedule
+
+thank you so much,
+
+this tool support API right?
+
+
+What do you mean?
+
+web services
+
+
+Yup
+
+that s a good plus 
+7:24 pm
+
+thank you
+1m ago. Seen
+
+
+
+We run on Intercom
+
+
+
+
+
+
+

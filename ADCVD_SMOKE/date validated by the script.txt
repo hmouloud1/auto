@@ -1,0 +1,188 @@
+Adcvd Case:
+no dates
+
+Petition:
+- Calculated Initiation Signature
+- Next Major Deadline
+- Initiation Concurrence Due to DAS
+- Initiation Issues Due to DAS
+- Next Due to DAS Deadline
+- Next Office Deadline
+- Next Announcement Date
+
+Investigation:
+- Calculated ITC Prelim Determination
+- Calculated Prelim Extension Request File
+- Calculated Postponement of PrelimDeterFR
+- Calculated Preliminary Signature
+- Prelim Team Meeting Deadline
+- Prelim Issues Due to DAS
+- Prelim Concurrence Due to DAS
+- Calculated Final Signature
+- Final Team Meeting Deadline
+- Est ITC Notification to DOC of Final Det
+- Estimated Order FR Published
+- Calculated Order FR Signature
+- Final Issues Due to DAS
+- Final Concurrence Due to DAS
+- Final Announcement Date
+- Next Announcement Date
+- Next Due to DAS Deadline
+- Next Major Deadline
+- Next Office Deadline
+
+Order:
+No Date
+
+Administartive review Segment:
+- Calculated Preliminary Signature
+- Prelim Team Meeting Deadline
+- Prelim Issues Due to DAS
+- Prelim Concurrence Due to DAS
+- Preliminary Announcement Date
+- Calculated Final Signature
+- Final Team Meeting Deadline
+- Final Issues Due to DAS
+- Final Concurrence Due to DAS
+- Final Announcement Date
+- Next Major Deadline
+- Next Due to DAS Deadline
+- Next Office Deadline
+- Next Announcement Date
+
+Anti-Circumvention Review segment:
+- Calculated Initiation Signature
+- Calculated Final Signature
+- Final Announcement Date
+- Initiation Issues Due to DAS
+- Initiation Concurrence Due to DAS
+- Calculated Preliminary Signature
+- Prelim Team Meeting Deadline
+- Prelim Issues Due to DAS
+- Prelim Concurrence Due to DAS
+- Final Team Meeting Deadline
+- Final Issues Due to DAS
+- Final Concurrence Due to DAS
+- Next Major Deadline
+- Next Due to DAS Deadline
+- Next Office Deadline
+- Next Announcement Date
+
+'Changed Circumstances Review' segment
+- Calculated Initiation Signature
+- Calculated Preliminary Signature
+- Prelim Team Meeting Deadline
+- Prelim Issues Due to DAS
+- Prelim Concurrence Due to DAS
+- Calculated Final Signature
+- Final Issues Due to DAS
+- Final Concurrence Due to DAS
+- Final Team Meeting Deadline
+- Final Announcement Date
+- Next Major Deadline
+- Next Announcement Date
+- Next Due to DAS Deadline 
+- Next Office Deadline	
+
+'Expedited Review' segment
+- Calculated Preliminary Signature
+- Prelim Team Meeting Deadline
+- Prelim Issues Due to DAS
+- Prelim Concurrence Due to DAS
+- Preliminary Announcement Date
+- Calculated Final Signature
+- Final Team Meeting Deadline
+- Final Issues Due to DAS
+- Final Concurrence Due to DAS
+- Final Announcement Date
+- Next Major Deadline
+- Next Due to DAS Deadline
+- Next Office Deadline
+- Next Announcement Date
+
+'New Shipper Review' segment
+- Calculated Preliminary Signature
+- Prelim Team Meeting Deadline
+- Prelim Issues Due to DAS
+- Prelim Concurrence Due to DAS
+- Calculated Final Signature
+- Final Issues Due to DAS
+- Final Concurrence Due to DAS
+- Final Team Meeting Deadline
+- Final Announcement Date
+- Next Announcement Date
+- Next Major Deadline---------missing,  Added, failed ...
+- Next Due to DAS Deadline---------missing--calculated based on initiation dates which are not there.
+- Next Office Deadline---------missing--calculated based on initiation dates which are not not there.
+
+'Scope Inquiry' segment
+- Calculated Preliminary Signature
+- Prelim Team Meeting Deadline
+- Prelim Issues Due to DAS
+- Prelim Concurrence Due to DAS
+- Calculated Final Signature
+- Final Team Meeting Deadline
+- Final Issues Due to DAS
+- Final Concurrence Due to DAS
+- Next Major Deadline
+- Next Due to DAS Deadline
+- Next Office Deadline
+- Next Announcement Date
+
+'Sunset Review' segment (90 Days):
+- Notice of Intent to Participate
+- Notify Cluster Coordinator No Interest
+- Substantive Response Due For All Parties
+- Inform Cluster Coordinator if No Respons
+- Inadequate Domestic Response note to ITC
+- Calculated Final Signature
+- Update ACE (Customs Module)
+- Notify ITC of No Domestic Interest
+- Final Issues Due to DAS
+- Final Concurrence Due to DAS
+- Final Announcement Date --------------------missing, added
+- Issue Liquidation/Revocation Instruction
+- Next Major Deadline
+- Next Due to DAS Deadline
+- Next Office Deadline
+- Next Announcement Date    ------------------missing
+
+
+
+'Sunset Review' segment (120 Days):
+- Notice of Intent to Participate
+- Notify Cluster Coordinator No Interest
+- Substantive Response Due For All Parties
+- Inform Cluster Coordinator if No Respons
+- Calculated Final Signature
+- Final Issues Due to DAS
+- Final Concurrence Due to DAS
+- Final Announcement Date
+- Memorandum on Adequacy Determination
+- Rebuttal Comments Due
+- Comments on Adequacy Determination Filed
+- Next Major Deadline
+- Next Due to DAS Deadline
+- Next Office Deadline
+- Next Announcement Date    ------------------missing
+
+
+'Sunset Review' segment (240 Days):
+- Notice of Intent to Participate
+- Notify Cluster Coordinator No Interest
+- Substantive Response Due For All Parties
+- Inform Cluster Coordinator if No Respons
+- Calculated Final Signature
+- Final Issues Due to DAS
+- Final Concurrence Due to DAS
+- Final Team Meeting Deadline
+- Adequacy Determination & Letter to ITC
+- Calculated Preliminary Signature
+- Prelim Issues Due to DAS
+- Prelim Concurrence Due to DAS
+- Prelim Team Meeting Deadline
+- Rebuttal Comments Due
+- Next Major Deadline
+- Next Due to DAS Deadline
+- Next Office Deadline
+- Next Announcement Date    ------------------missing

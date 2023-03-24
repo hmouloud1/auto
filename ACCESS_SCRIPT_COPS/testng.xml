@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" guice-stage="DEVELOPMENT" junit="false" name="Suite" parallel="none" preserve-order="true" skipfailedinvocationcounts="false" thread-count="5">
+  <test allow-return-values="false" group-by-instances="false" junit="false" name="Test" preserve-order="true" skipfailedinvocationcounts="false" thread-count="5">
+    <classes>
+      <class name="tests.TestOne">
+    <methods><include name="Submit_With_Add_Files_Excel"/><include name="Submit_With_Similar_Submission_Excel"/><include name="Submit_With_Add_Files_Pdf"/><include name="Submit_With_Similar_Submission_Pdf"/><include name="Submit_As_Manual_Submission"/><include name="Validate_Efile_Help_Messages"/><include name="Validate_Efile_Error_Messages"/><include name="Validate_Update_Profile_Help_Messages"/><include name="Validate_Manage_Entry_Of_Appearance_Help_Messages"/><include name="Validate_Manage_APO_Application_Help_Messages"/><include name="Create_Entry_Of_Appearance"/><include name="Create_APO_Application"/><include name="Check_Files_For_Efiles"/><include name="Validate_EOA_Fields_Populated"/><include name="Validate_APO_Fields_Populated"/><include name="Resubmit_EOA_Under_Other_Entries"/><include name="Resubmit_APO_Under_Other_Entries"/><include name="Validate_Efile_Segment_Related_Required_Fields"/><include name="Validate_Efile_Search"/><include name="Validate_Efile_Register_Help_Messages"/><include name="Validate_Efile_Register_Required_Fields"/><include name="Validate_User_Register_Help_Messages"/><include name="Validate_User_Register_Required_Fields"/></methods></class>
+    </classes>
+  </test> 
+</suite>

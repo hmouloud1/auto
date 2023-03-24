@@ -1,0 +1,12 @@
+project_name = EXPORTER PORTAL
+env_name = Testing
+time_out = 20
+url = https://ita-testing.mobomo.net/user/login
+#url = https://preview.trade.gov
+# Cmsmanager3, Creator1
+#role = Creator, Editor, Publisher, Cmsmanager
+role = Cmsmanager
+user_name = CMSManager3
+password = Hamdidouche@12
+#give browser type= ie, firefox or chrome,
+browser_type = chrome

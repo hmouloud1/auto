@@ -1,0 +1,9 @@
+project_name = AD/CVD
+env_name = marioqa
+time_out = 15
+url = https://trade--marioqa.lightning.force.com/lightning/page/home
+# url = https://trade--marioqa.lightning.force.com/lightning/page/home
+user_name = mouloud.hamdidouce@trade.gov.marioqa
+password = Hamdidouche_12
+#give browser type= ie, firefox or chrome
+browser_type = chrome

@@ -1,0 +1,433 @@
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_OBJECTION_REQUEST/input_data
+{Scenarios=Scenario_01, Request_Id=999, Active=TRUE}
+{Scenarios=Scenario_02, Request_Id=357, Active=TRUE}
+{Scenarios=Scenario_03, Request_Id=358, Active=TRUE}
+{Scenarios=Scenario_04, Request_Id=357, Active=FALSE}
+{Scenarios=Scenario_05, Request_Id=357, Active=FALSE}
+{Scenarios=Scenario_01, Full Organization Legal Name=, Street Address=, City=, State=Please Select, Zip Code=, Point of Contact Name=, Phone Number=, E-mail Address=, Web Site Address=, Active=TRUE}
+{Scenarios=Scenario_02, Full Organization Legal Name=Comp Name, Street Address=2203 fairfax dr, City=Falls church, State=Virginia, Zip Code=, Point of Contact Name=POCTest, Phone Number=5712259455, E-mail Address=hmouloud@gmail.com, Web Site Address=https://adad@domain.com, Active=TRUE}
+{Scenarios=Scenario_03, Full Organization Legal Name=, Street Address=, City=, State=Please Select, Zip Code=, Point of Contact Name=, Phone Number=org name, E-mail Address=q@, Web Site Address=dss@, Active=FALSE}
+{Scenarios=Scenario_04, Full Organization Legal Name=MH, Street Address=2234 pimmit, City=Falls church, State=Virginia, Zip Code=22043, Point of Contact Name=POCTest, Phone Number=5712259455, E-mail Address=hmouloud@gmail.com, Web Site Address=https://adad@domain.com, Active=FALSE}
+{Scenarios=Scenario_05, Full Organization Legal Name=MH, Street Address=2235 pimmit, City=Falls church, State=Virginia, Zip Code=22044, Point of Contact Name=POCTest, Phone Number=5712259455, E-mail Address=hmouloud@gmail.com, Web Site Address=https://adad@domain.com, Active=FALSE}
+{Scenarios=, Full Organization Legal Name=, Street Address=compnam, City=, State=, Zip Code=, Point of Contact Name=, Phone Number=, E-mail Address=, Web Site Address=}
+{Scenarios=Scenario_01, Days=w, City=dd, State=ssd, CurrentProductionCapacity=43sds, PlantUtilization=ds, Active=TRUE}
+{Scenarios=Scenario_02, Days=3, City=falls church, State=VA, CurrentProductionCapacity=22, PlantUtilization=23, Active=TRUE}
+{Scenarios=Scenario_03, Days=, City=, State=, CurrentProductionCapacity=, PlantUtilization=, Active=FALSE}
+{Scenarios=Scenario_04, Days=, City=, State=, CurrentProductionCapacity=444, PlantUtilization=3434, Active=FALSE}
+{Scenarios=Scenario_01, No Production Capacity=Please Select, Product Quality=Please Select, Shipping Time=Please Select, Insufficient Volume=Please Select, Unique Product=Please Select, Active=TRUE}
+{Scenarios=Scenario_02, No Production Capacity=Yes, Product Quality=Yes, Shipping Time=No, Insufficient Volume=No, Unique Product=Yes, Active=TRUE}
+{Scenarios=Scenario_03, No Production Capacity=No, Product Quality=Please Select, Shipping Time=Please Select, Insufficient Volume=Yes, Unique Product=No, Active=FALSE}
+{Scenarios=Scenario_04, No Production Capacity=Please Select, Product Quality=Please Select, Shipping Time=Please Select, Insufficient Volume=Please Select, Unique Product=Please Select, Active=FALSE}
+{Scenarios=Scenario_01, PctManugactureByReqOrg=, DaysRequiredToManufacture=, DaysRequiredToManufactureFromBindingPurchase=, DaysToDeliver=, Active=TRUE}
+{Scenarios=Scenario_02, PctManugactureByReqOrg=12, DaysRequiredToManufacture=11, DaysRequiredToManufactureFromBindingPurchase=34, DaysToDeliver=3333, Active=TRUE}
+{Scenarios=Scenario_03, PctManugactureByReqOrg=111, DaysRequiredToManufacture=ss, DaysRequiredToManufactureFromBindingPurchase=, DaysToDeliver=, Active=FALSE}
+{Scenarios=Scenario_04, PctManugactureByReqOrg=sss, DaysRequiredToManufacture=22d, DaysRequiredToManufactureFromBindingPurchase=33, DaysToDeliver=09, Active=FALSE}
+{Scenarios=Scenario_05, PctManugactureByReqOrg=2, DaysRequiredToManufacture=, DaysRequiredToManufactureFromBindingPurchase=4, DaysToDeliver=3, Active=FALSE}
+{Scenarios=Scenario_01, CompanyName=, AuthOfficialName=, AuthOfficialTitle=, PhoneNumber=, AuthOfficialEmail=, POCEmail=, POCPhoneNumber=, Active=TRUE}
+{Scenarios=Scenario_02, CompanyName=comp name, AuthOfficialName=comp official, AuthOfficialTitle=test title, PhoneNumber=455, AuthOfficialEmail=ss@tesst, POCEmail=poc@gmail.com, POCPhoneNumber=33, Active=TRUE}
+{Scenarios=Scenario_03, CompanyName=, AuthOfficialName=, AuthOfficialTitle=wrong, PhoneNumber=455, AuthOfficialEmail=@tesst, POCEmail=poc@gmail.com, POCPhoneNumber=33, Active=FALSE}
+{Scenarios=Scenario_04, CompanyName=comp offcl name, AuthOfficialName=comp title, AuthOfficialTitle=5716695874, PhoneNumber=hm@gmail.com, AuthOfficialEmail=, POCEmail=5716695874, POCPhoneNumber=2222, Active=FALSE}
+{Scenarios=Scenario_05, CompanyName=comp offcl name, AuthOfficialName=comp title, AuthOfficialTitle=5716695874, PhoneNumber=hm@gmail.com, AuthOfficialEmail=poc@gmail.com, POCEmail=5716695874, POCPhoneNumber=, Active=FALSE}
+Executing Before class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_OBJECTION_REQUEST/input_data
+{field_name=Preliminary Determination Item, field_tag=preliminaryDeterminationItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')], description=Step 3}
+{field_name=Decision on How to Proceed, field_tag=decisiononHowtoProceed, locator_type=xpath, locator_value=//span[contains(text(), 'Decision on How to Proceed')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a, description=Step 3}
+{field_name=Create New Exclusion Request, field_tag=CreateNewExclusionRequest, locator_type=xpath, locator_value=//a[text()='Create New Exclusion Request'], description=Step 3}
+{field_name= U.S. Department of Commerce, field_tag=HomePage, locator_type=xpath, locator_value=//a[contains(text(),'U.S. Department of Commerce')], description=Step 3}
+{field_name=Step 3, field_tag=tabName, locator_type=xpath, locator_value=//li[contains(text(),'~val~')], description=Step 3}
+{field_name=Element Minimum value, field_tag=ElementMinValue, locator_type=xpath, locator_value=//input[(@title = 'Minimal Percentage of ~val~') or (@title = 'Minimum Percentage of ~val~')   or (@title = 'Minimum ~val~') or (@title = '~val~ Percentage Minimum')  or (@title = '~val~ Minimum')], description=Step 3}
+{field_name=Element Maximum value, field_tag=ElementMaxValue, locator_type=xpath, locator_value=//input[(@title = 'Maximal Percentage of ~val~') or (@title = 'Maximum Percentage of ~val~')  or (@title = 'Maximum ~val~') or (@title = '~val~ Percentage Maximum')  or (@title = '~val~ Maximum')], description=Step 3}
+{field_name=Element Minimum value out of range, field_tag=ElementMinValueMessageTd, locator_type=xpath, locator_value=//input[(@title = 'Minimal Percentage of ~val~') or (@title = 'Minimum Percentage of ~val~')   or (@title = 'Minimum ~val~') or (@title = '~val~ Percentage Minimum')  or (@title = '~val~ Minimum')]/ancestor::td[1], description=Step 3}
+{field_name=Element Maximum value out of range, field_tag=ElementMaxValueMessageTd, locator_type=xpath, locator_value=//input[(@title = 'Maximal Percentage of ~val~') or (@title = 'Maximum Percentage of ~val~')   or (@title = 'Maximum ~val~') or (@title = '~val~ Percentage Maximum')  or (@title = '~val~ Maximum')]/ancestor::td[1], description=Step 3}
+{field_name=Element Minimum value out of range, field_tag=ElementMinValueMessage, locator_type=xpath, locator_value=//input[(@title = 'Minimal Percentage of ~val~') or (@title = 'Minimum Percentage of ~val~')  or (@title = 'Minimum ~val~') or (@title = '~val~ Percentage Minimum')  or (@title = '~val~ Minimum')]/following-sibling::span[1], description=Step 3}
+{field_name=Element Maximum value out of range, field_tag=ElementMaxValueMessage, locator_type=xpath, locator_value=//input[(@title = 'Maximal Percentage of ~val~') or (@title = 'Maximum Percentage of ~val~')  or (@title = 'Maximum ~val~') or (@title = '~val~ Percentage Maximum')  or (@title = '~val~ Maximum')]/following-sibling::span[1], description=Step 3}
+{field_name=submit form, field_tag=submitForm, locator_type=xpath, locator_value=//input[@value='Submit Form'], description=Step 3}
+{field_name=Product Description, field_tag=ProductDescription, locator_type=xpath, locator_value=//textarea[@title='Product Description'], description=Step 3}
+{field_name=Product Description, field_tag=ProductDescriptionMessage, locator_type=xpath, locator_value=//textarea[@title='Product Description']/following-sibling::span[1], description=Step 3}
+{field_name=Step 1 - Element, field_tag=StepOneElement, locator_type=xpath, locator_value=//input[(@title = '~val~') ], description=Step 1}
+{field_name=Step 1 - Element msg, field_tag=StepOneElementMessage, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/following-sibling::span[~val1~], description=Step 1}
+{field_name=Step 1 - Element div, field_tag=StepOneElementDiv, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/ancestor::div[2], description=Step 1}
+{field_name=Step 1 - Element select, field_tag=StepOneElementSelect, locator_type=xpath, locator_value=//select[(@title = '~val~') ], description=Step 1}
+{field_name=Step 1 - Element select msg, field_tag=StepOneElementSelectMessage, locator_type=xpath, locator_value=//select[(@title = '~val~') ]/following-sibling::span[1], description=Step 1}
+{field_name=Step 1 - Element select div, field_tag=StepOneElementSelectDiv, locator_type=xpath, locator_value=//select[(@title = '~val~') ]/ancestor::div[2], description=Step 1}
+{field_name=OwnershipAnswer_true, field_tag=OwnershipAnswer_true, locator_type=xpath, locator_value=//input[(@id = 'OwnershipAnswer_true') ], description=Step 2}
+{field_name=BehalfOf_true, field_tag=BehalfOf_true, locator_type=xpath, locator_value=//input[(@id = 'BehalfOf_true') ], description=Step 2}
+{field_name=Step 2 - Element , field_tag=StepTwoElement, locator_type=xpath, locator_value=//input[(@title = '~val~') ], description=Step 2}
+{field_name=Step 2 - Element msg, field_tag=StepTwoElementMessage, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/following-sibling::span[1], description=Step 2}
+{field_name=Step 2- Element div, field_tag=StepTwoElementDiv, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/ancestor::div[2], description=Step 2}
+{field_name=Step 2 - Element select, field_tag=StepTwoElementSelect, locator_type=xpath, locator_value=//select[(@title = '~val~') ], description=Step 2}
+{field_name=Step 2 - Element select msg, field_tag=StepTwoElementSelectMessage, locator_type=xpath, locator_value=//select[(@title = '~val~') ]/following-sibling::span[1], description=Step 2}
+{field_name=Step 2 - Element select div, field_tag=StepTwoElementSelectDiv, locator_type=xpath, locator_value=//select[(@title = '~val~') ]/ancestor::div[2], description=Step 2}
+{field_name=Application Suitability, field_tag=ApplicationSuitability, locator_type=xpath, locator_value=//textarea[@title='Application Suitability'], description=Step 4}
+{field_name=Origin Country, field_tag=OriginCountry, locator_type=xpath, locator_value=//select[contains(@id, 'OriginCountry')], description=Step 4}
+{field_name=Export Country, field_tag=ExportCountry, locator_type=xpath, locator_value=//select[contains(@id, 'ExportCountry')], description=Step 4}
+{field_name=CBP Distinguish Comments, field_tag=CBPDistinguishComments, locator_type=xpath, locator_value=//textarea[@title='CBP Distinguish Comments'], description=Step 4}
+{field_name=Application Suitability Message, field_tag=ApplicationSuitabilityMessage, locator_type=xpath, locator_value=//textarea[@title='Application Suitability']/following-sibling::span[1], description=Step 4}
+{field_name=Export Country Message, field_tag=OriginExportCountryMessage, locator_type=xpath, locator_value=//select[contains(@id, 'ExportCountry')]/ancestor::table[1]/following-sibling::span[1]/span[1], description=Step 4}
+{field_name=Application Suitability Message, field_tag=CBPDistinguishCommentsMessage, locator_type=xpath, locator_value=//textarea[@title='CBP Distinguish Comments']/following-sibling::span[1], description=Step 4}
+{field_name=contry table, field_tag=OriginExportCountryTable, locator_type=xpath, locator_value=//select[contains(@id, 'ExportCountry')]/ancestor::table[1], description=Step 4}
+{field_name=Step 5 - Element , field_tag=StepFiveElement, locator_type=xpath, locator_value=//input[(@title = '~val~') ], description=Step 5}
+{field_name=Step 5 - Element msg, field_tag=StepFiveElementMessage, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/following-sibling::span[1], description=Step 5}
+{field_name=Step 5 - Element div, field_tag=StepFiveElementDiv, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/ancestor::div[1], description=Step 5}
+{field_name=xx, field_tag=xx, locator_type=xpath, locator_value=xx}
+{field_name=search id, field_tag=SearchId, locator_type=xpath, locator_value=//input[(@title = 'Search ID') ], description=Main}
+{field_name=search id, field_tag=SearchComp, locator_type=xpath, locator_value=//input[(@title = 'Search Company') ], description=Main}
+{field_name=td searched, field_tag=tdSearchedId, locator_type=xpath, locator_value=//td[text()='~val~'], description=Main}
+{field_name=td searched status, field_tag=tdSearchedStatus, locator_type=xpath, locator_value=//td[text()='~val~']/ancestor::tr[1]/td[5], description=Main}
+{field_name=td searched details, field_tag=tdSearchedDetail, locator_type=xpath, locator_value=//td[text()='~val~']/ancestor::tr[1]/td[8]/a, description=Main}
+{field_name=create Objection Filing, field_tag=createObjectionFiling, locator_type=xpath, locator_value=//input[(@id = 'btnObjectionFiling') ]}
+{field_name=RE Step 1 - Element, field_tag=RE_StepOneElement, locator_type=xpath, locator_value=//h3[text()='Objecting Organization Information']/following-sibling::div[1]//label[text()='~val~']//ancestor::span[1]/following-sibling::input[1]}
+{field_name=RE Step 1 - Element msg, field_tag=RE_StepOneElementMessage, locator_type=xpath, locator_value=//h3[text()='Objecting Organization Information']/following-sibling::div[1]//label[text()='~val~']//ancestor::span[1]/following-sibling::input[1]/following-sibling::span[1]}
+{field_name=RE Step 1 - Element div, field_tag=RE_StepOneElementDiv, locator_type=xpath, locator_value=//h3[text()='Objecting Organization Information']/following-sibling::div[1]//label[text()='~val~']//ancestor::span[1]/following-sibling::input[1]/ancestor::div[2]}
+{field_name=RE Step 1 - Element select, field_tag=RE_StepOneElementSelect, locator_type=xpath, locator_value=//h3[text()='Objecting Organization Information']/following-sibling::div[1]//label[text()='~val~']//ancestor::span[1]/following-sibling::Select[1]}
+{field_name=RE Step 1 - Element select msg, field_tag=RE_StepOneElementSelectMessage, locator_type=xpath, locator_value=//h3[text()='Objecting Organization Information']/following-sibling::div[1]//label[text()='~val~']//ancestor::span[1]/following-sibling::Select[1]/following-sibling::span[1]}
+{field_name=RE Step 1 - Element select div, field_tag=RE_StepOneElementSelectDiv, locator_type=xpath, locator_value=//h3[text()='Objecting Organization Information']/following-sibling::div[1]//label[text()='~val~']//ancestor::span[1]/following-sibling::Select[1]/ancestor::div[2]}
+{field_name=RE Step 3 - Element select, field_tag=RE_StepThreeElementSelect, locator_type=xpath, locator_value=//label[text()='~val~']//ancestor::div[1]/following-sibling::div[1]/Select[1]}
+{field_name=RE Step 3 - Element select msg, field_tag=RE_StepThreeElementSelectMessage, locator_type=xpath, locator_value=//label[text()='~val~']//ancestor::div[1]/following-sibling::div[1]/span[1]}
+{field_name=RE Step 3 - Element select div, field_tag=RE_StepThreeElementSelectDiv, locator_type=xpath, locator_value=//label[text()='~val~']//ancestor::div[1]/following-sibling::div[1]}
+{field_name=RE Step 4 - Element select, field_tag=RE_StepFourElement, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ProductAvailabilityByReqOrg_~val~']}
+{field_name=RE Step 4 - Element select msg, field_tag=RE_StepFourElementMessage, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ProductAvailabilityByReqOrg_~val~']/ancestor::div[1]/span}
+{field_name=RE Step 4 - Element select div, field_tag=RE_StepFourElementDiv, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ProductAvailabilityByReqOrg_~val~']/ancestor::div[1]}
+{field_name=RE Step 4 - Element select msg, field_tag=RE_StepFourElementMessage2, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ProductAvailabilityByReqOrg_~val~']/ancestor::div[2]/span}
+{field_name=RE Step 4 - Element select div, field_tag=RE_StepFourElementDiv2, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ProductAvailabilityByReqOrg_~val~']/ancestor::div[2]}
+{field_name=RE Step 4 - Element select div, field_tag=Home, locator_type=xpath, locator_value=//span[text()='Home']}
+{field_name=RE Step 5 - Element select div, field_tag=RE_StepFiveElement, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_SubmissionCertification_~val~']}
+{field_name=RE Step 5 - Element select msg, field_tag=RE_StepFiveElementMessage, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_SubmissionCertification_~val~']/ancestor::div[1]/span[2]}
+{field_name=RE Step 5 - Element select div, field_tag=RE_StepFiveElementDiv, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_SubmissionCertification_~val~']/ancestor::div[1]}
+{field_name=RE Step 2 - Element select div, field_tag=RE_StepTwoElement, locator_type=xpath, locator_value=//input[@id='~val~~val1~']}
+{field_name=RE Step 2 - Element select msg, field_tag=RE_StepTwoElementMessage, locator_type=xpath, locator_value=//input[@id='~val~~val1~']/following-sibling::span[1]}
+{field_name=RE Step 2 - Element select div, field_tag=RE_StepTwoElementDiv0, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ReasonForObjection_ManufacturingLocations_0__~val~']/ancestor::td[1]}
+{field_name=RE Step 2 - Element select div, field_tag=RE_StepTwoElementDiv1, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ReasonForObjection_ProductionLocations_0__~val~']/ancestor::td[1]}
+{field_name=RE Step 2 - Element select div, field_tag=RE_StepTwoElementDiv2, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ReasonForObjection_SubstitueLocations_0__~val~']/ancestor::td[1]}
+{field_name=RE Step 2 - Element select div, field_tag=RE_StepTwoElementDiv3, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ReasonForObjection_ProductionSubstituteLocations_0__~val~']/ancestor::td[1]}
+beforeMethod()
+beforeMethod()
+0
+{Scenarios=Scenario_01, Request_Id=999, Active=TRUE}
+Scenario_01
+Creating Process...
+Creating Process...
+"chromedriver.exe","2772","Console","1","11,712 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:06","N/A"
+2772
+userDir C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_OBJECTION_REQUEST
+this a windows machine
+C:/libs
+highlight  U.S. Department of Commerce
+Enter text for search id
+Enter text for search id
+afterMethod()
+Scenario_01
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_OBJECTION_REQUEST/input_data
+beforeMethod()
+beforeMethod()
+1
+{Scenarios=Scenario_02, Request_Id=357, Active=TRUE}
+Scenario_02
+Click on element RE Step 4 - Element select div
+Enter text for search id
+Enter text for search id
+Get the text of the element td searched status
+highlight td searched status
+Click on element td searched details
+Click on element create Objection Filing
+Click on element Step 3
+Key : Scenarios Value : Scenario_02
+Key : Full Organization Legal Name Value : Comp Name
+Enter text for RE Step 1 - Element
+Key : Street Address Value : 2203 fairfax dr
+Enter text for RE Step 1 - Element
+Key : City Value : Falls church
+Enter text for RE Step 1 - Element
+Key : State Value : Virginia
+select Virginia from element RE Step 1 - Element select
+Key : Zip Code Value : 
+Enter text for RE Step 1 - Element
+Key : Point of Contact Name Value : POCTest
+Enter text for RE Step 1 - Element
+Key : Phone Number Value : 5712259455
+Enter text for RE Step 1 - Element
+Key : E-mail Address Value : hmouloud@gmail.com
+Enter text for RE Step 1 - Element
+Key : Web Site Address Value : https://adad@domain.com
+Enter text for RE Step 1 - Element
+Key : Active Value : TRUE
+Click on element Step 3
+Key : Scenarios Value : Scenario_02
+Key : Days Value : 3
+Key : City Value : falls church
+Enter text for RE Step 2 - Element select div
+Key : State Value : VA
+Enter text for RE Step 2 - Element select div
+Key : CurrentProductionCapacity Value : 22
+Enter text for RE Step 2 - Element select div
+Key : PlantUtilization Value : 23
+Enter text for RE Step 2 - Element select div
+Key : Active Value : TRUE
+Key : Scenarios Value : Scenario_02
+Key : Days Value : 3
+Enter text for RE Step 2 - Element select div
+Key : City Value : falls church
+Enter text for RE Step 2 - Element select div
+Key : State Value : VA
+Enter text for RE Step 2 - Element select div
+Key : CurrentProductionCapacity Value : 22
+Enter text for RE Step 2 - Element select div
+Key : PlantUtilization Value : 23
+Enter text for RE Step 2 - Element select div
+Key : Active Value : TRUE
+Key : Scenarios Value : Scenario_02
+Key : Days Value : 3
+Key : City Value : falls church
+Enter text for RE Step 2 - Element select div
+Key : State Value : VA
+Enter text for RE Step 2 - Element select div
+Key : CurrentProductionCapacity Value : 22
+Enter text for RE Step 2 - Element select div
+Key : PlantUtilization Value : 23
+Enter text for RE Step 2 - Element select div
+Key : Active Value : TRUE
+Key : Scenarios Value : Scenario_02
+Key : Days Value : 3
+Enter text for RE Step 2 - Element select div
+Key : City Value : falls church
+Enter text for RE Step 2 - Element select div
+Key : State Value : VA
+Enter text for RE Step 2 - Element select div
+Key : CurrentProductionCapacity Value : 22
+Enter text for RE Step 2 - Element select div
+Key : PlantUtilization Value : 23
+Enter text for RE Step 2 - Element select div
+Key : Active Value : TRUE
+Click on element Step 3
+Key : Scenarios Value : Scenario_02
+Key : No Production Capacity Value : Yes
+select Yes from element RE Step 3 - Element select
+Key : Product Quality Value : Yes
+select Yes from element RE Step 3 - Element select
+Key : Shipping Time Value : No
+select No from element RE Step 3 - Element select
+Key : Insufficient Volume Value : No
+select No from element RE Step 3 - Element select
+Key : Unique Product Value : Yes
+select Yes from element RE Step 3 - Element select
+Key : Active Value : TRUE
+Click on element Step 3
+Key : Scenarios Value : Scenario_02
+Key : PctManugactureByReqOrg Value : 12
+Enter text for RE Step 4 - Element select
+Key : DaysRequiredToManufacture Value : 11
+Enter text for RE Step 4 - Element select
+Key : DaysRequiredToManufactureFromBindingPurchase Value : 34
+Enter text for RE Step 4 - Element select
+Key : DaysToDeliver Value : 3333
+Enter text for RE Step 4 - Element select
+Key : Active Value : TRUE
+Click on element Step 3
+Key : Scenarios Value : Scenario_02
+Key : CompanyName Value : comp name
+Enter text for RE Step 5 - Element select div
+Key : AuthOfficialName Value : comp official
+Enter text for RE Step 5 - Element select div
+Key : AuthOfficialTitle Value : test title
+Enter text for RE Step 5 - Element select div
+Key : PhoneNumber Value : 455
+Enter text for RE Step 5 - Element select div
+Key : AuthOfficialEmail Value : ss@tesst
+Enter text for RE Step 5 - Element select div
+Key : POCEmail Value : poc@gmail.com
+Enter text for RE Step 5 - Element select div
+Key : POCPhoneNumber Value : 33
+Enter text for RE Step 5 - Element select div
+Key : Active Value : TRUE
+Click on element Step 3
+Scroll to element submit form
+Click on element submit form
+Click on element Step 3
+Key : Scenarios Value :  Scenario_02
+Key : Full Organization Legal Name Value :  Comp Name
+Get the text of the element RE Step 1 - Element msg
+highlight RE Step 1 - Element div
+unhighlight RE Step 1 - Element div
+Key : Street Address Value :  2203 fairfax dr
+Scroll to element RE Step 1 - Element
+Get the text of the element RE Step 1 - Element msg
+highlight RE Step 1 - Element div
+unhighlight RE Step 1 - Element div
+Key : City Value :  Falls church
+Get the text of the element RE Step 1 - Element msg
+highlight RE Step 1 - Element div
+unhighlight RE Step 1 - Element div
+Key : State Value :  Virginia
+Get the text of the element RE Step 1 - Element select msg
+highlight RE Step 1 - Element select div
+unhighlight RE Step 1 - Element select div
+Key : Zip Code Value :  
+Get the text of the element RE Step 1 - Element msg
+highlight RE Step 1 - Element div
+unhighlight RE Step 1 - Element div
+Key : Point of Contact Name Value :  POCTest
+Get the text of the element RE Step 1 - Element msg
+highlight RE Step 1 - Element div
+unhighlight RE Step 1 - Element div
+Key : Phone Number Value :  5712259455
+Get the text of the element RE Step 1 - Element msg
+highlight RE Step 1 - Element div
+unhighlight RE Step 1 - Element div
+Key : E-mail Address Value :  hmouloud@gmail.com
+Get the text of the element RE Step 1 - Element msg
+highlight RE Step 1 - Element div
+unhighlight RE Step 1 - Element div
+Key : Web Site Address Value :  https://adad@domain.com
+Get the text of the element RE Step 1 - Element msg
+highlight RE Step 1 - Element div
+unhighlight RE Step 1 - Element div
+Key : Active Value :  TRUE
+Click on element Step 3
+Key : Scenarios Value : Scenario_02
+Key : Days Value : 3
+Key : City Value : falls church
+Scroll to element RE Step 2 - Element select div
+Key : State Value : VA
+Key : CurrentProductionCapacity Value : 22
+Get the text of the element RE Step 2 - Element select msg
+highlight RE Step 2 - Element select div
+unhighlight RE Step 2 - Element select div
+Key : PlantUtilization Value : 23
+Get the text of the element RE Step 2 - Element select msg
+highlight RE Step 2 - Element select div
+unhighlight RE Step 2 - Element select div
+Key : Active Value : TRUE
+Key : Scenarios Value : Scenario_02
+Key : Days Value : 3
+Get the text of the element RE Step 2 - Element select msg
+highlight RE Step 2 - Element select div
+unhighlight RE Step 2 - Element select div
+Key : City Value : falls church
+Scroll to element RE Step 2 - Element select div
+Key : State Value : VA
+Key : CurrentProductionCapacity Value : 22
+Get the text of the element RE Step 2 - Element select msg
+highlight RE Step 2 - Element select div
+unhighlight RE Step 2 - Element select div
+Key : PlantUtilization Value : 23
+Get the text of the element RE Step 2 - Element select msg
+highlight RE Step 2 - Element select div
+unhighlight RE Step 2 - Element select div
+Key : Active Value : TRUE
+Key : Scenarios Value : Scenario_02
+Key : Days Value : 3
+Key : City Value : falls church
+Scroll to element RE Step 2 - Element select div
+Key : State Value : VA
+Key : CurrentProductionCapacity Value : 22
+Get the text of the element RE Step 2 - Element select msg
+highlight RE Step 2 - Element select div
+unhighlight RE Step 2 - Element select div
+Key : PlantUtilization Value : 23
+Get the text of the element RE Step 2 - Element select msg
+highlight RE Step 2 - Element select div
+unhighlight RE Step 2 - Element select div
+Key : Active Value : TRUE
+Key : Scenarios Value : Scenario_02
+Key : Days Value : 3
+Get the text of the element RE Step 2 - Element select msg
+highlight RE Step 2 - Element select div
+unhighlight RE Step 2 - Element select div
+Key : City Value : falls church
+Scroll to element RE Step 2 - Element select div
+Key : State Value : VA
+Key : CurrentProductionCapacity Value : 22
+Get the text of the element RE Step 2 - Element select msg
+highlight RE Step 2 - Element select div
+unhighlight RE Step 2 - Element select div
+Key : PlantUtilization Value : 23
+Get the text of the element RE Step 2 - Element select msg
+highlight RE Step 2 - Element select div
+unhighlight RE Step 2 - Element select div
+Key : Active Value : TRUE
+Click on element Step 3
+Key : Scenarios Value : Scenario_02
+Key : No Production Capacity Value : Yes
+Get the text of the element RE Step 3 - Element select msg
+highlight RE Step 3 - Element select div
+unhighlight RE Step 3 - Element select div
+Key : Product Quality Value : Yes
+Get the text of the element RE Step 3 - Element select msg
+highlight RE Step 3 - Element select div
+unhighlight RE Step 3 - Element select div
+Key : Shipping Time Value : No
+Get the text of the element RE Step 3 - Element select msg
+highlight RE Step 3 - Element select div
+unhighlight RE Step 3 - Element select div
+Key : Insufficient Volume Value : No
+Scroll to element RE Step 3 - Element select msg
+Get the text of the element RE Step 3 - Element select msg
+highlight RE Step 3 - Element select div
+unhighlight RE Step 3 - Element select div
+Key : Unique Product Value : Yes
+Get the text of the element RE Step 3 - Element select msg
+highlight RE Step 3 - Element select div
+unhighlight RE Step 3 - Element select div
+Key : Active Value : TRUE
+Click on element Step 3
+Get the text of the element RE Step 4 - Element select msg
+highlight RE Step 4 - Element select div
+unhighlight RE Step 4 - Element select div
+Get the text of the element RE Step 4 - Element select msg
+highlight RE Step 4 - Element select div
+unhighlight RE Step 4 - Element select div
+Get the text of the element RE Step 4 - Element select msg
+highlight RE Step 4 - Element select div
+unhighlight RE Step 4 - Element select div
+Get the text of the element RE Step 4 - Element select msg
+Scroll to element RE Step 4 - Element select div
+highlight RE Step 4 - Element select div
+unhighlight RE Step 4 - Element select div
+Click on element Step 3
+Scroll to element RE Step 5 - Element select div
+Get the text of the element RE Step 5 - Element select msg
+highlight RE Step 5 - Element select div
+unhighlight RE Step 5 - Element select div
+Get the text of the element RE Step 5 - Element select msg
+highlight RE Step 5 - Element select div
+unhighlight RE Step 5 - Element select div
+Get the text of the element RE Step 5 - Element select msg
+highlight RE Step 5 - Element select div
+unhighlight RE Step 5 - Element select div
+Get the text of the element RE Step 5 - Element select msg
+highlight RE Step 5 - Element select div
+unhighlight RE Step 5 - Element select div
+Get the text of the element RE Step 5 - Element select msg
+highlight RE Step 5 - Element select div
+unhighlight RE Step 5 - Element select div
+Get the text of the element RE Step 5 - Element select msg
+highlight RE Step 5 - Element select div
+unhighlight RE Step 5 - Element select div
+Get the text of the element RE Step 5 - Element select msg
+highlight RE Step 5 - Element select div
+unhighlight RE Step 5 - Element select div
+afterMethod()
+Scenario_02
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_OBJECTION_REQUEST/input_data
+beforeMethod()
+beforeMethod()
+2
+{Scenarios=Scenario_03, Request_Id=358, Active=TRUE}
+Scenario_03
+Click on element RE Step 4 - Element select div
+Enter text for search id
+Enter text for search id
+Get the text of the element td searched status
+afterMethod()
+Scenario_03
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_OBJECTION_REQUEST/input_data
+Executing After class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_OBJECTION_REQUEST/input_data
+null
+
+===============================================
+Suite
+Total tests run: 3, Failures: 2, Skips: 0
+Configuration Failures: 1, Skips: 0
+===============================================
+

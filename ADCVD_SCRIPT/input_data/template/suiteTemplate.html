@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<style>
+table a:link {
+	color: blue;
+	font-weight: normal;
+	text-decoration:none;
+}
+table a:visited {
+	color: georgian;
+	font-weight:normal;
+	text-decoration:none;
+}
+table a:active,
+table a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+table {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin:20px;
+	border:#ccc 1px solid;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+table th {
+	padding:15px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+table th:first-child {
+	text-align: left;
+	padding-left:8px;
+}
+table tr:first-child th:first-child {
+	-moz-border-radius-topleft:1px;
+	-webkit-border-top-left-radius:1px;
+	border-top-left-radius:1px;
+}
+
+table tr {
+	text-align: left;
+	padding-left:15px;
+}
+table td:first-child {
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+table td {
+	padding:15px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+table tr.even td {
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table tr:last-child td {
+	border-bottom:0;
+}
+table tr:last-child td:first-child {
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+table tr:last-child td:last-child {
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+table tr:hover td {
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+.Pass {
+    color: green;
+	font-weight: bold;
+}
+
+.Fail {
+    color: red;
+	font-weight: bold;
+}
+.boldy {
+    color: black;
+	font-weight: bold;
+}
+.center{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-190px;
+    margin-top:-424px;
+}
+
+.div1 {
+  width: 1000px;
+  padding: 50px;
+  border: 0px solid gray;
+  margin: 100;
+ 
+}
+
+.column0 {
+    float: left;   
+	width: 2%;
+	border: 0px solid gray;	
+}
+.column {
+    float: left;
+	font-style: italic;	
+
+}
+
+/* Clear floats after the columns */
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+	margin: 100;
+
+}
+body {    
+    background-repeat: repeat;
+    background-color: ;
+}
+</style>
+<div class='div1'>	
+<div class="container">
+	<div class="column0">&ensp;</div>
+    <div class="column"><img height="40" src='..\..\input_data\template\milcorp.png'></div>
+    <div class="column">MilCorp <br> Automation</div>
+</div>
+<meta charset="utf-8">
+<title>Test Case Result</title>
+</head>
+
+<body  >
+
+<table width="80%" >
+  <tbody>
+    <tr >
+      <th width="40%" >Test Suite Name:</th>
+      <td width="60%" >~TestSuiteName~</td>
+    </tr>
+	<tr >
+      <th width="40%" >Environment Name:</th>
+      <td width="60%" >~EnvironmentName~</td>
+    </tr>
+	<tr>
+      <th>Executed By:</th>
+      <td>~ExecutedBy~</td>
+    </tr>
+	<tr>
+      <th>Executed Date/Time:</th>
+      <td>~ExecutedDateTime~</td>
+    </tr>
+	<tr>
+      <th>Suite Execution Time:</th>
+      <td>~ExecutionDuration~</td>
+    </tr>
+	<tr >
+      <th>Number of Test Cases:</td>
+      <td >~TestCaseNumber~</td>
+    </tr>
+    <tr>
+      <th>Number of Test Cases Passed:</th>
+      <td>~TestCaseNumberPassed~</td>
+    </tr>
+    <tr>
+      <th>Number of Test Cases Failed:</th>
+      <td>~TestCaseNumberFailed~</td>
+    </tr>
+
+  </tbody>
+</table>
+
+	
+	
+
+	<table width="80%" >
+	<thead>
+		<tr >
+		<th width="75%">Test Case Name</th>
+		<th width="25%">Test Case Status</th>
+
+		</tr>
+	</thead>
+
+	<!-- Table Header -->
+
+	<!-- Table Body -->
+	<tbody>
+		
+		~Body~
+	</tbody>
+</div>
+</body>
+</html>

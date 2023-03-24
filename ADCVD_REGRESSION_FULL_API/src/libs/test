@@ -1,0 +1,14 @@
+ record.clear();	        
+record.put("Actual_Prelim_Issues_to_DAS__c", "");
+record.put("Actual_Prelim_Concurrence_to_DAS__c", "");
+record.put("Actual_Preliminary_Signature__c", "");
+record.put("Actual_Amend_Prelim_Issues_to_DAS__c", "");
+record.put("Actual_Amend_Prelim_Concurrence_to_DAS__c", "");
+record.put("Actual_Amended_Prelim_Determination_Sig__c", "");
+record.put("Actual_Final_Issues_to_DAS__c", "");
+record.put("Actual_Final_Concurrence_to_DAS__c", "");
+record.put("Actual_Final_Signature__c", "");
+record.put("Actual_Amend_Final_Issues_to_DAS__c", "");
+record.put("Actual_Amend_Final_Concurrence_to_DAS__c", "");
+record.put("Actual_Amended_Final_Signature__c", "");
+code = APITools.updateRecordObject("Investigation__c", investigationId, record);

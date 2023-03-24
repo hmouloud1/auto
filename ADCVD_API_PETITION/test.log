@@ -1,0 +1,627 @@
+MainMethod()
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+{Id=1.0, Test_Case_Name=Create_Adcvd_Case, Test_Case_Tag=TC_TAG_001, Test_Case_Description=Create AD/CVD Case, Name=A-, Commodity__c=Textiles, ADCVD_Case_Type__c=AD ME, Product__c=Test_API_Automation_, Product_Short_Name__c=This is just a Test, Country__c=Spain, Active=TRUE}
+{Id=1.0, Test_Case_Name=Create_And_Validate_Petition, Test_Case_Tag=TC_TAG_002, Test_Case_Description=Create petition and validate calculated dates, Petition_Filed__c=2019-03-17, Initiation_Extension_of_days__c=5, Query=SELECT+Name,+Petition_Outcome__c,+Initiation_Extension_of_days__c,+Petition_Filed__c,+Initiation_Issues_Due_to_DAS__c,+Initiation_Concurrence_Due_to_DAS__c,+Calculated_Initiation_Signature__c,+Next_Office_Deadline__c,+Next_Major_Deadline__c,+Next_Due_to_DAS_Deadline__c,+Next_Announcement_Date__c+FROM+Petition__c+WHERE+Name='Petition_id', Active=TRUE}
+{Id=1.0, Test_Case_Name=Create_And_Validate_Investigation, Test_Case_Tag=TC_TAG_003, Test_Case_Description=Create an investigation and validate calculated dates, Record_Type=CVD, Active=TRUE}
+{Id=1.0, Test_Case_Name=Create_Order, Test_Case_Tag=TC_TAG_004, Test_Case_Description=Create New Order, Active=TRUE}
+{Id=1.0, Test_Case_Name=Create_Segment_Administrative_Review, Test_Case_Tag=TC_TAG_005, Test_Case_Description=Create and validate 'Administrative Review' segment, Segment_Type=Administrative Review, Final_Date_of_Anniversary_Month__c=2019-03-17, Request_Filed__c=, Application_Accepted__c=, Preliminary_Determination__c=, Calculated_Initiation_Signature__c=, Decision_on_How_to_Proceed__c=, Type_of_Scope_Ruling__c=, Actual_Date_of_Decision_on_HoP__c=, Expected_Final_Signature_Before_Ext__c=, Active=TRUE}
+{Id=2.0, Test_Case_Name=Create_Segment_Anti_Circumvention_Review, Test_Case_Tag=TC_TAG_006, Test_Case_Description=Create and validate 'Anti-Circumvention Review' segment, Segment_Type=Anti-Circumvention Review, Final_Date_of_Anniversary_Month__c=, Request_Filed__c=2019-03-17, Application_Accepted__c=2019-03-17, Preliminary_Determination__c=Yes, Calculated_Initiation_Signature__c=, Decision_on_How_to_Proceed__c=, Type_of_Scope_Ruling__c=, Actual_Date_of_Decision_on_HoP__c=, Expected_Final_Signature_Before_Ext__c=, Active=TRUE}
+{Id=3.0, Test_Case_Name=Create_Segment_Changed_Circumstances_Review, Test_Case_Tag=TC_TAG_007, Test_Case_Description=Create and validate 'Changed Circumstances Review' segment, Segment_Type=Changed Circumstances Review, Final_Date_of_Anniversary_Month__c=, Request_Filed__c=2019-03-17, Application_Accepted__c=, Preliminary_Determination__c=Yes, Calculated_Initiation_Signature__c=, Decision_on_How_to_Proceed__c=, Type_of_Scope_Ruling__c=, Actual_Date_of_Decision_on_HoP__c=, Expected_Final_Signature_Before_Ext__c=, Active=TRUE}
+{Id=4.0, Test_Case_Name=Create_Segment_Expedited_Review, Test_Case_Tag=TC_TAG_008, Test_Case_Description=Create and validate 'Expedited Review' segment, Segment_Type=Expedited Review, Final_Date_of_Anniversary_Month__c=, Request_Filed__c=, Application_Accepted__c=, Preliminary_Determination__c=, Calculated_Initiation_Signature__c=2019-03-17, Decision_on_How_to_Proceed__c=, Type_of_Scope_Ruling__c=, Actual_Date_of_Decision_on_HoP__c=, Expected_Final_Signature_Before_Ext__c=, Active=TRUE}
+{Id=5.0, Test_Case_Name=Create_Segment_New_Shipper_Review, Test_Case_Tag=TC_TAG_009, Test_Case_Description=Create and validate 'New Shipper Review' segment, Segment_Type=New Shipper Review, Final_Date_of_Anniversary_Month__c=, Request_Filed__c=, Application_Accepted__c=, Preliminary_Determination__c=, Calculated_Initiation_Signature__c=2019-03-17, Decision_on_How_to_Proceed__c=, Type_of_Scope_Ruling__c=, Actual_Date_of_Decision_on_HoP__c=, Expected_Final_Signature_Before_Ext__c=, Active=TRUE}
+{Id=6.0, Test_Case_Name=Create_Segment_Scope_Inquiry, Test_Case_Tag=TC_TAG_010, Test_Case_Description=Create and validate 'Scope Inquiry' segment, Segment_Type=Scope Inquiry, Final_Date_of_Anniversary_Month__c=, Request_Filed__c=2019-03-17, Application_Accepted__c=, Preliminary_Determination__c=, Calculated_Initiation_Signature__c=, Decision_on_How_to_Proceed__c=Formal, Type_of_Scope_Ruling__c=K (1), Actual_Date_of_Decision_on_HoP__c=2019-03-17, Expected_Final_Signature_Before_Ext__c=, Active=TRUE}
+{Id=7.0, Test_Case_Name=Create_Segment_Sunset_Review, Test_Case_Tag=TC_TAG_011, Test_Case_Description=Create and validate 'Sunset Review' segment, Segment_Type=Sunset Review, Final_Date_of_Anniversary_Month__c=, Request_Filed__c=, Application_Accepted__c=, Preliminary_Determination__c=, Calculated_Initiation_Signature__c=, Decision_on_How_to_Proceed__c=, Type_of_Scope_Ruling__c=, Actual_Date_of_Decision_on_HoP__c=, Expected_Final_Signature_Before_Ext__c=, Active=TRUE}
+{Id=8.0, Test_Case_Name=Create_International_Litigation, Test_Case_Tag=TC_TAG_012, Test_Case_Description=create international litigation, Segment_Type=Sunset Review, Final_Date_of_Anniversary_Month__c=, Request_Filed__c=, Application_Accepted__c=, Preliminary_Determination__c=, Calculated_Initiation_Signature__c=, Decision_on_How_to_Proceed__c=, Type_of_Scope_Ruling__c=, Actual_Date_of_Decision_on_HoP__c=, Expected_Final_Signature_Before_Ext__c=2019-03-17, Active=TRUE}
+{Id=9.0, Test_Case_Name=Create_Remand, Test_Case_Tag=TC_TAG_013, Test_Case_Description=create Remand, Segment_Type=Sunset Review, Final_Date_of_Anniversary_Month__c=, Request_Filed__c=2019-03-17, Application_Accepted__c=, Preliminary_Determination__c=, Calculated_Initiation_Signature__c=, Decision_on_How_to_Proceed__c=, Type_of_Scope_Ruling__c=, Actual_Date_of_Decision_on_HoP__c=, Expected_Final_Signature_Before_Ext__c=, Active=TRUE}
+{Starting_Date=10/1/2013, End_Date=10/16/2013, Reason=Government Closure, Active=TRUE}
+{Starting_Date=2/13/2014, End_Date=2/13/2014, Reason=Snow Day, Active=TRUE}
+{Starting_Date=1/22/2016, End_Date=1/27/2016, Reason=Snow Storm Jonas, Active=TRUE}
+{Starting_Date=1/20/2018, End_Date=1/22/2018, Reason=2018 Government Shutdown - Jan 2018, Active=TRUE}
+{Starting_Date=12/22/2018, End_Date=1/30/2019, Reason=Government Shutdown Dec 18-Jan19, Active=TRUE}
+Executing Before class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+{field_name=user name, field_tag=userName, locator_type=xpath, locator_value=//input[@id='username']}
+{field_name=password, field_tag=password, locator_type=xpath, locator_value=//input[@id='password']}
+{field_name=login button, field_tag=loginTo, locator_type=xpath, locator_value=//input[@id='Login']}
+{field_name=Organizations Tab, field_tag=organizationsLink, locator_type=xpath, locator_value=//a[contains(text(), 'Organizations')]}
+{field_name=view, field_tag=fcfView, locator_type=xpath, locator_value=//select[@name='fcf']}
+{field_name=New To Market App, field_tag=NewToMarketApp, locator_type=xpath, locator_value=//span[contains(text(), 'New To Market App')]}
+{field_name=testElement, field_tag=testElement, locator_type=xpath, locator_value=//a[contains(text(), '010121')]}
+{field_name=Copyright, field_tag=copyright, locator_type=xpath, locator_value=//span[contains(text(), 'Copyright')]}
+{field_name=Home, field_tag=homeObjectLink, locator_type=xpath, locator_value=//span[contains(text(), 'Home')], 0=}
+{field_name=Chater, field_tag=chaterObjectLink, locator_type=xpath, locator_value=//span[contains(text(), 'Chater')]}
+{field_name=ADCVD Cases, field_tag=adcvdCasesObjectLink, locator_type=xpath, locator_value=//a/span[text()='ADCVD Cases']}
+{field_name=Petitions, field_tag=petitionsObjectLink, locator_type=xpath, locator_value=//nav/ul/li/a/span[contains(text(), 'Petitions')]}
+{field_name=Investigations, field_tag=investigationsObjectLink, locator_type=xpath, locator_value=//span[contains(text(), 'Investigations')]}
+{field_name=ADCVD Litigation, field_tag=LitigationObjectLink, locator_type=xpath, locator_value=//a/span[@class='slds-truncate' and text()='Litigation']}
+{field_name=ADCVD Orders, field_tag=adcvdOrdersObjectLink, locator_type=xpath, locator_value=//span[contains(text(), 'ADCVD Orders')]}
+{field_name=Segments, field_tag=segmentsOrdersObjectLink, locator_type=xpath, locator_value=//span[contains(text(), 'Segments')]}
+{field_name=New Case, field_tag=newCaseLink, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//div[contains(text(), 'New')], 0=}
+{field_name=next button, field_tag=nextButton, locator_type=xpath, locator_value=//div[@class='forceChangeRecordTypeFooter']//button[2]}
+{field_name=radio button Filed, field_tag=recTypeFiled, locator_type=xpath, locator_value=//span[contains(text(), 'Filed')]/ancestor::label[1]//input[1], 0=}
+{field_name=radio button SelfInitiate, field_tag=recTypeSelfInitiated, locator_type=xpath, locator_value=//span[contains(text(), 'Self-Initiated')]/ancestor::label[1]//input[1]}
+{field_name=Case Name, field_tag=inputadcvdCase, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'ADCVD Case')]/ancestor::label[1]/following-sibling::input[1]}
+{field_name=CBP Case Number, field_tag=inputCbpCaseNumber, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'CBP Case Number')]/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Product, field_tag=inputProduct, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[text()= 'Product']/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Product Short Name, field_tag=inputProductShortName, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'Product Short Name')]/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Commodity, field_tag=selectCommodity, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'Commodity')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Commodity Item, field_tag=selectCommodityItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=ADCVD Case Type, field_tag=selectCaseType, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'ADCVD Case Type')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=ADCVD Case Type Item, field_tag=selectCaseTypeItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=Country, field_tag=selectCountry, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'Country')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Country Item, field_tag=selectCountryItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')], 0=}
+{field_name=Record Locked, field_tag=checkRecordLock, locator_type=xpath, locator_value=//span[contains(text(), 'Record Locked')]/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Save Case button, field_tag=saveCaseButton, locator_type=xpath, locator_value=//div[@class='modal-footer slds-modal__footer']/div/button/span[(contains(text(), 'Save')) and not (contains(text(), 'New'))]}
+{field_name=Cancel Case button, field_tag=CancelCaseButton, locator_type=xpath, locator_value=//div[@class='modal-footer slds-modal__footer']/div/button/span[(contains(text(), 'Cancel'))]}
+{field_name=review the error on this page, field_tag=newCreateError, locator_type=xpath, locator_value=//span[contains(text(), 'Review the errors on this page.')]}
+{field_name=new petition button, field_tag=newPetitionButton, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//ul/li/a/div[text()='New']}
+{field_name=Petition date, field_tag=inputPetitionDate, locator_type=xpath, locator_value=//span[contains(text(), '~val~')]/ancestor::label[1]/following-sibling::div[1]/input}
+{field_name=Petition Text box, field_tag=inputPetitionText, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[text() = '~val~']/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Petition Text drop down, field_tag=inputPetitionDropDown, locator_type=xpath, locator_value=//span[contains(text(), '~val~')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Petition Text drop down Item, field_tag=inputPetitionDropDownItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=Lotus note history data, field_tag=inputlnHistoryData, locator_type=xpath, locator_value=//span[text() = 'Lotus Notes History Data']/ancestor::label[1]/following-sibling::textarea[1]}
+{field_name=Case home page, field_tag=textCaseHomePage, locator_type=xpath, locator_value=//li/span[text() = 'ADCVD Case']/ancestor::div[1]}
+{field_name=New Petition, field_tag=linkNewPetition, locator_type=xpath, locator_value=//th[contains(text(), 'Petition Number')]//ancestor::thead[1]/following-sibling::tbody[1]/tr/th//a, 0=//span[contains(text(), 'Petition')]//ancestor::div[1]//a[contains(text(), 'C-') or contains(text(), 'A-')]}
+{field_name=Petition dates to validate, field_tag=genericPetitionDate, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[contains(text(), 'Path Key Fields') or contains(text(), 'Task Completion')]//ancestor::div[1]//span[contains(text(), '~val~')]/ancestor::div[1]/following-sibling::div[1]/span/span}
+{field_name=Investigations link, field_tag=linkInvestigation, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//div/ul//li//span[contains(text(), 'Investigations')]}
+{field_name=Investigations button, field_tag=newInvestigationButton, locator_type=xpath, locator_value=//span[contains(text(), 'Investigations')]/ancestor::header[1]/following-sibling::div[1]//a/div}
+{field_name=Investigations record type, field_tag=recordTypeInvestigation, locator_type=xpath, locator_value=//label/div//span[contains(text(), 'CVD')]}
+{field_name=Generic investigation field, field_tag=genericInvestigationField, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span//ancestor::div[1]//span[text() = '~val~']/ancestor::div[1]/following-sibling::div[1]/span/span}
+{field_name=Generic investigation field, field_tag=genericInvestigationFieldDiv, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span//ancestor::div[1]//span[text() = '~val~']/ancestor::div[2]}
+{field_name=Generic investigation link, field_tag=genericInvestigationLink, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span//ancestor::div[1]//span[text() = '~val~']/ancestor::div[1]/following-sibling::div[1]/span/div/a}
+{field_name=New created Investigation link, field_tag=linkNewCreatedInvestigation, locator_type=xpath, locator_value=//th[contains(text(), 'Investigation Outcome')]/ancestor::table[1]//tbody[1]/tr/th//a[contains(text(), '--I-')]}
+{field_name=Next button investigation, field_tag=nextButtonInvestigation, locator_type=xpath, locator_value=//div[@class='forceChangeRecordTypeFooter']//button[2]}
+{field_name=link ADCVD Order, field_tag=linkAdcvdOrder, locator_type=xpath, locator_value=//a/span[text()='ADCVD Orders']}
+{field_name=New order button, field_tag=buttonNewOrder, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//li/a/div[contains(text(), 'New')]}
+{field_name=cancel order button, field_tag=buttonCancelOrder, locator_type=xpath, locator_value=//div[@class='modal-footer slds-modal__footer']/div/button/span[contains(text(), 'Cancel')]}
+{field_name=Parent Investigtion, field_tag=inputInvestigation, locator_type=xpath, locator_value=//span[contains(text(), 'Investigation')]/ancestor::label[1]/following-sibling::div//input}
+{field_name=Parent Investigtion Id, field_tag=iInvestigationId, locator_type=xpath, locator_value=//ul/li/a/div/div[contains(text(), '~val~')]}
+{field_name=Segments tab, field_tag=linkSegments, locator_type=xpath, locator_value=//a/span[text()='Segments']}
+{field_name=Button new segment, field_tag=buttonNewSegment, locator_type=xpath, locator_value=//ul/li/a/div[text()='New']}
+{field_name=Radio button segment type, field_tag=radioSegmentType, locator_type=xpath, locator_value=//span[contains(text(), '~val~')]/ancestor::label[1]/div[1]}
+{field_name=Next button segment, field_tag=nextButtonSegment, locator_type=xpath, locator_value=//div[@class='forceChangeRecordTypeFooter']//button[2]}
+{field_name=Save segment button, field_tag=buttonSaveSegment, locator_type=xpath, locator_value=//div[@class='modal-footer slds-modal__footer']/div/button/span[(contains(text(), 'Save')) and not (contains(text(), 'New'))]}
+{field_name=Created new segment, field_tag=newSegmentCreated, locator_type=xpath, locator_value=//tbody[1]/tr/th//a[contains(text(), 'S-')]}
+{field_name=Generic investigation field, field_tag=genericSegmentField, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span//ancestor::div[1]//span[text() = '~val~']/ancestor::div[1]/following-sibling::div[1]/span/span}
+{field_name=Segment type, field_tag=segmentType, locator_type=xpath, locator_value=//span[contains(text(), '~val~')]/ancestor::td[1]}
+{field_name=Newly created Order, field_tag=newCreatedOrder, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span//ancestor::div[1]//span[text() = 'ADCVD Order']/ancestor::div[1]/following-sibling::div[1]/span/span}
+{field_name=Parent Order, field_tag=inputOrder, locator_type=xpath, locator_value=//span[contains(text(), 'ADCVD Order')]/ancestor::label[1]/following-sibling::div//input}
+{field_name=Parent Order Id, field_tag=iOrderId, locator_type=xpath, locator_value=//ul/li/a/div/div[contains(text(), '~val~')]}
+{field_name=Newly created Segment, field_tag=newCreatedSegment, locator_type=xpath, locator_value=//span[contains(text(), '~val~')]/ancestor::td[1]/ancestor::tr/th//a}
+{field_name=segment date, field_tag=inputSegmentDate, locator_type=xpath, locator_value=//span[text() = '~val~']/ancestor::label[1]/following-sibling::div/input[1]}
+{field_name=cancel segment button, field_tag=buttonCancelSegment, locator_type=xpath, locator_value=//div[@class='modal-footer slds-modal__footer']/div/button/span[contains(text(), 'Cancel')]}
+{field_name=segment text, field_tag=inputSegmentText, locator_type=xpath, locator_value=//span[text() = '~val~']/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Preliminary Determination, field_tag=preliminaryDetermination, locator_type=xpath, locator_value=//span[contains(text(), 'Preliminary Determination')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Preliminary Determination Item, field_tag=preliminaryDeterminationItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=Decision on How to Proceed, field_tag=decisiononHowtoProceed, locator_type=xpath, locator_value=//span[contains(text(), 'Decision on How to Proceed')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Decision on How to Proceed item, field_tag=decisiononHowtoProceedItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=Scope Rolling Type, field_tag=scopeRollingType, locator_type=xpath, locator_value=//span[contains(text(), 'Type of Scope Ruling')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Scope Rolling Type item, field_tag=scopeRollingTypeItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=Details, field_tag=objectDetails, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[text() = 'Details']}
+{field_name=FRs & Alignments, field_tag=objectFRs, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[text() = 'FRs & Alignments']}
+{field_name=New FRs button, field_tag=newFRButton, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//ul/li/a/div[text()='New']}
+{field_name=Federal Register Type, field_tag=FederalRegisterType, locator_type=xpath, locator_value=//span[contains(text(), 'Type')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Federal Register Type Item, field_tag=FederalRegisterTypeItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=Federal Registration date, field_tag=inputFRDate, locator_type=xpath, locator_value=//span[text() = '~val~']/ancestor::label[1]/following-sibling::div/input[1]}
+{field_name=segment text, field_tag=inputFRText, locator_type=xpath, locator_value=//span[text() = '~val~']/ancestor::label[1]/following-sibling::input[1]}
+{field_name=sunset review date, field_tag=sunSetReviewDate, locator_type=xpath, locator_value=//label[contains(text() , '~val~')]/ancestor::div[1]/following-sibling::div[1]/span}
+{field_name=Edit Button, field_tag=EditButton, locator_type=xpath, locator_value=//p[text() = 'Segment']/ancestor::div[1]/following-sibling::div[1]//input[@value = 'Edit']}
+{field_name=select value on sunset review, field_tag=selectOnSunSet, locator_type=xpath, locator_value=//label[text() = '~val~']/ancestor::div[1]/following-sibling::div[1]/select}
+{field_name=Save Button, field_tag=SaveButton, locator_type=xpath, locator_value=//p[text() = 'Segment']/ancestor::div[1]/following-sibling::div[1]//input[@value = 'Save']}
+{field_name=fram on sunset review, field_tag=frameOnSunsetReview, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//iframe}
+{field_name=type of sunset review, field_tag=sunsetReviewType, locator_type=xpath, locator_value=//legend[contains(text(),  '~val~')]}
+{field_name=generic segment dates to validate, field_tag=genericSegmentDate, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[contains(text(), 'Path Key Fields') or contains(text(), 'Task Completion')]//ancestor::div[1]//span[contains(text(), '~val~')]/ancestor::div[1]/following-sibling::div[1]/span/span}
+{field_name=edit Button of align to, field_tag=editAlignTo, locator_type=xpath, locator_value=//span[text()='AD Investigation Aligned To']/ancestor::div[1]/following-sibling::div[1]//button}
+{field_name=align to, field_tag=alignTo, locator_type=xpath, locator_value=//input[@title='Search Investigations']}
+{field_name=item from align to, field_tag=itemfromalignTo, locator_type=xpath, locator_value=//div[@title='~val~']}
+{field_name=save investigation, field_tag=saveInvestigation, locator_type=xpath, locator_value=//div[@class='footer active']//button/span[text()='Save']}
+{field_name=created case, field_tag=createdCase, locator_type=xpath, locator_value=//div[@title='~val~']}
+{field_name=linkedADText, field_tag=linkedADText, locator_type=xpath, locator_value=//span[text()='AD Investigation Aligned To']/ancestor::div[1]/following-sibling::div[1]//a[contains(text(), '~val~')]}
+{field_name=AD Investigation Aligned To div, field_tag=ADInvestigationAlignedToDiv, locator_type=xpath, locator_value=//span[text()='AD Investigation Aligned To']/ancestor::div[2]}
+{field_name=Object Link, field_tag=objectMenuLink, locator_type=xpath, locator_value=//a/span[text() = '~val~']}
+{field_name=new Litigation button, field_tag=newLitigationButton, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//ul/li/a/div[text()='New']}
+{field_name=radio button litigation type, field_tag=typeOfLitigationRadion, locator_type=xpath, locator_value=//span[contains(text(), '~val~')]/ancestor::label[1]/div[1]}
+{field_name=Input Litigation date, field_tag=inputLitigationDate, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), '~val~')]/ancestor::label[1]/following-sibling::div[1]/input}
+{field_name=Input Litigation Text, field_tag=inputLitigationText, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[text() = '~val~']/ancestor::label[1]/following-sibling::input[1]}
+{field_name=petition field on Litigation, field_tag=petitionsFieldOnLitigation, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//input[@title = 'Search Petitions']}
+{field_name=petition item on Litigation, field_tag=petitionsItemOnLitigation, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//div[@class='listContent']/ul/li[1]}
+{field_name=created litigation, field_tag=createdLitigation, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[contains (text(), 'Record Type')]/following-sibling::div[1]//span[contains(text(), '~val~')]}
+{field_name=Generic litigation field, field_tag=genericLitigationField, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span//ancestor::div[1]//span[text() = '~val~']/ancestor::div[1]/following-sibling::div[1]/span/span}
+{field_name=Petition Outcome, field_tag=selectPetitionOutcome, locator_type=xpath, locator_value=//span[contains(text(), 'Petition Outcome')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Petition Outcome Item, field_tag=selectPetitionOutcomeItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=save edited petition, field_tag=saveEditedPetition, locator_type=xpath, locator_value=//div[@class='footer active']//button/span[text()='Save']}
+{field_name=FR Notice link, field_tag=linkFRNotice, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//div/ul//li//span[contains(text(), 'FR Notices')]}
+{field_name=new FR button, field_tag=newFRButton, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//ul/li/a/div[text()='New']}
+{field_name=FR Type, field_tag=frType, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'Type')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=FR Type Item, field_tag=frTypeItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=FR notice date, field_tag=frDate, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), '~val~')]/ancestor::label[1]/following-sibling::div[1]/input}
+{field_name=FR notice text fileds, field_tag=frText, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[text() ='~val~']/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Save FR button, field_tag=saveFRButton, locator_type=xpath, locator_value=//div[@class='modal-footer slds-modal__footer']/div/button/span[(contains(text(), 'Save')) and not (contains(text(), 'New'))]}
+{field_name=Created FR, field_tag=craetedFR, locator_type=xpath, locator_value=//a[contains(text(), 'FR-')]}
+{field_name=edit Button petition outcome, field_tag=editPetitionOutCome, locator_type=xpath, locator_value=//span[text()='Petition Outcome']/ancestor::div[1]/following-sibling::div[1]//button}
+{field_name=nsr edit Button of align to ar, field_tag=editAlignToAr, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[text()='Administrative Review Aligned To']/ancestor::div[1]/following-sibling::div[1]//button}
+{field_name=align to Ar, field_tag=alignToAr, locator_type=xpath, locator_value=//input[@title='Search Segments']}
+{field_name=item from align to Ar, field_tag=itemfromalignToAr, locator_type=xpath, locator_value=//div[@title='~val~']}
+{field_name=nsr edit Button of align to ar, field_tag=editAlignToArDiv, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[text()='Administrative Review Aligned To']/ancestor::div[2]}
+{field_name=Save edited segment, field_tag=saveEditedSegment, locator_type=xpath, locator_value=//div[@class='footer active']//button/span[text()='Save']}
+{field_name=aligned ar segment, field_tag=alignedSrSegment, locator_type=xpath, locator_value=//div[@class = 'windowViewMode-normal oneContent active lafPageHost']//a[text() = '~val~']}
+{field_name=Order, Susp, & Litigation, field_tag=linkOrderSuspLitigation, locator_type=xpath, locator_value=//span[contains(text(), 'Order, Susp, & Litigation')]}
+{field_name=New Order, Susp, & Litigation, field_tag=linkNewOrderSuspLitigation, locator_type=xpath, locator_value=//div[@class='flexipageComponent']//span[contains(text(), 'ADCVD Orders')]/ancestor::header/following-sibling::div//a/div[@title='New']}
+{field_name=New Segment from Order, field_tag=LinkSegmentFromOrder, locator_type=xpath, locator_value=//span[@class = 'title' and text()='Segments']}
+{field_name=New Segment from Order, field_tag=NewButtonSegmentFromOrder, locator_type=xpath, locator_value=//div[@class='flexipageComponent']//span[contains(text(), 'Segments')]/ancestor::header/following-sibling::div//a/div[@title='New']}
+{field_name=order from segment, field_tag=orderFromSegment, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//a[contains(text(), '~val~')]}
+{field_name=created newOrder link, field_tag=createdNewOrderLink, locator_type=xpath, locator_value=//span[contains(text(), 'Order FR Needed')]/ancestor::tr/th//a}
+{field_name=segmentViewAll, field_tag=SegmentsViewAll, locator_type=xpath, locator_value=//th[@title='Segment Number']/ancestor::section[@aria-expanded='true']//span[contains(text(), 'View All')]}
+beforeMethod()
+beforeMethod()
+Create_Adcvd_Case
+Create_Adcvd_Case
+https://trade--automation.my.salesforce.com/services/oauth2/token?grant_type=password&client_id=3MVG9ic.6IFhNpPokw6h6Rrcdlnm_ihTSwPP2CSvn4J3JMqzkXuwjAbrCjKzW4Qf0kUzNgI4b6ujqHhBaFtfA&client_secret=107E533E0E1ADCBF33776E25ED068347B20C0FF317E6FBBBE29BF2BA44D11EBA&username=mouloud.hamdidouche@trade.gov.automation&password=Hamdidouche_122iyygERbC3j6UaYUrKJuHGRIjHTTP/1.1 200 OK
+Successful login
+instance URL: https://trade--automation.my.salesforce.com
+access token/session ID: 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+baseUri: https://trade--automation.my.salesforce.com/services/data/v45.0
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-332-871
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_API_Automation_2019-03-26-08.26.58
+Key =  Product_Short_Name__c, Value = This is just a Test
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-332-871",
+ "Product_Short_Name__c": "This is just a Test",
+ "Product__c": "Test_API_Automation_2019-03-26-08.26.58"
+}
+afterMethod()
+Create_Adcvd_Case
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+beforeMethod()
+beforeMethod()
+Create_And_Validate_Petition
+Create_And_Validate_Petition
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case_Number__c, Value = A-332-871
+Key =  ADCVD_Case__c, Value = a3fr0000000AwUZAA0
+Key =  Petition_Filed__c, Value = 2019-03-17
+Key =  Initiation_Extension_of_days__c, Value = 5
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Number__c": "A-332-871",
+ "ADCVD_Case__c": "a3fr0000000AwUZAA0",
+ "Initiation_Extension_of_days__c": "5",
+ "Petition_Filed__c": "2019-03-17"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--automation.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+Petition__c+Where+id='a3Ur00000006fBkEAI'
+oauthHeader2: Authorization: OAuth 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05420",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000006fBkEAI"
+  }
+ }],
+ "totalSize": 1
+}
+P-05420
+afterMethod()
+Create_And_Validate_Petition
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+beforeMethod()
+beforeMethod()
+Create_And_Validate_Investigation
+Create_And_Validate_Investigation
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000006fBkEAI
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000006fBkEAI"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--automation.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+Investigation__c+Where+id='a3Sr0000000CMEtEAO'
+oauthHeader2: Authorization: OAuth 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-05118",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000CMEtEAO"
+  }
+ }],
+ "totalSize": 1
+}
+I-05118
+afterMethod()
+Create_And_Validate_Investigation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+beforeMethod()
+beforeMethod()
+Create_And_Validate_Order
+Create_Order
+
+_______________ INSERT Record to ADCVD_Order__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Order__c/
+Key =  Investigation__c, Value = a3Sr0000000CMEtEAO
+JSON for record to be inserted:
+{"Investigation__c": "a3Sr0000000CMEtEAO"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--automation.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+ADCVD_Order__c+Where+id='a3Nr00000001myOEAQ'
+oauthHeader2: Authorization: OAuth 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "AO-0003269",
+  "attributes": {
+   "type": "ADCVD_Order__c",
+   "url": "/services/data/v45.0/sobjects/ADCVD_Order__c/a3Nr00000001myOEAQ"
+  }
+ }],
+ "totalSize": 1
+}
+AO-0003269
+afterMethod()
+Create_Order
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+beforeMethod()
+beforeMethod()
+Create_And_Validate_Segment - 1
+Create_Segment_Administrative_Review
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr00000001myOEAQ
+Key =  RecordTypeId, Value = 012t0000000TSjxAAG
+Key =  Final_Date_of_Anniversary_Month__c, Value = 2019-03-17
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr00000001myOEAQ",
+ "Final_Date_of_Anniversary_Month__c": "2019-03-17",
+ "RecordTypeId": "012t0000000TSjxAAG"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--automation.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+Segment__c+Where+id='a3Xr0000000C492EAC'
+oauthHeader2: Authorization: OAuth 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "S-6610",
+  "attributes": {
+   "type": "Segment__c",
+   "url": "/services/data/v45.0/sobjects/Segment__c/a3Xr0000000C492EAC"
+  }
+ }],
+ "totalSize": 1
+}
+S-6610
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/a3Xr0000000C492EAC
+Key =  Segment_Outcome__c, Value = Deficient
+JSON for record to be inserted:
+{"Segment_Outcome__c": "Deficient"}
+afterMethod()
+Create_Segment_Administrative_Review
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+beforeMethod()
+beforeMethod()
+Create_And_Validate_Segment - 2
+Create_Segment_Anti_Circumvention_Review
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr00000001myOEAQ
+Key =  RecordTypeId, Value = 012t0000000TSjyAAG
+Key =  Request_Filed__c, Value = 2019-03-17
+Key =  Application_Accepted__c, Value = 2019-03-17
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr00000001myOEAQ",
+ "Application_Accepted__c": "2019-03-17",
+ "RecordTypeId": "012t0000000TSjyAAG",
+ "Request_Filed__c": "2019-03-17"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--automation.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+Segment__c+Where+id='a3Xr0000000C497EAC'
+oauthHeader2: Authorization: OAuth 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "S-6611",
+  "attributes": {
+   "type": "Segment__c",
+   "url": "/services/data/v45.0/sobjects/Segment__c/a3Xr0000000C497EAC"
+  }
+ }],
+ "totalSize": 1
+}
+S-6611
+afterMethod()
+Create_Segment_Anti_Circumvention_Review
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+beforeMethod()
+beforeMethod()
+Create_And_Validate_Segment - 3
+Create_Segment_Changed_Circumstances_Review
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr00000001myOEAQ
+Key =  RecordTypeId, Value = 012t0000000TSjzAAG
+Key =  Preliminary_Determination__c, Value = Yes
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr00000001myOEAQ",
+ "Preliminary_Determination__c": "Yes",
+ "RecordTypeId": "012t0000000TSjzAAG"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--automation.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+Segment__c+Where+id='a3Xr0000000C49CEAS'
+oauthHeader2: Authorization: OAuth 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "S-6612",
+  "attributes": {
+   "type": "Segment__c",
+   "url": "/services/data/v45.0/sobjects/Segment__c/a3Xr0000000C49CEAS"
+  }
+ }],
+ "totalSize": 1
+}
+S-6612
+afterMethod()
+Create_Segment_Changed_Circumstances_Review
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+beforeMethod()
+beforeMethod()
+Create_And_Validate_Segment - 4
+Create_Segment_Expedited_Review
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr00000001myOEAQ
+Key =  RecordTypeId, Value = 012t0000000TSk0AAG
+Key =  Calculated_Initiation_Signature__c, Value = 2019-03-17
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr00000001myOEAQ",
+ "Calculated_Initiation_Signature__c": "2019-03-17",
+ "RecordTypeId": "012t0000000TSk0AAG"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--automation.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+Segment__c+Where+id='a3Xr0000000C49HEAS'
+oauthHeader2: Authorization: OAuth 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "S-6613",
+  "attributes": {
+   "type": "Segment__c",
+   "url": "/services/data/v45.0/sobjects/Segment__c/a3Xr0000000C49HEAS"
+  }
+ }],
+ "totalSize": 1
+}
+S-6613
+afterMethod()
+Create_Segment_Expedited_Review
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+beforeMethod()
+beforeMethod()
+Create_And_Validate_Segment - 5
+Create_Segment_New_Shipper_Review
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr00000001myOEAQ
+Key =  RecordTypeId, Value = 012t0000000TSk1AAG
+Key =  Calculated_Initiation_Signature__c, Value = 2019-03-17
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr00000001myOEAQ",
+ "Calculated_Initiation_Signature__c": "2019-03-17",
+ "RecordTypeId": "012t0000000TSk1AAG"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--automation.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+Segment__c+Where+id='a3Xr0000000C49MEAS'
+oauthHeader2: Authorization: OAuth 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "S-6614",
+  "attributes": {
+   "type": "Segment__c",
+   "url": "/services/data/v45.0/sobjects/Segment__c/a3Xr0000000C49MEAS"
+  }
+ }],
+ "totalSize": 1
+}
+S-6614
+afterMethod()
+Create_Segment_New_Shipper_Review
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+beforeMethod()
+beforeMethod()
+Create_And_Validate_Segment - 6
+Create_Segment_Scope_Inquiry
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr00000001myOEAQ
+Key =  RecordTypeId, Value = 012t0000000TSk2AAG
+Key =  Request_Filed__c, Value = 2019-03-17
+Key =  Actual_Date_of_Decision_on_HoP__c, Value = 2019-03-17
+Key =  Decision_on_How_to_Proceed__c, Value = Formal
+Key =  Type_of_Scope_Ruling__c, Value = K (1)
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr00000001myOEAQ",
+ "Actual_Date_of_Decision_on_HoP__c": "2019-03-17",
+ "Decision_on_How_to_Proceed__c": "Formal",
+ "RecordTypeId": "012t0000000TSk2AAG",
+ "Request_Filed__c": "2019-03-17",
+ "Type_of_Scope_Ruling__c": "K (1)"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--automation.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+Segment__c+Where+id='a3Xr0000000C49REAS'
+oauthHeader2: Authorization: OAuth 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "S-6615",
+  "attributes": {
+   "type": "Segment__c",
+   "url": "/services/data/v45.0/sobjects/Segment__c/a3Xr0000000C49REAS"
+  }
+ }],
+ "totalSize": 1
+}
+S-6615
+afterMethod()
+Create_Segment_Scope_Inquiry
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+beforeMethod()
+beforeMethod()
+Create_And_Validate_Segment - 7
+Create_Segment_Sunset_Review
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr00000001myOEAQ
+Key =  RecordTypeId, Value = 012t0000000TSk3AAG
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr00000001myOEAQ",
+ "RecordTypeId": "012t0000000TSk3AAG"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--automation.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+Segment__c+Where+id='a3Xr0000000C49WEAS'
+oauthHeader2: Authorization: OAuth 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "S-6616",
+  "attributes": {
+   "type": "Segment__c",
+   "url": "/services/data/v45.0/sobjects/Segment__c/a3Xr0000000C49WEAS"
+  }
+ }],
+ "totalSize": 1
+}
+S-6616
+afterMethod()
+Create_Segment_Sunset_Review
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+beforeMethod()
+beforeMethod()
+Create_And_Validate_litigation
+Create_International_Litigation
+
+_______________ INSERT Record to Litigation__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/Litigation__c/
+Key =  Petition__c, Value = a3Ur00000006fBkEAI
+Key =  RecordTypeId, Value = 012t0000000TSjsAAG
+Key =  Expected_Final_Signature_Before_Ext__c, Value = 2019-03-17
+JSON for record to be inserted:
+{
+ "Expected_Final_Signature_Before_Ext__c": "2019-03-17",
+ "Petition__c": "a3Ur00000006fBkEAI",
+ "RecordTypeId": "012t0000000TSjsAAG"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--automation.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+Litigation__c+Where+id='a3Tr00000004uHOEAY'
+oauthHeader2: Authorization: OAuth 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "L-000326",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr00000004uHOEAY"
+  }
+ }],
+ "totalSize": 1
+}
+L-000326
+afterMethod()
+Create_International_Litigation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+beforeMethod()
+beforeMethod()
+Create_And_Validate_Remand
+Create_Remand
+
+_______________ INSERT Record to Litigation__c _______________
+urihttps://trade--automation.my.salesforce.com/services/data/v45.0/sobjects/Litigation__c/
+Key =  Petition__c, Value = a3Ur00000006fBkEAI
+Key =  RecordTypeId, Value = 012t0000000TSjrAAG
+Key =  Request_Filed__c, Value = 2019-03-17
+JSON for record to be inserted:
+{
+ "Petition__c": "a3Ur00000006fBkEAI",
+ "RecordTypeId": "012t0000000TSjrAAG",
+ "Request_Filed__c": "2019-03-17"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--automation.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+Litigation__c+Where+id='a3Tr00000004uHTEAY'
+oauthHeader2: Authorization: OAuth 00Dr00000008w2V!AQMAQDtI4ZLGNyppVPa74JqnkPY_zWLSHFLLHH5CjHkZ4sDwQ1o5DMeDI4FQOiBmr4EJ.NFYwu8Y0nWwkAud_k_u6Y6gxSjC
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "L-000327",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr00000004uHTEAY"
+  }
+ }],
+ "totalSize": 1
+}
+L-000327
+afterMethod()
+Create_Remand
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+Executing After class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_API_PETITION\input_data
+
+===============================================
+Suite
+Total tests run: 13, Failures: 0, Skips: 0
+Configuration Failures: 1, Skips: 0
+===============================================
+

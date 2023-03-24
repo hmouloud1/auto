@@ -1,0 +1,9 @@
+project_name = Event Modernization
+env_name = COPS
+time_out = 15
+url = https://trade--cops.lightning.force.com/lightning/page/home
+# url = https://trade--marioqa.lightning.force.com/lightning/page/home
+user_name = 
+password = 
+#give browser type= ie, firefox or chrome
+browser_type = chrome

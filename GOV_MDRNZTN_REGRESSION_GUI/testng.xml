@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" guice-stage="DEVELOPMENT" junit="false" name="Suite" parallel="none" preserve-order="true" skipfailedinvocationcounts="false" thread-count="5">
+  <test allow-return-values="false" group-by-instances="false" junit="false" name="Test" preserve-order="true" skipfailedinvocationcounts="false" thread-count="5">
+    <classes>
+      <class name="tests.TestOne">
+    	<methods><include name="Core_Team_Campaigns"/><include name="Core_Team_Attendee"/><include name="Core_Team_Meeting"/><include name="Core_Team_Case"/><include name="Core_Team_Organizations"/><include name="Core_Team_Contact"/><include name="GM_Commercial_Service_Campaigns"/><include name="GM_Commercial_Service_Attendee"/><include name="GM_Commercial_Service_Meeting"/><include name="GM_Commercial_Service_Case"/><include name="GM_Commercial_Service_Organizations"/><include name="GM_Commercial_Service_Contact"/></methods></class>
+    </classes>
+  </test> 
+</suite>

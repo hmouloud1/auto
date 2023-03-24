@@ -1,0 +1,9 @@
+project_name = AD/CVD
+env_name = marioqa
+time_out = 15
+# adcvduat 1945#1942Dahbia marioqa1942#1945Dahbia adcvduat, marioqa 1945#1942Dahbia
+url = https://trade--adcvduat.lightning.force.com/lightning/page/home
+user_name = mouloud.hamdidouche@trade.gov.adcvduat
+password = 1945#1942Dahbia
+#give browser type= ie, firefox or chrome
+browser_type = chrome

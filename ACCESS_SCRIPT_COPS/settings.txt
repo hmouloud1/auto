@@ -1,0 +1,9 @@
+project_name = ACCESS
+env_name = COPS
+time_out = 20
+url = http://3.219.246.83/login.aspx
+#https://access.trade.gov/login.aspx
+user_name = hmouloud1@gmail.com
+password = 5kwArRQyeprt
+#give browser type= ie, firefox or chrome
+browser_type = chrome

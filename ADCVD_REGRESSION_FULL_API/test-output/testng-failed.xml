@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="tests.TestOne">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="New_Shipper_Review_Status_Validation"/>
+          <include name="Create_And_Validate_Petition"/>
+          <include name="Create_And_Validate_International_Litigation"/>
+          <include name="Create_Order"/>
+          <include name="Create_And_Validate_Investigation"/>
+          <include name="International_Litigation_Status_Validation"/>
+          <include name="Sunset_Status_Validation"/>
+          <include name="Scope_Status_Validation"/>
+          <include name="Litigation_Dates_Validation"/>
+          <include name="Remand_Status_Validation"/>
+          <include name="Create_And_Validate_Segment_New_Shipper_Review"/>
+          <include name="Self_Initiated_Petition_Investigation_Dates"/>
+          <include name="Anticircumvention_Status_Validation"/>
+          <include name="Create_And_Validate_Segment_Administrative_Review"/>
+          <include name="Admin_Review_Status_Validation"/>
+          <include name="beforeMethod"/>
+          <include name="Create_And_Validate_Segment_Sunset_Review"/>
+          <include name="Expedited_Review_Status_Validation"/>
+          <include name="Petition_Status_Validation"/>
+          <include name="Create_And_Validate_Segment_Scope_Inquiry"/>
+          <include name="Create_Adcvd_Case"/>
+          <include name="afterMethod"/>
+          <include name="Changed_Circumstance_Review_Status_Validation"/>
+          <include name="Create_And_Validate_Segment_Anti_Circumvention_Review"/>
+          <include name="Create_And_Validate_Segment_Changed_Circumstances_Review"/>
+          <include name="CVD_Align_With_AD"/>
+          <include name="Create_And_Validate_Segment_Expedited_Review"/>
+          <include name="Align_NSR_To_AR"/>
+          <include name="Create_And_Validate_Remand"/>
+          <include name="Investigation_Status_Validation"/>
+        </methods>
+      </class> <!-- tests.TestOne -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

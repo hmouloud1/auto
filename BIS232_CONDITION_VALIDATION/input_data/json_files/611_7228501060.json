@@ -1,0 +1,660 @@
+{
+  "Form": {
+    "Number": "0694-0139",
+    "ExpirationDate": "4/30/2022"
+  },
+  "Product": "Steel",
+  "HTSUSCode": "7228501060",
+  "PreviouslyGrantedER": null,
+  "MetalClass": "Carbon and Alloy Flat",
+  "RequestingOrg": {
+    "OrgLegalName": "L Inc 7228501060",
+    "StreetAddress": "2000 Ohio Street",
+    "City": "Boston",
+    "State": "California",
+    "ZipCode": "33333",
+    "HeadquartersCountry": "United States",
+    "POCName": "Michael Jackson",
+    "PhoneNumber": "333-333-3333",
+    "EmailAddress": "michael.jackson@jackson5.com",
+    "WebsiteAddress": "https://thekingofpop.com"
+  },
+  "RequestingImporter": {
+    "OrgLegalName": "The Parental Organization LLC",
+    "StreetAddress": "3000 Main Street",
+    "City": "San Jose",
+    "State": "Tennessee",
+    "ZipCode": "99999",
+    "HeadquartersCountry": "United States",
+    "POCName": "Bette Davis",
+    "PhoneNumber": "999-999-9999",
+    "EmailAddress": "bette@blackandwhite.com",
+    "WebsiteAddress": "https://hollywood.com"
+  },
+  "RequestingParent": {
+    "OrgLegalName": "The Parent Company Inc",
+    "StreetAddress": "1200 Texas Street",
+    "City": "Dallas",
+    "State": "Illinois",
+    "ZipCode": "11111",
+    "HeadquartersCountry": "United States",
+    "WebsiteAddress": "https://parentcompany.com"
+  },
+  "RequestingAuthRep": {
+    "POCName": "Noname Nolastname",
+    "POCOrganization": "The POC Organization LLC",
+    "CountryLocation": "United States",
+    "PhoneNumber": "444-444-4444",
+    "EmailAddress": "donotreply@poc.com",
+    "WebsiteAddress": "https://poc.org",
+    "OtherInformation": "Nothing else to say"
+  },
+  "OwnershipActivity": {
+    "Ownership": "No",
+    "Activity": null,
+    "Organization": null,
+    "HeadquartersCountry": null,
+    "Comments": "No comments."
+  },
+  "ExclusionRequesterActivity": "U.S Distributor",
+  "TotalRequestedAnnualExclusionQuantity": "10",
+  "ExclusionRequesterComments": null,
+  "ExclusionExplanation": {
+    "AvgAnnualConsumption": "10",
+    "Explanation": "Insufficient U.S. Availability",
+    "Comments": null,
+    "PercentageNotAvailable": "10",
+    "DeliveryEstimate": "10",
+    "ManufactureEstimate": "10",
+    "ShipmentDaysEstimate": "10",
+    "ShipmentQtyEstimate": "10"
+  },
+  "Ports": [
+    "Boston"
+  ],
+  "NonUSProducer": {
+    "BehalfOf": "No",
+    "ProducerName": null,
+    "HeadquartersCountry": null,
+    "Comments": null
+  },
+  "ProductDescription": {
+    "Description": "It's very hard.",
+    "Comments": "No comments."
+  },
+  "ProductStandards": [
+    {
+      "Organization": "ASTM",
+      "Designation": "Safe"
+    }
+  ],
+  "ProductClassification": [
+    {
+      "Key": "Slab",
+      "Value": true
+    },
+    {
+      "Key": "Blooms",
+      "Value": false
+    },
+    {
+      "Key": "Billets",
+      "Value": false
+    },
+    {
+      "Key": "Ingots",
+      "Value": false
+    },
+    {
+      "Key": "Flat",
+      "Value": false
+    },
+    {
+      "Key": "Long",
+      "Value": false
+    },
+    {
+      "Key": "Beams",
+      "Value": true
+    },
+    {
+      "Key": "Semi-Finished",
+      "Value": false
+    },
+    {
+      "Key": "Pipe",
+      "Value": false
+    },
+    {
+      "Key": "Tube",
+      "Value": false
+    },
+    {
+      "Key": "Stainless",
+      "Value": false
+    },
+    {
+      "Key": "Wire",
+      "Value": false
+    },
+    {
+      "Key": "Hot Rolled",
+      "Value": true
+    },
+    {
+      "Key": "Cold Rolled",
+      "Value": false
+    },
+    {
+      "Key": "Annealed",
+      "Value": false
+    },
+    {
+      "Key": "Plated",
+      "Value": false
+    },
+    {
+      "Key": "Electro-Plated",
+      "Value": false
+    },
+    {
+      "Key": "Galvanized",
+      "Value": false
+    },
+    {
+      "Key": "Electro-Galvanized",
+      "Value": true
+    },
+    {
+      "Key": "Zinc Plated",
+      "Value": false
+    },
+    {
+      "Key": "Aluminum Plated",
+      "Value": false
+    },
+    {
+      "Key": "Lead Plated",
+      "Value": false
+    },
+    {
+      "Key": "Tin Plated",
+      "Value": false
+    },
+    {
+      "Key": "Painted",
+      "Value": false
+    },
+    {
+      "Key": "Varnished",
+      "Value": true
+    },
+    {
+      "Key": "Plasticized",
+      "Value": false
+    },
+    {
+      "Key": "Pickled",
+      "Value": false
+    },
+    {
+      "Key": "Fittings",
+      "Value": false
+    },
+    {
+      "Key": "other",
+      "Value": true
+    },
+    {
+      "Key": "other",
+      "Value": true
+    },
+    {
+      "Key": null,
+      "Value": true
+    }
+  ],
+  "ProductClassificationComments": "No comments.",
+  "ChemicalComposition": [
+    {
+      "Key": "Aluminum",
+      "Value": {
+        "Minimum": "0.5",
+        "Maximum": "1"
+      }
+    },
+    {
+      "Key": "Antimony",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Bismuth",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Boron",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Carbon",
+      "Value": {
+        "Minimum": "1.3",
+        "Maximum": "2"
+      }
+    },
+    {
+      "Key": "Chromium",
+      "Value": {
+        "Minimum": "11",
+        "Maximum": "12"
+      }
+    },
+    {
+      "Key": "Cobalt",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Copper",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Iron",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Lead",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Magnesium",
+      "Value": {
+        "Minimum": "10",
+        "Maximum": "20"
+      }
+    },
+    {
+      "Key": "Manganese",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Molybdenum",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Nickel",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Niobium",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Nitrogen",
+      "Value": {
+        "Minimum": "10",
+        "Maximum": "20"
+      }
+    },
+    {
+      "Key": "Phosphorus",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Selenium",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Silicon",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Sulfur",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Tellurium",
+      "Value": {
+        "Minimum": "10",
+        "Maximum": "20"
+      }
+    },
+    {
+      "Key": "Tin",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Titanium",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Tungsten",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Vanadium",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Zinc",
+      "Value": {
+        "Minimum": "10",
+        "Maximum": "20"
+      }
+    },
+    {
+      "Key": "Zirconium",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": null,
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    }
+  ],
+  "ChemicalCompositionComments": "No comments.",
+  "ProductDimensions": [
+    {
+      "Key": "Thickness",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "InsideDiameter",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "OutsideDiameter",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Length",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Width",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Height",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    }
+  ],
+  "ProductStrength": [
+    {
+      "Key": "TensileStrength",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "YieldStrength",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": null,
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    }
+  ],
+  "ToughnessTemperature": [
+    {
+      "Key": "DropWeightTearTesting",
+      "Value": "0"
+    },
+    {
+      "Key": "ImpactCharpyTesting",
+      "Value": null
+    },
+    {
+      "Key": null,
+      "Value": null
+    }
+  ],
+  "ToughnessJoules": [
+    {
+      "Key": "DropWeightTearTesting",
+      "Value": "0"
+    },
+    {
+      "Key": "ImpactCharpyTesting",
+      "Value": null
+    },
+    {
+      "Key": null,
+      "Value": null
+    }
+  ],
+  "ToughnessShear": [
+    {
+      "Key": "DropWeightTearTesting",
+      "Value": "0"
+    },
+    {
+      "Key": "ImpactCharpyTesting",
+      "Value": null
+    },
+    {
+      "Key": null,
+      "Value": null
+    }
+  ],
+  "ProductProcessing": {
+    "Processes": [
+      {
+        "Key": "Bendability",
+        "Value": {
+          "Minimum": "5",
+          "Maximum": "5"
+        }
+      },
+      {
+        "Key": "EpsteinTest",
+        "Value": {
+          "Minimum": "10",
+          "Maximum": "10"
+        }
+      },
+      {
+        "Key": "GreerLab",
+        "Value": {
+          "Minimum": "10",
+          "Maximum": "10"
+        }
+      },
+      {
+        "Key": "StackedWideSheet",
+        "Value": {
+          "Minimum": "10",
+          "Maximum": "10"
+        }
+      },
+      {
+        "Key": "ProfiloMeter",
+        "Value": {
+          "Minimum": "10",
+          "Maximum": "10"
+        }
+      }
+    ],
+    "ProcessesPercentage": [
+      {
+        "Key": "Elongation",
+        "Value": {
+          "Minimum": "40",
+          "Maximum": "40"
+        }
+      },
+      {
+        "Key": "ReductionInArea",
+        "Value": {
+          "Minimum": "50",
+          "Maximum": "50"
+        }
+      },
+      {
+        "Key": "HoleExpansion",
+        "Value": {
+          "Minimum": "5",
+          "Maximum": "5"
+        }
+      }
+    ],
+    "Coating": {
+      "CoatingMethod": "The coating method",
+      "CoatingProduct": "TCM",
+      "CoatingComposition": "O2",
+      "CoatingWeight": {
+        "Minimum": "10",
+        "Maximum": "10"
+      },
+      "CoatingThickness": {
+        "Minimum": "10",
+        "Maximum": "10"
+      }
+    },
+    "AdditionalMethodsUsed": [
+      "none",
+      "none",
+      "none"
+    ],
+    "Comments": "No Comments."
+  },
+  "AdditionalDetails": {
+    "CommercialNames": [
+      "Other"
+    ],
+    "Comments": "No comments.",
+    "AssociationCode": null,
+    "ApplicationSuitability": "None.",
+    "NationalSecurity": "Helmets and others."
+  },
+  "SourceCountries": [
+    {
+      "OriginCountry": "Barbados",
+      "ExportCountry": "Australia",
+      "ExclusionQty": "10",
+      "Manufacturer": "10",
+      "Supplier": "10"
+    }
+  ],
+  "ProductAvailability": {
+    "DomesticManufacturer": "No",
+    "ManufacturerComments": "No comments",
+    "ExemptedCountry": "No",
+    "ExemptedComments": "No comments",
+    "SubstituteManufacturer": "No",
+    "SubComments": "No comments",
+    "AttemptedQualifiations": "No",
+    "QualifyAttempts": [],
+    "QualificationComments": null
+  },
+  "ProductAlternatives": {
+    "PurchaseAttempts": "No",
+    "PurchaseComments": "No comments",
+    "Contracts": "No",
+    "ContractComments": "No comments",
+    "NoUSManufacturer": "No",
+    "NoUSComments": "No comments",
+    "SubstituteSteel": "No",
+    "SubstituteSteelComments": "No comments",
+    "CBPDistinguish": "It's long pieces of steel."
+  },
+  "SubmissionCertification": {
+    "Comments": null,
+    "ProprietaryConfidential": "No",
+    "CompanyName": "The Certification Co",
+    "AuthOfficialName": "Peter Pan",
+    "AuthOfficialTitle": "CEO",
+    "PhoneNumber": "333-444-5555",
+    "AuthOfficialEmail": "peter@pan.com",
+    "POCName": "Linda Carter",
+    "POCTitle": "VP",
+    "POCEmail": "linda@wonderwoman.com",
+    "POCPhoneNumber": "111-000-0101"
+  }
+}

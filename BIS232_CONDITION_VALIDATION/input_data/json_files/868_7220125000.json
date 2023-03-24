@@ -1,0 +1,651 @@
+{
+  "Form": {
+    "Number": "0694-0139",
+    "ExpirationDate": "4/30/2022"
+  },
+  "Product": "Steel",
+  "HTSUSCode": "7220125000",
+  "PreviouslyGrantedER": null,
+  "MetalClass": "Carbon and Pipe and Tube",
+  "RequestingOrg": {
+    "OrgLegalName": "Test Company Condition 270",
+    "StreetAddress": "2495 pimmit 1",
+    "City": "Falls church 261",
+    "State": "Montana",
+    "ZipCode": "22304",
+    "HeadquartersCountry": "United States",
+    "POCName": "POCTest 261",
+    "PhoneNumber": "5712259455",
+    "EmailAddress": "cbp_conditions1@gmail.com 261",
+    "WebsiteAddress": "https://adad@domain.com 265"
+  },
+  "RequestingImporter": {
+    "OrgLegalName": "MH 265",
+    "StreetAddress": "m street 261",
+    "City": "georgeTown 261",
+    "State": "Washington",
+    "ZipCode": "22304",
+    "HeadquartersCountry": "United States",
+    "POCName": "POCTest263",
+    "PhoneNumber": "5712259433",
+    "EmailAddress": "Test@gmail.com260",
+    "WebsiteAddress": "https://test@domain.com"
+  },
+  "RequestingParent": {
+    "OrgLegalName": null,
+    "StreetAddress": null,
+    "City": null,
+    "State": null,
+    "ZipCode": null,
+    "HeadquartersCountry": null,
+    "WebsiteAddress": null
+  },
+  "RequestingAuthRep": {
+    "POCName": null,
+    "POCOrganization": null,
+    "CountryLocation": null,
+    "PhoneNumber": "5712259845",
+    "EmailAddress": "test@gmail.com 253",
+    "WebsiteAddress": "https://uplod.com253",
+    "OtherInformation": null
+  },
+  "OwnershipActivity": {
+    "Ownership": "Yes",
+    "Activity": "Importer",
+    "Organization": "sdsd 256",
+    "HeadquartersCountry": "Benin",
+    "Comments": null
+  },
+  "ExclusionRequesterActivity": "Please Select",
+  "TotalRequestedAnnualExclusionQuantity": "307",
+  "ExclusionRequesterComments": null,
+  "ExclusionExplanation": {
+    "AvgAnnualConsumption": "296",
+    "Explanation": "National Security Requirement",
+    "Comments": null,
+    "PercentageNotAvailable": "59",
+    "DeliveryEstimate": "11",
+    "ManufactureEstimate": "285",
+    "ShipmentDaysEstimate": "255",
+    "ShipmentQtyEstimate": "257"
+  },
+  "Ports": [],
+  "NonUSProducer": {
+    "BehalfOf": "Yes",
+    "ProducerName": "USPNAME252",
+    "HeadquartersCountry": "Finland",
+    "Comments": null
+  },
+  "ProductDescription": {
+    "Description": "descriotion test 251",
+    "Comments": null
+  },
+  "ProductStandards": [],
+  "ProductClassification": [
+    {
+      "Key": "Slab",
+      "Value": false
+    },
+    {
+      "Key": "Blooms",
+      "Value": false
+    },
+    {
+      "Key": "Billets",
+      "Value": false
+    },
+    {
+      "Key": "Ingots",
+      "Value": false
+    },
+    {
+      "Key": "Flat",
+      "Value": false
+    },
+    {
+      "Key": "Long",
+      "Value": false
+    },
+    {
+      "Key": "Beams",
+      "Value": false
+    },
+    {
+      "Key": "Semi-Finished",
+      "Value": false
+    },
+    {
+      "Key": "Pipe",
+      "Value": false
+    },
+    {
+      "Key": "Tube",
+      "Value": false
+    },
+    {
+      "Key": "Stainless",
+      "Value": false
+    },
+    {
+      "Key": "Wire",
+      "Value": false
+    },
+    {
+      "Key": "Hot Rolled",
+      "Value": false
+    },
+    {
+      "Key": "Cold Rolled",
+      "Value": false
+    },
+    {
+      "Key": "Annealed",
+      "Value": false
+    },
+    {
+      "Key": "Plated",
+      "Value": false
+    },
+    {
+      "Key": "Electro-Plated",
+      "Value": false
+    },
+    {
+      "Key": "Galvanized",
+      "Value": false
+    },
+    {
+      "Key": "Electro-Galvanized",
+      "Value": false
+    },
+    {
+      "Key": "Zinc Plated",
+      "Value": false
+    },
+    {
+      "Key": "Aluminum Plated",
+      "Value": false
+    },
+    {
+      "Key": "Lead Plated",
+      "Value": false
+    },
+    {
+      "Key": "Tin Plated",
+      "Value": false
+    },
+    {
+      "Key": "Painted",
+      "Value": false
+    },
+    {
+      "Key": "Varnished",
+      "Value": false
+    },
+    {
+      "Key": "Plasticized",
+      "Value": false
+    },
+    {
+      "Key": "Pickled",
+      "Value": false
+    },
+    {
+      "Key": "Fittings",
+      "Value": false
+    },
+    {
+      "Key": null,
+      "Value": true
+    },
+    {
+      "Key": null,
+      "Value": true
+    },
+    {
+      "Key": null,
+      "Value": true
+    }
+  ],
+  "ProductClassificationComments": null,
+  "ChemicalComposition": [
+    {
+      "Key": "Aluminum",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Antimony",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Bismuth",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Boron",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Carbon",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "1"
+      }
+    },
+    {
+      "Key": "Chromium",
+      "Value": {
+        "Minimum": "12",
+        "Maximum": "0"
+      }
+    },
+    {
+      "Key": "Cobalt",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Copper",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Iron",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Lead",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Magnesium",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Manganese",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Molybdenum",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "4"
+      }
+    },
+    {
+      "Key": "Nickel",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "4"
+      }
+    },
+    {
+      "Key": "Niobium",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Nitrogen",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Phosphorus",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Selenium",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Silicon",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Sulfur",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Tellurium",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Tin",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Titanium",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Tungsten",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Vanadium",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Zinc",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Zirconium",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": null,
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    }
+  ],
+  "ChemicalCompositionComments": null,
+  "ProductDimensions": [
+    {
+      "Key": "Thickness",
+      "Value": {
+        "Minimum": "0.45",
+        "Maximum": "4.5"
+      }
+    },
+    {
+      "Key": "InsideDiameter",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "OutsideDiameter",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Length",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "Width",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "290"
+      }
+    },
+    {
+      "Key": "Height",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    }
+  ],
+  "ProductStrength": [
+    {
+      "Key": "TensileStrength",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": "YieldStrength",
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    },
+    {
+      "Key": null,
+      "Value": {
+        "Minimum": "0",
+        "Maximum": "31"
+      }
+    }
+  ],
+  "ToughnessTemperature": [
+    {
+      "Key": "DropWeightTearTesting",
+      "Value": null
+    },
+    {
+      "Key": "ImpactCharpyTesting",
+      "Value": null
+    },
+    {
+      "Key": null,
+      "Value": null
+    }
+  ],
+  "ToughnessJoules": [
+    {
+      "Key": "DropWeightTearTesting",
+      "Value": null
+    },
+    {
+      "Key": "ImpactCharpyTesting",
+      "Value": null
+    },
+    {
+      "Key": null,
+      "Value": null
+    }
+  ],
+  "ToughnessShear": [
+    {
+      "Key": "DropWeightTearTesting",
+      "Value": null
+    },
+    {
+      "Key": "ImpactCharpyTesting",
+      "Value": null
+    },
+    {
+      "Key": null,
+      "Value": null
+    }
+  ],
+  "ProductProcessing": {
+    "Processes": [
+      {
+        "Key": "Bendability",
+        "Value": {
+          "Minimum": "0",
+          "Maximum": "31"
+        }
+      },
+      {
+        "Key": "EpsteinTest",
+        "Value": {
+          "Minimum": "0",
+          "Maximum": "31"
+        }
+      },
+      {
+        "Key": "GreerLab",
+        "Value": {
+          "Minimum": "0",
+          "Maximum": "31"
+        }
+      },
+      {
+        "Key": "StackedWideSheet",
+        "Value": {
+          "Minimum": "0",
+          "Maximum": "31"
+        }
+      },
+      {
+        "Key": "ProfiloMeter",
+        "Value": {
+          "Minimum": "0",
+          "Maximum": "31"
+        }
+      }
+    ],
+    "ProcessesPercentage": [
+      {
+        "Key": "Elongation",
+        "Value": {
+          "Minimum": "0",
+          "Maximum": "0"
+        }
+      },
+      {
+        "Key": "ReductionInArea",
+        "Value": {
+          "Minimum": "0",
+          "Maximum": "0"
+        }
+      },
+      {
+        "Key": "HoleExpansion",
+        "Value": {
+          "Minimum": "0",
+          "Maximum": "31"
+        }
+      }
+    ],
+    "Coating": {
+      "CoatingMethod": null,
+      "CoatingProduct": null,
+      "CoatingComposition": null,
+      "CoatingWeight": {
+        "Minimum": "0",
+        "Maximum": "0"
+      },
+      "CoatingThickness": {
+        "Minimum": "0",
+        "Maximum": "0"
+      }
+    },
+    "AdditionalMethodsUsed": [
+      null,
+      null,
+      null
+    ],
+    "Comments": null
+  },
+  "AdditionalDetails": {
+    "CommercialNames": [],
+    "Comments": null,
+    "AssociationCode": null,
+    "ApplicationSuitability": "test 252",
+    "NationalSecurity": null
+  },
+  "SourceCountries": [
+    {
+      "OriginCountry": "Vietnam",
+      "ExportCountry": "Lithuania",
+      "ExclusionQty": "316",
+      "Manufacturer": null,
+      "Supplier": null
+    }
+  ],
+  "ProductAvailability": {
+    "DomesticManufacturer": "No",
+    "ManufacturerComments": null,
+    "ExemptedCountry": "No",
+    "ExemptedComments": null,
+    "SubstituteManufacturer": "No",
+    "SubComments": null,
+    "AttemptedQualifiations": "No",
+    "QualifyAttempts": [],
+    "QualificationComments": null
+  },
+  "ProductAlternatives": {
+    "PurchaseAttempts": "No",
+    "PurchaseComments": null,
+    "Contracts": "No",
+    "ContractComments": null,
+    "NoUSManufacturer": "No",
+    "NoUSComments": null,
+    "SubstituteSteel": "No",
+    "SubstituteSteelComments": null,
+    "CBPDistinguish": "test comment 253"
+  },
+  "SubmissionCertification": {
+    "Comments": null,
+    "ProprietaryConfidential": "No",
+    "CompanyName": "Temps Inc 256",
+    "AuthOfficialName": "Aubameyang 237",
+    "AuthOfficialTitle": "IKE 253",
+    "PhoneNumber": "5716695874",
+    "AuthOfficialEmail": "hm@gmail.com 252",
+    "POCName": null,
+    "POCTitle": null,
+    "POCEmail": "poc@gmail.com 252",
+    "POCPhoneNumber": "5716695874"
+  }
+}

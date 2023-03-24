@@ -1,0 +1,1537 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/27</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 09 12:28:35 EDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2766 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2042917213", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2042917213'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.beforeMethod()'><b>beforeMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterMethod()'><b>afterMethod</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.afterClass()'><b>afterClass</b><br>Test class: tests.TestOne</td>
+<td></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.TestOne.CVD_Align_With_AD()'><b>CVD_Align_With_AD</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.AssertionError: CVD_Align_With_AD: 
+	at GuiLibs.GuiTools.failTestSuite(GuiTools.java:483)
+	at tests.TestOne.createNewPetition(TestOne.java:5149)
+	at tests.TestOne.CVD_Align_With_AD(TestOne.java:187)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1107404311", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1107404311'><pre>java.lang.AssertionError: CVD_Align_With_AD: 
+	at org.testng.Assert.fail(Assert.java:94)
+	at GuiLibs.GuiTools.failTestSuite(GuiTools.java:483)
+	at tests.TestOne.createNewPetition(TestOne.java:5149)
+	at tests.TestOne.CVD_Align_With_AD(TestOne.java:187)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>2</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.TestOne.Admin_Review_Status_Validation()'><b>Admin_Review_Status_Validation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace438123546", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace438123546'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Align_NSR_To_AR()'><b>Align_NSR_To_AR</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1031968647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1031968647'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Anticircumvention_Status_Validation()'><b>Anticircumvention_Status_Validation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1563634025", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1563634025'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Changed_Circumstance_Review_Status_Validation()'><b>Changed_Circumstance_Review_Status_Validation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace972843820", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace972843820'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_Adcvd_Case()'><b>Create_Adcvd_Case</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1816397102", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1816397102'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_And_Validate_International_Litigation()'><b>Create_And_Validate_International_Litigation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace953528583", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace953528583'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_And_Validate_Investigation()'><b>Create_And_Validate_Investigation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace823758059", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace823758059'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_And_Validate_Petition()'><b>Create_And_Validate_Petition</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace506775047", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace506775047'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_And_Validate_Remand()'><b>Create_And_Validate_Remand</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1355766307", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1355766307'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_And_Validate_Segment_Administrative_Review()'><b>Create_And_Validate_Segment_Administrative_Review</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1574573264", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1574573264'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_And_Validate_Segment_Anti_Circumvention_Review()'><b>Create_And_Validate_Segment_Anti_Circumvention_Review</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace223000346", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace223000346'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_And_Validate_Segment_Changed_Circumstances_Review()'><b>Create_And_Validate_Segment_Changed_Circumstances_Review</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1502079282", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1502079282'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_And_Validate_Segment_Expedited_Review()'><b>Create_And_Validate_Segment_Expedited_Review</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1133227388", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1133227388'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_And_Validate_Segment_New_Shipper_Review()'><b>Create_And_Validate_Segment_New_Shipper_Review</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1250644519", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1250644519'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_And_Validate_Segment_Scope_Inquiry()'><b>Create_And_Validate_Segment_Scope_Inquiry</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1517116047", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1517116047'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_And_Validate_Segment_Sunset_Review()'><b>Create_And_Validate_Segment_Sunset_Review</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace402207819", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace402207819'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Create_Order()'><b>Create_Order</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1999036805", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1999036805'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Expedited_Review_Status_Validation()'><b>Expedited_Review_Status_Validation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1474072872", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1474072872'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.International_Litigation_Status_Validation()'><b>International_Litigation_Status_Validation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1986581856", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1986581856'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Investigation_Status_Validation()'><b>Investigation_Status_Validation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace800493254", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace800493254'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Litigation_Dates_Validation()'><b>Litigation_Dates_Validation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1237144823", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1237144823'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.New_Shipper_Review_Status_Validation()'><b>New_Shipper_Review_Status_Validation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1495407511", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1495407511'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Petition_Status_Validation()'><b>Petition_Status_Validation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1622694817", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1622694817'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Remand_Status_Validation()'><b>Remand_Status_Validation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1237264838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1237264838'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Scope_Status_Validation()'><b>Scope_Status_Validation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace202064342", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace202064342'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Self_Initiated_Petition_Investigation_Dates()'><b>Self_Initiated_Petition_Investigation_Dates</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1511180072", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1511180072'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+<tr>
+<td title='tests.TestOne.Sunset_Status_Validation()'><b>Sunset_Status_Validation</b><br>Test class: tests.TestOne</td>
+<td><div><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at tests.TestOne.main(TestOne.java:105)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace997294994", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace997294994'><pre>java.lang.NullPointerException
+	at GuiLibs.GuiTools.getAllWindows(GuiTools.java:412)
+	at GuiLibs.GuiTools.closeBrowser(GuiTools.java:258)
+	at tests.TestOne.afterMethod(TestOne.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at tests.TestOne.main(TestOne.java:105)
+</pre></div></td>
+<td>0</td>
+<td>tests.TestOne@5f7f2382</td></tr>
+</table><p>
+</body>
+</html>

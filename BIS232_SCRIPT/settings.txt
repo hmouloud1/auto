@@ -1,0 +1,8 @@
+project_name = BIS-232
+env_name = automation
+time_out = 15
+url = https://ita232webapp-staging.azurewebsites.net/
+user_name = 
+password = 
+#give browser type= ie, firefox or chrome
+browser_type = chrome

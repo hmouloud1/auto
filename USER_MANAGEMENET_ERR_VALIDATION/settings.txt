@@ -1,0 +1,8 @@
+project_name = BIS-232
+env_name = Staging
+time_out = 15
+url = https://militsdev.sharepoint.com/sites/UserManagement/SitePages/User-Management.aspx
+user_name = TestUser@MILITSDEV.onmicrosoft.com
+password = Dax87141
+#give browser type= ie, firefox or chrome
+browser_type = chrome

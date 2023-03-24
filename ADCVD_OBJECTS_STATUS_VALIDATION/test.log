@@ -1,0 +1,263 @@
+//Litigation
+		 HtmlReport.addHtmlStepTitle("Validate Status - Litigation","Title");
+		 //1
+		 condition = "Litigation_YesNo is 'Yes', Litigation_Resolved is 'No'";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "No"); 
+		 record.put("Segment_Outcome__c", "Withdrawn");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Positive", "Litigation", jObj.getString("Status__c"), condition);
+		 //1
+		 condition = "The Litigation is Yes AND Litigation_Resolved is No AND Litigation_Status"
+		 		+ " is blank OR Litigation_Status is 'Not Active' THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "No"); //Litigation_Status__c
+		 record.put("Segment_Outcome__c", "Withdrawn");
+		 record.put("Litigation_Status__c", "Inactive");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Positive", "Litigation", jObj.getString("Status__c"), condition);
+		 //2
+		 condition = "If the Litigation is NO AND Litigation_Resolved is No AND Litigation_Status "
+		 		+ "is blank OR Litigation_Status is 'Not Active' THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "No");
+		 record.put("Litigation_Resolved__c", "No"); //Litigation_Status__c
+		 //record.put("Litigation_Status__c", "");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Negative", "Litigation", jObj.getString("Status__c"), condition);
+		 //3
+		 condition = "If the Litigation is Yes AND Litigation_Resolved is YES AND Litigation_Status"
+		 		+ " is blank OR Litigation_Status is 'Not Active' THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "Yes"); //Litigation_Status__c
+		// record.put("Litigation_Status__c", "");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Negative", "Litigation", jObj.getString("Status__c"), condition);
+		 //4
+		 condition = "If the Litigation is Yes AND Litigation_Resolved is No AND Litigation_Status"
+		 		+ " is 'Active' THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "No"); //Litigation_Status__c
+		 record.put("Litigation_Status__c", "Active");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Negative", "Litigation", jObj.getString("Status__c"), condition);
+		 //5
+		 condition = "If the Litigation is NO AND Litigation_Resolved is YES AND Litigation_Status"
+		 		+ " is 'Active' THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "No");
+		 record.put("Litigation_Resolved__c", "Yes"); //Litigation_Status__c
+		 record.put("Litigation_Status__c", "Active");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Negative", "Litigation", jObj.getString("Status__c"), condition);
+		 
+		//Customs
+		 HtmlReport.addHtmlStepTitle("Validate Status - Customs","Title");
+		 //1
+		 condition = "Litigation_YesNo is 'Yes', Litigation_Resolved is 'Yes'";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "Yes");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Positive", "Customs", jObj.getString("Status__c"), condition);
+		 //2
+		 condition = "If the Litigation is NO AND Litigation_Resolved is Yes AND "
+		 		+ "Have_Custom_Instruction_been_sent is No THEN status is true";
+		 record.put("Litigation_YesNo__c", "No");
+		 record.put("Litigation_Resolved__c", "Yes");
+		 record.put("Have_Custom_Instruction_been_sent__c", "No");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Negative", "Customs", jObj.getString("Status__c"), condition);
+		 //3
+		 condition = "If the Litigation is Yes AND Litigation_Resolved is NO AND "
+		 		+ "Have_Custom_Instruction_been_sent is No THEN status is true";
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "No");
+		 record.put("Have_Custom_Instruction_been_sent__c", "No");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Negative", "Customs", jObj.getString("Status__c"), condition);
+		 //4
+		 condition = "If the Litigation is Yes AND Litigation_Resolved is Yes AND "
+		 		+ "Have_Custom_Instruction_been_sent is YES THEN status is true";
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "Yes");
+		 record.put("Have_Custom_Instruction_been_sent__c", "Yes");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Negative", "Customs", jObj.getString("Status__c"), condition);
+		 //5
+		 condition = "If the Litigation is NO AND Litigation_Resolved is NO AND "
+		 		+ "Have_Custom_Instruction_been_sent is No THEN status is true";
+		 record.put("Litigation_YesNo__c", "No");
+		 record.put("Litigation_Resolved__c", "No");
+		 record.put("Have_Custom_Instruction_been_sent__c", "No");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Negative", "Customs", jObj.getString("Status__c"), condition);
+		 //6
+		 condition = "The Litigation is No AND Have_Custom_Instruction_been_sent "
+		 		+ "is No THEN status is true";
+		 record.put("Litigation_YesNo__c", "No");
+		 record.put("Litigation_Resolved__c", "");
+		 record.put("Have_Custom_Instruction_been_sent__c", "No");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Positive", "Customs", jObj.getString("Status__c"), condition);
+		 //7
+		 condition = "If the Litigation is YES AND Have_Custom_Instruction_been_sent "
+		 		+ "is No THEN status is true";
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "");
+		 record.put("Have_Custom_Instruction_been_sent__c", "No");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Negative", "Customs", jObj.getString("Status__c"), condition);
+		 //8
+		 condition = "If the Litigation is YES AND Have_Custom_Instruction_been_sent"
+		 		+ " is YES THEN status is true";
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "");
+		 record.put("Have_Custom_Instruction_been_sent__c", "Yes");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Negative", "Customs", jObj.getString("Status__c"), condition);
+		 //9
+		 condition = "If the Litigation is NO AND Have_Custom_Instruction_been_sent"
+		 		+ " is YES THEN status is true";
+		 record.put("Litigation_YesNo__c", "No");
+		 record.put("Litigation_Resolved__c", "");
+		 record.put("Have_Custom_Instruction_been_sent__c", "Yes");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+				 ADCVDLib.validateObjectStatus("Negative", "Customs", jObj.getString("Status__c"), condition);
+		 
+		 //Closed
+		 HtmlReport.addHtmlStepTitle("Validate Status - Closed","Title");
+		 //1
+		 condition = "Litigation_YesNo is 'Yes', Litigation_Resolved is 'Yes' "
+		 		+ "Have_Custom_Instruction_been_sent = 'Yes'";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "Yes");
+		 record.put("Have_Custom_Instruction_been_sent__c", "Yes");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+		 ADCVDLib.validateObjectStatus("Positive", "Closed", jObj.getString("Status__c"), condition);
+		 
+		 //2
+		 condition = "If the Litigation is NO AND Litigation_Resolved is Yes AND "
+		 		+ "Have_Custom_Instruction_been_sent is Yes THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "No");
+		 record.put("Litigation_Resolved__c", "Yes");
+		 record.put("Have_Custom_Instruction_been_sent__c", "Yes");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+		 ADCVDLib.validateObjectStatus("Negative", "Closed", jObj.getString("Status__c"), condition);
+		 //3
+		 condition = "If the Litigation is Yes AND Litigation_Resolved is NO AND "
+		 		+ "Have_Custom_Instruction_been_sent is Yes THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "No");
+		 record.put("Have_Custom_Instruction_been_sent__c", "Yes");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+		 ADCVDLib.validateObjectStatus("Negative", "Closed", jObj.getString("Status__c"), condition);
+		 //4
+		 condition = "If the Litigation is Yes AND Litigation_Resolved is Yes AND "
+		 		+ "Have_Custom_Instruction_been_sent is NO THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "Yes");
+		 record.put("Have_Custom_Instruction_been_sent__c", "No");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+		 ADCVDLib.validateObjectStatus("Negative", "Closed", jObj.getString("Status__c"), condition);
+		 //5
+		 condition = "If the Litigation is NO AND Litigation_Resolved is NO AND "
+		 		+ "Have_Custom_Instruction_been_sent is NO THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "No");
+		 record.put("Litigation_Resolved__c", "No");
+		 record.put("Have_Custom_Instruction_been_sent__c", "No");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+		 ADCVDLib.validateObjectStatus("Negative", "Closed", jObj.getString("Status__c"), condition);
+		 //6
+		 condition = "The Litigation is No AND Have_Custom_Instruction_been_sent "
+		 		+ "is Yes THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "No");
+		 record.put("Litigation_Resolved__c", "");
+		 record.put("Have_Custom_Instruction_been_sent__c", "Yes");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+		 ADCVDLib.validateObjectStatus("Positive", "Closed", jObj.getString("Status__c"), condition);
+		 //7
+		 condition = "If the Litigation is YES AND Have_Custom_Instruction_been_sent "
+		 		+ "is Yes THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "");
+		 record.put("Have_Custom_Instruction_been_sent__c", "Yes");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+		 ADCVDLib.validateObjectStatus("Negative", "Closed", jObj.getString("Status__c"), condition);
+		 //8
+		 condition = "If the Litigation is No AND Have_Custom_Instruction_been_sent "
+		 		+ "is NO THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "No");
+		 record.put("Litigation_Resolved__c", "");
+		 record.put("Have_Custom_Instruction_been_sent__c", "No");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+		 ADCVDLib.validateObjectStatus("Negative", "Closed", jObj.getString("Status__c"), condition);
+		 //9
+		 condition = "If the Litigation is YES AND Have_Custom_Instruction_been_sent "
+		 		+ "is NO THEN status is true";
+		 record.clear();
+		 record.put("Litigation_YesNo__c", "Yes");
+		 record.put("Litigation_Resolved__c", "");
+		 record.put("Have_Custom_Instruction_been_sent__c", "No");
+		 code = APITools.updateRecordObject("segment__c", sgementId, record);
+		 jObj = APITools.getRecordFromObject(sqlString);
+		 match = match & 
+		 ADCVDLib.validateObjectStatus("Negative", "Closed", jObj.getString("Status__c"), condition);

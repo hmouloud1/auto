@@ -1,0 +1,1 @@
+Start java -Xmx1024m -jar adcvd_dates_validation.jar > test.log

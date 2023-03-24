@@ -1,0 +1,9 @@
+project_name = BIS232_CONDITIONS_VALIDATION
+env_name = Staging
+time_out = 15
+url = https://ita232webapp-staging.azurewebsites.net/
+#give browser type= ie, firefox or chrome
+browser_type = 
+user_name = 
+password = 
+data_pool_sheet = Steel CBP Conditions JSON.xlsx

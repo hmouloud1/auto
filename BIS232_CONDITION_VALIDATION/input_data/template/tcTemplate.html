@@ -1,0 +1,310 @@
+<!doctype html>
+<html>
+<head>
+<style>
+table a:link {
+	color: blue;
+	font-weight: normal;
+	text-decoration:none;
+}
+table a:visited {
+	color: georgian;
+	font-weight:normal;
+	text-decoration:none;
+}
+table a:active,
+table a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+table {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin:20px;
+	border:#ccc 1px solid;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+table th {
+	padding:15px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+table th:first-child {
+	text-align: left;
+	padding-left:8px;
+}
+table tr:first-child th:first-child {
+	-moz-border-radius-topleft:1px;
+	-webkit-border-top-left-radius:1px;
+	border-top-left-radius:1px;
+}
+
+table tr {
+	text-align: left;
+	padding-left:15px;
+}
+table td:first-child {
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+table td {
+	padding:15px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+table tr.even td {
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table tr:last-child td {
+	border-bottom:0;
+}
+table tr:last-child td:first-child {
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+table tr:last-child td:last-child {
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+table tr:hover td {
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+.Pass {
+    color: green;
+	font-weight: bold;
+}
+
+.Fail {
+    color: red;
+	font-weight: bold;
+}
+.Warning {
+    color: blue;
+	font-weight: bold;
+	background-color:  yellow ;
+	float: center;
+}
+.Title {
+    color: blue;
+	font-weight: bold;
+	background-color:  yellow ;
+	float: center;
+}
+.Warning2 {
+    color: blue;
+	font-weight: bold;
+	background-color:  yellow ;
+	float: center;
+}
+.div1 {
+  width: 1400px;
+  padding: 30px;
+  border: 0px solid gray;
+  margin: 50;
+ 
+}
+
+.column0 {
+    float: left;   
+	width: 2%;
+	border: 0px solid gray;	
+}
+.column {
+    float: left;   
+	font-style: italic;	
+
+}
+
+/* Clear floats after the columns */
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+	margin: 100;
+}
+body {    
+    background-repeat: repeat;
+    background-color: ;
+}
+.boldy {
+    color: black;
+	font-weight: bold;
+}
+</style>
+
+<SCRIPT>
+    function toggleOption(thisselect) {
+        var selected = thisselect.options[thisselect.selectedIndex].value;
+        toggleRow(selected);
+    }
+
+    function toggleRow(id) 
+	{
+		if(id == "All")
+		{
+			showAll()
+		}
+		else
+		{
+			var elements = document.getElementsByTagName("tr");
+			for(var i=0; i<elements.length; i++) 
+			{
+				var row = elements[i];
+				if((row.id == id) || (row.id=="menu"))
+				{
+					row.style.display = '';
+				}
+				else
+				{
+					row.style.display = 'none';
+				}
+			}
+		}      
+    }
+
+    function showRow(id) {
+	
+	var elements = document.getElementsByTagName("tr");
+	for(var i=0; i<elements.length; i++) 
+	{
+		var row = elements[i];
+		if(row.id == "Pass")
+		{
+			row.style.display = '';
+		}
+		else 
+		{
+			row.style.display = 'none';
+		}
+	}
+	
+    }
+
+    function hideRow(id) 
+	{
+		var elements = document.getElementsByTagName("tr");
+		for(var i=0; i<elements.length; i++) 
+		{
+			var row = elements[i];
+			if(row.id == "Fail")
+			{
+				row.style.display = '';
+			}
+			else
+			{
+				row.style.display = 'none';
+			}
+		}      
+    }
+
+    function showAll() {
+     var elements = document.getElementsByTagName("tr");
+		for(var i=0; i<elements.length; i++) 
+		{
+			var row = elements[i];
+			row.style.display = '';
+		}  
+   
+   }
+
+</SCRIPT>
+
+
+<div class="container">
+	<div class="column0">&ensp;</div>
+    <div class="column"><span>  </span><img height="40" src='../../../input_data\template\milcorp.png'></div>
+    <div class="column">MilCorp <br> Automation</div>
+</div>
+<meta charset="utf-8">
+<title>Test Case Result</title>
+</head>
+
+<body  >
+
+<div>
+<div>
+<table width="30%" >
+  <tbody>
+    <tr id = 'menu'>
+      <th width="40%" >Test Case Name:</th>
+      <td width="60%" >~TestCaseName~</td>
+    </tr>
+	<tr id = 'menu'>
+      <th>Test Case Description:</td>
+      <td >~TestCaseDescription~</td>
+    </tr>
+    <tr id = 'menu'>
+      <th>Test Execution Status:</th>
+      <td class = '~TestStatus~'>~TestStatus~</td>
+    </tr>
+    <tr id = 'menu'>
+      <th>Test Execution Time:</th>
+      <td>~TestDuration~</td>
+    </tr>
+	
+  </tbody>
+</table>
+</div>
+	
+	
+
+<div>
+	<table width="80%" >
+	<thead>
+		<tr id = 'menu'>
+		<th width="8%">Test Step</th>
+		<th width="18%">Test Step Description</th>
+		<th width="20%">Expected Result</th>
+		<th width="18%">Actual Result</th>
+		<th width="14%">Prodauct Values</th>
+		<th width="10%"><h4>Pass/Fail:&ensp; 
+		
+		<SELECT id="options" onchange="toggleOption(this)">
+    <OPTION value="Pass">Passs</OPTION>
+    <OPTION value="Fail">Fail</OPTION>
+	 <OPTION value="All" selected=true>All</OPTION>
+	</SELECT>
+
+</th>
+		<th width="20%">Test Results</th>
+		</tr>
+	</thead>
+
+	<!-- Table Header -->
+
+	<!-- Table Body -->
+	<tbody>
+		
+		~Body~
+	</tbody>
+</div>
+</div>
+
+</body>
+</html>

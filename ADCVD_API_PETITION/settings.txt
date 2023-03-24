@@ -1,0 +1,9 @@
+PROJECTNAME = AD/CVD
+ENVNAME = automation
+USERNAME = mouloud.hamdidouche@trade.gov.automation
+PASSWORD = Hamdidouche_122iyygERbC3j6UaYUrKJuHGRIj
+LOGINURL = https://trade--automation.my.salesforce.com
+GRANTSERVICE = /services/oauth2/token?grant_type
+GRANTTYPE = password
+CLIENTID = 3MVG9ic.6IFhNpPokw6h6Rrcdlnm_ihTSwPP2CSvn4J3JMqzkXuwjAbrCjKzW4Qf0kUzNgI4b6ujqHhBaFtfA
+CLIENTSECRET = 107E533E0E1ADCBF33776E25ED068347B20C0FF317E6FBBBE29BF2BA44D11EBA

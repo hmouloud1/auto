@@ -1,0 +1,16 @@
+WEB
+1
+https://itaisinternationaltrade.sharepoint.com/sites/232Staging/_vti_bin/owssvr.dll?XMLDATA=1&List={8A5A0D7E-DADE-486C-A9F0-BE6942E025EB}&View=B7ACC854-E40A-4A64-9749-102BB113ECA7&RowLimit=0&RootFolder=undefined
+
+Selection={8A5A0D7E-DADE-486C-A9F0-BE6942E025EB}-B7ACC854-E40A-4A64-9749-102BB113ECA7
+EditWebPage=
+Formatting=None
+PreFormattedTextToColumns=True
+ConsecutiveDelimitersAsOne=True
+SingleBlockTextImport=False
+DisableDateRecognition=False
+DisableRedirections=False
+SharePointApplication=https://itaisinternationaltrade.sharepoint.com/sites/232Staging/_vti_bin
+SharePointListView=B7ACC854-E40A-4A64-9749-102BB113ECA7
+SharePointListName={8A5A0D7E-DADE-486C-A9F0-BE6942E025EB}
+RootFolder=undefined

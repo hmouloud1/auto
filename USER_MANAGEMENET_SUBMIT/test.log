@@ -1,0 +1,107 @@
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\USER_MANAGEMENET_SUBMIT/input_data
+{Id=1, Scenario_Name=Scenario_00001, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Intern, User_Work_Phone=+1(201) 525-8562, User_Mobile_Phone=+1(201) 525-8562, User_Office=ADCVD Office I, User_Manager=Carrington Metuge, Active=TRUE}
+{Id=2, Scenario_Name=Scenario_00002, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Intern, User_Work_Phone=+1(201) 525-8563, User_Mobile_Phone=+1(201) 525-8563, User_Office=ADCVD Office I, User_Manager=Carrington Metuge, Active=TRUE}
+{Id=3, Scenario_Name=Scenario_00003, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Intern, User_Work_Phone=+1(201) 525-8564, User_Mobile_Phone=+1(201) 525-8564, User_Office=ADCVD Office I, User_Manager=Carrington Metuge, Active=TRUE}
+{Id=4, Scenario_Name=Scenario_00004, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Intern, User_Work_Phone=+1(201) 525-8565, User_Mobile_Phone=+1(201) 525-8565, User_Office=ADCVD Office I, User_Manager=Cory Churches, Active=TRUE}
+{Id=5, Scenario_Name=Scenario_00005, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Contractor, User_Work_Phone=+1(201) 525-8566, User_Mobile_Phone=+1(201) 525-8566, User_Office=ADCVD Office I, User_Manager=Cory Churches, Active=TRUE}
+{Id=6, Scenario_Name=Scenario_00006, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Contractor, User_Work_Phone=+1(201) 525-8567, User_Mobile_Phone=+1(201) 525-8567, User_Office=ADCVD Office I, User_Manager=Cory Churches, Active=TRUE}
+{Id=7, Scenario_Name=Scenario_00007, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Contractor, User_Work_Phone=+1(201) 525-8568, User_Mobile_Phone=+1(201) 525-8568, User_Office=ADCVD Office I, User_Manager=Cory Churches, Active=TRUE}
+{Id=8, Scenario_Name=Scenario_00008, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Contractor, User_Work_Phone=+1(201) 525-8569, User_Mobile_Phone=+1(201) 525-8569, User_Office=ADCVD Office I, User_Manager=Cory Churches, Active=TRUE}
+{Id=9, Scenario_Name=Scenario_00009, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Contractor, User_Work_Phone=+1(201) 525-8570, User_Mobile_Phone=+1(201) 525-8570, User_Office=ADCVD Office I, User_Manager=Cory Churches, Active=TRUE}
+{Id=10, Scenario_Name=Scenario_00010, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Contractor, User_Work_Phone=+1(201) 525-8570, User_Mobile_Phone=+1(201) 525-8570, User_Office=ADCVD Office I, User_Manager=Cory Churches, Active=TRUE}
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[TestNG] Running:
+  C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\USER_MANAGEMENET_SUBMIT\testng.xml
+
+Executing Before class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\USER_MANAGEMENET_SUBMIT/input_data
+{field_name=Step 5 - Element div, field_tag=StepFiveElementDiv, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/ancestor::div[1]}
+{field_name=Main menu, field_tag=MainMenu, locator_type=xpath, locator_value=//button[@class='sidenav---sidenav-toggle---1KRjR']}
+{field_name=Add User, field_tag=AddUser, locator_type=xpath, locator_value=//div[@class='sidenav---navicon---3gCRo']//i[@data-icon-name='AddFriend']}
+{field_name=home page, field_tag=HomePage, locator_type=xpath, locator_value=//a[@aria-label='User Management']}
+{field_name=User fields, field_tag=UserField, locator_type=xpath, locator_value=//label[contains(., '~val~')]/parent::div[1]//input}
+{field_name=Error Message, field_tag=ErrorMessage, locator_type=xpath, locator_value=//label[contains(., '~val~')]/parent::div[1]/following-sibling::span[1]//span}
+{field_name=Error Message Select, field_tag=ErrorMessageSelect, locator_type=xpath, locator_value=//label[contains(., '~val~')]/parent::div[1]/div[2]}
+{field_name=Employee Type, field_tag=EmployeeType, locator_type=xpath, locator_value=//button[contains(., '~val~')]}
+{field_name=Employee Office, field_tag=EmployeeOffice, locator_type=xpath, locator_value=//label//span[contains(., '~val~')]}
+{field_name=Employee Manager, field_tag=EmployeeManager, locator_type=xpath, locator_value=//label//span[contains(., '~val~')]}
+{field_name=Employee Office Click, field_tag=EmployeeOfficeClick, locator_type=xpath, locator_value=//button[contains(@title, 'Click here to open taxonomy pick')]}
+{field_name=Delete Office, field_tag=EmployeeOfficeDelete, locator_type=xpath, locator_value=//div[contains(., '~val~')]/i}
+{field_name=office error, field_tag=EmployeeOfficeError, locator_type=xpath, locator_value=//label[contains(., 'Office')]/parent::div[1]//div[3]}
+{field_name=office error, field_tag=EmployeeManagerDelete, locator_type=xpath, locator_value=//button[contains(@class, 'removeButton')]}
+{field_name=Save For Later, field_tag=SaveForLater, locator_type=xpath, locator_value=//button/div[contains(., 'Saved for later')]}
+{field_name=manager error, field_tag=EmployeeManagerError, locator_type=xpath, locator_value=//label[contains(., 'Manager')]/following-sibling::div[2]}
+{field_name=save Button, field_tag=SaveButton, locator_type=xpath, locator_value=//button[not (contains(@class, 'disabled'))]/div/div/div[(contains(., 'Save')) and not (contains(., 'later'))]}
+{field_name=save Button disabled, field_tag=SaveButtonDisabled, locator_type=xpath, locator_value=//button[contains(@class, 'disabled')]/div/div/div[(contains(., 'Save')) and not (contains(., 'later'))  ]}
+{field_name=user added, field_tag=userAdded, locator_type=xpath, locator_value=//h2[contains(., 'ITA Users')]}
+Creating Process...
+Creating Process...
+"chromedriver.exe","26528","Console","1","13,060 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+26528
+userDir C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\USER_MANAGEMENET_SUBMIT
+this a windows machine
+C:/libs
+highlight home page
+Click  on  element Main menu
+Click  on  element Add User
+beforeMethod()
+beforeMethod()
+Validate_First_Name
+0
+{Id=1, Scenario_Name=Scenario_00001, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Intern, User_Work_Phone=+1(201) 525-8562, User_Mobile_Phone=+1(201) 525-8562, User_Office=ADCVD Office I, User_Manager=Carrington Metuge, Active=TRUE}
+Scenario_00001
+Scenario_00001
+s
+Enter text for User fields
+Enter text for User fields
+Enter text for User fields
+Enter text for User fields
+Click  on  element User fields
+Click  on  element Employee Type
+Click  on  element Employee Office Click
+Click  on  element Employee Office
+Enter text for User fields
+Enter text for User fields
+Click  on  element User fields
+Enter text for User fields
+Click  on  element save Button
+Click  on  element Add User
+afterMethod()
+Scenario_00001
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\USER_MANAGEMENET_SUBMIT/input_data
+beforeMethod()
+beforeMethod()
+Validate_First_Name
+1
+{Id=2, Scenario_Name=Scenario_00002, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Intern, User_Work_Phone=+1(201) 525-8563, User_Mobile_Phone=+1(201) 525-8563, User_Office=ADCVD Office I, User_Manager=Carrington Metuge, Active=TRUE}
+Scenario_00002
+Scenario_00002
+s
+Enter text for User fields
+Enter text for User fields
+Enter text for User fields
+Enter text for User fields
+Click  on  element User fields
+Click  on  element Employee Type
+Click  on  element Employee Office Click
+Click  on  element Employee Office
+Enter text for User fields
+Enter text for User fields
+Click  on  element User fields
+Enter text for User fields
+Click  on  element save Button
+Click  on  element Add User
+afterMethod()
+Scenario_00002
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\USER_MANAGEMENET_SUBMIT/input_data
+beforeMethod()
+beforeMethod()
+Validate_First_Name
+2
+{Id=3, Scenario_Name=Scenario_00003, User_First_Name=David, User_Last_Name=McDowson, User_Email=?, User_Job_Title=HR Recruiter, User_Employee_Type=Intern, User_Work_Phone=+1(201) 525-8564, User_Mobile_Phone=+1(201) 525-8564, User_Office=ADCVD Office I, User_Manager=Carrington Metuge, Active=TRUE}
+Scenario_00003
+Scenario_00003
+s
+Enter text for User fields
+Enter text for User fields
+Enter text for User fields

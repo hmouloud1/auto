@@ -1,0 +1,648 @@
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION/input_data
+{Id=1, Test_Case_Name=Validate_First_Name, Test_Case_Description=Validate errors on User's First Name, Active=TRUE}
+{Id=2, Test_Case_Name=Validate_Last_Name, Test_Case_Description=Validate errors on User's Last Name, Active=TRUE}
+{Id=3, Test_Case_Name=Validate_User_Email, Test_Case_Description=Validate errors on User's Email, Active=TRUE}
+{Id=4, Test_Case_Name=Validate_User_Job_Title, Test_Case_Description=Validate errors on User's Job Title, Active=TRUE}
+{Id=5, Test_Case_Name=Validate_User_Employee_Type, Test_Case_Description=Validate errors on User's Employee Type, Active=TRUE}
+{Id=6, Test_Case_Name=Validate_User_Work_Phone, Test_Case_Description=Validate errors on User's Phone Number, Active=TRUE}
+{Id=7, Test_Case_Name=Validate_User_Mobile_Phone, Test_Case_Description=Validate errors on User's Mobile Number, Active=TRUE}
+{Id=8, Test_Case_Name=Validate_User_Office, Test_Case_Description=Validate errors on User's Office, Active=TRUE}
+{Id=9, Test_Case_Name=Validate_User_Manager, Test_Case_Description=Validate errors on User's Manager, Active=TRUE}
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[TestNG] Running:
+  C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION\testng.xml
+
+Executing Before class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION/input_data
+{field_name=Step 5 - Element div, field_tag=StepFiveElementDiv, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/ancestor::div[1]}
+{field_name=Main menu, field_tag=MainMenu, locator_type=xpath, locator_value=//button[@class='sidenav---sidenav-toggle---1KRjR']}
+{field_name=Add User, field_tag=AddUser, locator_type=xpath, locator_value=//div[@class='sidenav---navicon---3gCRo']//i[@data-icon-name='AddFriend']}
+{field_name=home page, field_tag=HomePage, locator_type=xpath, locator_value=//a[@aria-label='User Management']}
+{field_name=User fields, field_tag=UserField, locator_type=xpath, locator_value=//label[contains(., '~val~')]/parent::div[1]//input}
+{field_name=Error Message, field_tag=ErrorMessage, locator_type=xpath, locator_value=//label[contains(., '~val~')]/parent::div[1]/following-sibling::span[1]//span}
+{field_name=Error Message Select, field_tag=ErrorMessageSelect, locator_type=xpath, locator_value=//label[contains(., '~val~')]/parent::div[1]/div[2]}
+{field_name=Employee Type, field_tag=EmployeeType, locator_type=xpath, locator_value=//button[contains(., '~val~')]}
+{field_name=Employee Office, field_tag=EmployeeOffice, locator_type=xpath, locator_value=//label//span[contains(., '~val~')]}
+{field_name=Employee Manager, field_tag=EmployeeManager, locator_type=xpath, locator_value=//label//span[contains(., '~val~')]}
+{field_name=Employee Office Click, field_tag=EmployeeOfficeClick, locator_type=xpath, locator_value=//button[contains(@title, 'Click here to open taxonomy pick')]}
+{field_name=Delete Office, field_tag=EmployeeOfficeDelete, locator_type=xpath, locator_value=//div[contains(., '~val~')]/i}
+{field_name=office error, field_tag=EmployeeOfficeError, locator_type=xpath, locator_value=//label[contains(., 'Office')]/parent::div[1]//div[3]}
+{field_name=office error, field_tag=EmployeeManagerDelete, locator_type=xpath, locator_value=//button[contains(@class, 'removeButton')]}
+{field_name=Save For Later, field_tag=SaveForLater, locator_type=xpath, locator_value=//button/div[contains(., 'Saved for later')]}
+{field_name=manager error, field_tag=EmployeeManagerError, locator_type=xpath, locator_value=//label[contains(., 'Manager')]/following-sibling::div[2]}
+Creating Process...
+Creating Process...
+"chromedriver.exe","46676","Console","1","10,416 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:07","N/A"
+46676
+userDir C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION
+this a windows machine
+C:/libs
+highlight home page
+Click  on  element Main menu
+Click  on  element Add User
+beforeMethod()
+beforeMethod()
+Validate_First_Name 
+{Id=1, Test_Case_Name=Validate_First_Name, Given_Value=David123, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=2, Test_Case_Name=Validate_First_Name, Given_Value=1234567, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=3, Test_Case_Name=Validate_First_Name, Given_Value=, Expected_Error=First Name required!}
+{Id=4, Test_Case_Name=Validate_First_Name, Given_Value=DaviddavidDaviddavidDaviddavidDaviddavidDaviddavidDaviddavidBigger, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=5, Test_Case_Name=Validate_First_Name, Given_Value=David, Expected_Error=Accepted}
+{Id=6, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts123, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=7, Test_Case_Name=Validate_Last_Name, Given_Value=1234, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=8, Test_Case_Name=Validate_Last_Name, Given_Value=RobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsBigger, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=9, Test_Case_Name=Validate_Last_Name, Given_Value=, Expected_Error=Last Name required!}
+{Id=10, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts, Expected_Error=Accepted}
+{Id=11, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts, Expected_Error=Please provide valid email address.}
+{Id=12, Test_Case_Name=Validate_User_Email, Given_Value=David Roberts@militsdev.onmicrosoft.com, Expected_Error=Please provide valid email address.}
+{Id=13, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud10@gmail.com, Expected_Error=Please provide valid email address.}
+{Id=14, Test_Case_Name=Validate_User_Email, Given_Value=, Expected_Error=Email Address is required!}
+{Id=15, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud1@gmail.com, Expected_Error=This email address is assigned to some other user, please update accordingly.}
+{Id=16, Test_Case_Name=Validate_User_Email, Given_Value=Mouloud#@gmail.com, Expected_Error=User email address cannot contain special characters.!}
+{Id=17, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts@militsdev.onmicrosoft.com, Expected_Error=Accepted}
+{Id=18, Test_Case_Name=Validate_User_Job_Title, Given_Value=First Job, Expected_Error=Accepted}
+{Id=19, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job ##, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=20, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job 123, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=21, Test_Case_Name=Validate_User_Job_Title, Given_Value=JobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleBigger, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=22, Test_Case_Name=Validate_User_Job_Title, Given_Value=, Expected_Error=Job Title is required!}
+{Id=23, Test_Case_Name=Validate_User_Employee_Type, Given_Value=, Expected_Error=Employee Type is required!}
+{Id=24, Test_Case_Name=Validate_User_Employee_Type, Given_Value=Contractor, Expected_Error=Accepted}
+{Id=25, Test_Case_Name=Validate_User_Work_Phone, Given_Value=werwrwr, Expected_Error=Work Phone number is not in the correct format.}
+{Id=26, Test_Case_Name=Validate_User_Work_Phone, Given_Value=5712259421, Expected_Error=Work Phone number is not in the correct format.}
+{Id=27, Test_Case_Name=Validate_User_Work_Phone, Given_Value=4654646, Expected_Error=Work Phone number is not in the correct format.}
+{Id=28, Test_Case_Name=Validate_User_Work_Phone, Given_Value=(201) 525-8562, Expected_Error=Work Phone number is not in the correct format.}
+{Id=29, Test_Case_Name=Validate_User_Work_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=30, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=werwrwr, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=31, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=5712259421, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=32, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=4654646, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=33, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=(201) 525-8562, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=34, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=35, Test_Case_Name=Validate_User_Office, Given_Value=ADCVD Office I, Expected_Error=Accepted}
+{Id=36, Test_Case_Name=Validate_User_Office, Given_Value=, Expected_Error=Office is required}
+{Id=37, Test_Case_Name=Validate_User_Manager, Given_Value=Carrington Metuge, Expected_Error=Accepted}
+{Id=38, Test_Case_Name=Validate_User_Manager, Given_Value=, Expected_Error=Manager is required.}
+Validate_First_Name
+First Name-----------
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+highlight User fields
+unhighlight User fields
+afterMethod()
+Validate_First_Name
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION/input_data
+beforeMethod()
+beforeMethod()
+Validate_Last_Name
+{Id=1, Test_Case_Name=Validate_First_Name, Given_Value=David123, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=2, Test_Case_Name=Validate_First_Name, Given_Value=1234567, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=3, Test_Case_Name=Validate_First_Name, Given_Value=, Expected_Error=First Name required!}
+{Id=4, Test_Case_Name=Validate_First_Name, Given_Value=DaviddavidDaviddavidDaviddavidDaviddavidDaviddavidDaviddavidBigger, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=5, Test_Case_Name=Validate_First_Name, Given_Value=David, Expected_Error=Accepted}
+{Id=6, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts123, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=7, Test_Case_Name=Validate_Last_Name, Given_Value=1234, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=8, Test_Case_Name=Validate_Last_Name, Given_Value=RobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsBigger, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=9, Test_Case_Name=Validate_Last_Name, Given_Value=, Expected_Error=Last Name required!}
+{Id=10, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts, Expected_Error=Accepted}
+{Id=11, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts, Expected_Error=Please provide valid email address.}
+{Id=12, Test_Case_Name=Validate_User_Email, Given_Value=David Roberts@militsdev.onmicrosoft.com, Expected_Error=Please provide valid email address.}
+{Id=13, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud10@gmail.com, Expected_Error=Please provide valid email address.}
+{Id=14, Test_Case_Name=Validate_User_Email, Given_Value=, Expected_Error=Email Address is required!}
+{Id=15, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud1@gmail.com, Expected_Error=This email address is assigned to some other user, please update accordingly.}
+{Id=16, Test_Case_Name=Validate_User_Email, Given_Value=Mouloud#@gmail.com, Expected_Error=User email address cannot contain special characters.!}
+{Id=17, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts@militsdev.onmicrosoft.com, Expected_Error=Accepted}
+{Id=18, Test_Case_Name=Validate_User_Job_Title, Given_Value=First Job, Expected_Error=Accepted}
+{Id=19, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job ##, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=20, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job 123, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=21, Test_Case_Name=Validate_User_Job_Title, Given_Value=JobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleBigger, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=22, Test_Case_Name=Validate_User_Job_Title, Given_Value=, Expected_Error=Job Title is required!}
+{Id=23, Test_Case_Name=Validate_User_Employee_Type, Given_Value=, Expected_Error=Employee Type is required!}
+{Id=24, Test_Case_Name=Validate_User_Employee_Type, Given_Value=Contractor, Expected_Error=Accepted}
+{Id=25, Test_Case_Name=Validate_User_Work_Phone, Given_Value=werwrwr, Expected_Error=Work Phone number is not in the correct format.}
+{Id=26, Test_Case_Name=Validate_User_Work_Phone, Given_Value=5712259421, Expected_Error=Work Phone number is not in the correct format.}
+{Id=27, Test_Case_Name=Validate_User_Work_Phone, Given_Value=4654646, Expected_Error=Work Phone number is not in the correct format.}
+{Id=28, Test_Case_Name=Validate_User_Work_Phone, Given_Value=(201) 525-8562, Expected_Error=Work Phone number is not in the correct format.}
+{Id=29, Test_Case_Name=Validate_User_Work_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=30, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=werwrwr, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=31, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=5712259421, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=32, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=4654646, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=33, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=(201) 525-8562, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=34, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=35, Test_Case_Name=Validate_User_Office, Given_Value=ADCVD Office I, Expected_Error=Accepted}
+{Id=36, Test_Case_Name=Validate_User_Office, Given_Value=, Expected_Error=Office is required}
+{Id=37, Test_Case_Name=Validate_User_Manager, Given_Value=Carrington Metuge, Expected_Error=Accepted}
+{Id=38, Test_Case_Name=Validate_User_Manager, Given_Value=, Expected_Error=Manager is required.}
+Validate_Last_Name
+Last Name-----------
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+highlight User fields
+unhighlight User fields
+afterMethod()
+Validate_Last_Name
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION/input_data
+beforeMethod()
+beforeMethod()
+Validate_User_Email
+{Id=1, Test_Case_Name=Validate_First_Name, Given_Value=David123, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=2, Test_Case_Name=Validate_First_Name, Given_Value=1234567, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=3, Test_Case_Name=Validate_First_Name, Given_Value=, Expected_Error=First Name required!}
+{Id=4, Test_Case_Name=Validate_First_Name, Given_Value=DaviddavidDaviddavidDaviddavidDaviddavidDaviddavidDaviddavidBigger, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=5, Test_Case_Name=Validate_First_Name, Given_Value=David, Expected_Error=Accepted}
+{Id=6, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts123, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=7, Test_Case_Name=Validate_Last_Name, Given_Value=1234, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=8, Test_Case_Name=Validate_Last_Name, Given_Value=RobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsBigger, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=9, Test_Case_Name=Validate_Last_Name, Given_Value=, Expected_Error=Last Name required!}
+{Id=10, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts, Expected_Error=Accepted}
+{Id=11, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts, Expected_Error=Please provide valid email address.}
+{Id=12, Test_Case_Name=Validate_User_Email, Given_Value=David Roberts@militsdev.onmicrosoft.com, Expected_Error=Please provide valid email address.}
+{Id=13, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud10@gmail.com, Expected_Error=Please provide valid email address.}
+{Id=14, Test_Case_Name=Validate_User_Email, Given_Value=, Expected_Error=Email Address is required!}
+{Id=15, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud1@gmail.com, Expected_Error=This email address is assigned to some other user, please update accordingly.}
+{Id=16, Test_Case_Name=Validate_User_Email, Given_Value=Mouloud#@gmail.com, Expected_Error=User email address cannot contain special characters.!}
+{Id=17, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts@militsdev.onmicrosoft.com, Expected_Error=Accepted}
+{Id=18, Test_Case_Name=Validate_User_Job_Title, Given_Value=First Job, Expected_Error=Accepted}
+{Id=19, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job ##, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=20, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job 123, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=21, Test_Case_Name=Validate_User_Job_Title, Given_Value=JobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleBigger, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=22, Test_Case_Name=Validate_User_Job_Title, Given_Value=, Expected_Error=Job Title is required!}
+{Id=23, Test_Case_Name=Validate_User_Employee_Type, Given_Value=, Expected_Error=Employee Type is required!}
+{Id=24, Test_Case_Name=Validate_User_Employee_Type, Given_Value=Contractor, Expected_Error=Accepted}
+{Id=25, Test_Case_Name=Validate_User_Work_Phone, Given_Value=werwrwr, Expected_Error=Work Phone number is not in the correct format.}
+{Id=26, Test_Case_Name=Validate_User_Work_Phone, Given_Value=5712259421, Expected_Error=Work Phone number is not in the correct format.}
+{Id=27, Test_Case_Name=Validate_User_Work_Phone, Given_Value=4654646, Expected_Error=Work Phone number is not in the correct format.}
+{Id=28, Test_Case_Name=Validate_User_Work_Phone, Given_Value=(201) 525-8562, Expected_Error=Work Phone number is not in the correct format.}
+{Id=29, Test_Case_Name=Validate_User_Work_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=30, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=werwrwr, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=31, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=5712259421, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=32, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=4654646, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=33, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=(201) 525-8562, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=34, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=35, Test_Case_Name=Validate_User_Office, Given_Value=ADCVD Office I, Expected_Error=Accepted}
+{Id=36, Test_Case_Name=Validate_User_Office, Given_Value=, Expected_Error=Office is required}
+{Id=37, Test_Case_Name=Validate_User_Manager, Given_Value=Carrington Metuge, Expected_Error=Accepted}
+{Id=38, Test_Case_Name=Validate_User_Manager, Given_Value=, Expected_Error=Manager is required.}
+Validate_User_Email
+Email-----------
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+highlight User fields
+unhighlight User fields
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+highlight User fields
+unhighlight User fields
+afterMethod()
+Validate_User_Email
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION/input_data
+beforeMethod()
+beforeMethod()
+Validate_User_Job_Title
+{Id=1, Test_Case_Name=Validate_First_Name, Given_Value=David123, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=2, Test_Case_Name=Validate_First_Name, Given_Value=1234567, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=3, Test_Case_Name=Validate_First_Name, Given_Value=, Expected_Error=First Name required!}
+{Id=4, Test_Case_Name=Validate_First_Name, Given_Value=DaviddavidDaviddavidDaviddavidDaviddavidDaviddavidDaviddavidBigger, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=5, Test_Case_Name=Validate_First_Name, Given_Value=David, Expected_Error=Accepted}
+{Id=6, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts123, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=7, Test_Case_Name=Validate_Last_Name, Given_Value=1234, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=8, Test_Case_Name=Validate_Last_Name, Given_Value=RobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsBigger, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=9, Test_Case_Name=Validate_Last_Name, Given_Value=, Expected_Error=Last Name required!}
+{Id=10, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts, Expected_Error=Accepted}
+{Id=11, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts, Expected_Error=Please provide valid email address.}
+{Id=12, Test_Case_Name=Validate_User_Email, Given_Value=David Roberts@militsdev.onmicrosoft.com, Expected_Error=Please provide valid email address.}
+{Id=13, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud10@gmail.com, Expected_Error=Please provide valid email address.}
+{Id=14, Test_Case_Name=Validate_User_Email, Given_Value=, Expected_Error=Email Address is required!}
+{Id=15, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud1@gmail.com, Expected_Error=This email address is assigned to some other user, please update accordingly.}
+{Id=16, Test_Case_Name=Validate_User_Email, Given_Value=Mouloud#@gmail.com, Expected_Error=User email address cannot contain special characters.!}
+{Id=17, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts@militsdev.onmicrosoft.com, Expected_Error=Accepted}
+{Id=18, Test_Case_Name=Validate_User_Job_Title, Given_Value=First Job, Expected_Error=Accepted}
+{Id=19, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job ##, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=20, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job 123, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=21, Test_Case_Name=Validate_User_Job_Title, Given_Value=JobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleBigger, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=22, Test_Case_Name=Validate_User_Job_Title, Given_Value=, Expected_Error=Job Title is required!}
+{Id=23, Test_Case_Name=Validate_User_Employee_Type, Given_Value=, Expected_Error=Employee Type is required!}
+{Id=24, Test_Case_Name=Validate_User_Employee_Type, Given_Value=Contractor, Expected_Error=Accepted}
+{Id=25, Test_Case_Name=Validate_User_Work_Phone, Given_Value=werwrwr, Expected_Error=Work Phone number is not in the correct format.}
+{Id=26, Test_Case_Name=Validate_User_Work_Phone, Given_Value=5712259421, Expected_Error=Work Phone number is not in the correct format.}
+{Id=27, Test_Case_Name=Validate_User_Work_Phone, Given_Value=4654646, Expected_Error=Work Phone number is not in the correct format.}
+{Id=28, Test_Case_Name=Validate_User_Work_Phone, Given_Value=(201) 525-8562, Expected_Error=Work Phone number is not in the correct format.}
+{Id=29, Test_Case_Name=Validate_User_Work_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=30, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=werwrwr, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=31, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=5712259421, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=32, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=4654646, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=33, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=(201) 525-8562, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=34, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=35, Test_Case_Name=Validate_User_Office, Given_Value=ADCVD Office I, Expected_Error=Accepted}
+{Id=36, Test_Case_Name=Validate_User_Office, Given_Value=, Expected_Error=Office is required}
+{Id=37, Test_Case_Name=Validate_User_Manager, Given_Value=Carrington Metuge, Expected_Error=Accepted}
+{Id=38, Test_Case_Name=Validate_User_Manager, Given_Value=, Expected_Error=Manager is required.}
+Validate_User_Job_Title
+Job Title-----------
+Enter text for User fields
+Enter text for User fields
+highlight User fields
+unhighlight User fields
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+highlight User fields
+unhighlight User fields
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+afterMethod()
+Validate_User_Job_Title
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION/input_data
+beforeMethod()
+beforeMethod()
+Validate_User_Employee_Type
+{Id=1, Test_Case_Name=Validate_First_Name, Given_Value=David123, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=2, Test_Case_Name=Validate_First_Name, Given_Value=1234567, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=3, Test_Case_Name=Validate_First_Name, Given_Value=, Expected_Error=First Name required!}
+{Id=4, Test_Case_Name=Validate_First_Name, Given_Value=DaviddavidDaviddavidDaviddavidDaviddavidDaviddavidDaviddavidBigger, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=5, Test_Case_Name=Validate_First_Name, Given_Value=David, Expected_Error=Accepted}
+{Id=6, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts123, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=7, Test_Case_Name=Validate_Last_Name, Given_Value=1234, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=8, Test_Case_Name=Validate_Last_Name, Given_Value=RobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsBigger, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=9, Test_Case_Name=Validate_Last_Name, Given_Value=, Expected_Error=Last Name required!}
+{Id=10, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts, Expected_Error=Accepted}
+{Id=11, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts, Expected_Error=Please provide valid email address.}
+{Id=12, Test_Case_Name=Validate_User_Email, Given_Value=David Roberts@militsdev.onmicrosoft.com, Expected_Error=Please provide valid email address.}
+{Id=13, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud10@gmail.com, Expected_Error=Please provide valid email address.}
+{Id=14, Test_Case_Name=Validate_User_Email, Given_Value=, Expected_Error=Email Address is required!}
+{Id=15, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud1@gmail.com, Expected_Error=This email address is assigned to some other user, please update accordingly.}
+{Id=16, Test_Case_Name=Validate_User_Email, Given_Value=Mouloud#@gmail.com, Expected_Error=User email address cannot contain special characters.!}
+{Id=17, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts@militsdev.onmicrosoft.com, Expected_Error=Accepted}
+{Id=18, Test_Case_Name=Validate_User_Job_Title, Given_Value=First Job, Expected_Error=Accepted}
+{Id=19, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job ##, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=20, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job 123, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=21, Test_Case_Name=Validate_User_Job_Title, Given_Value=JobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleBigger, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=22, Test_Case_Name=Validate_User_Job_Title, Given_Value=, Expected_Error=Job Title is required!}
+{Id=23, Test_Case_Name=Validate_User_Employee_Type, Given_Value=, Expected_Error=Employee Type is required!}
+{Id=24, Test_Case_Name=Validate_User_Employee_Type, Given_Value=Contractor, Expected_Error=Accepted}
+{Id=25, Test_Case_Name=Validate_User_Work_Phone, Given_Value=werwrwr, Expected_Error=Work Phone number is not in the correct format.}
+{Id=26, Test_Case_Name=Validate_User_Work_Phone, Given_Value=5712259421, Expected_Error=Work Phone number is not in the correct format.}
+{Id=27, Test_Case_Name=Validate_User_Work_Phone, Given_Value=4654646, Expected_Error=Work Phone number is not in the correct format.}
+{Id=28, Test_Case_Name=Validate_User_Work_Phone, Given_Value=(201) 525-8562, Expected_Error=Work Phone number is not in the correct format.}
+{Id=29, Test_Case_Name=Validate_User_Work_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=30, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=werwrwr, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=31, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=5712259421, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=32, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=4654646, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=33, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=(201) 525-8562, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=34, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=35, Test_Case_Name=Validate_User_Office, Given_Value=ADCVD Office I, Expected_Error=Accepted}
+{Id=36, Test_Case_Name=Validate_User_Office, Given_Value=, Expected_Error=Office is required}
+{Id=37, Test_Case_Name=Validate_User_Manager, Given_Value=Carrington Metuge, Expected_Error=Accepted}
+{Id=38, Test_Case_Name=Validate_User_Manager, Given_Value=, Expected_Error=Manager is required.}
+Validate_User_Employee_Type
+Employee Type-----------
+Click  on  element User fields
+Click  on  element User fields
+Get the text of the element Error Message Select
+highlight Error Message Select
+unhighlight Error Message Select
+Click  on  element User fields
+Click  on  element Employee Type
+highlight User fields
+unhighlight User fields
+afterMethod()
+Validate_User_Employee_Type
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION/input_data
+beforeMethod()
+beforeMethod()
+Validate_User_Work_Phone
+{Id=1, Test_Case_Name=Validate_First_Name, Given_Value=David123, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=2, Test_Case_Name=Validate_First_Name, Given_Value=1234567, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=3, Test_Case_Name=Validate_First_Name, Given_Value=, Expected_Error=First Name required!}
+{Id=4, Test_Case_Name=Validate_First_Name, Given_Value=DaviddavidDaviddavidDaviddavidDaviddavidDaviddavidDaviddavidBigger, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=5, Test_Case_Name=Validate_First_Name, Given_Value=David, Expected_Error=Accepted}
+{Id=6, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts123, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=7, Test_Case_Name=Validate_Last_Name, Given_Value=1234, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=8, Test_Case_Name=Validate_Last_Name, Given_Value=RobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsBigger, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=9, Test_Case_Name=Validate_Last_Name, Given_Value=, Expected_Error=Last Name required!}
+{Id=10, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts, Expected_Error=Accepted}
+{Id=11, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts, Expected_Error=Please provide valid email address.}
+{Id=12, Test_Case_Name=Validate_User_Email, Given_Value=David Roberts@militsdev.onmicrosoft.com, Expected_Error=Please provide valid email address.}
+{Id=13, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud10@gmail.com, Expected_Error=Please provide valid email address.}
+{Id=14, Test_Case_Name=Validate_User_Email, Given_Value=, Expected_Error=Email Address is required!}
+{Id=15, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud1@gmail.com, Expected_Error=This email address is assigned to some other user, please update accordingly.}
+{Id=16, Test_Case_Name=Validate_User_Email, Given_Value=Mouloud#@gmail.com, Expected_Error=User email address cannot contain special characters.!}
+{Id=17, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts@militsdev.onmicrosoft.com, Expected_Error=Accepted}
+{Id=18, Test_Case_Name=Validate_User_Job_Title, Given_Value=First Job, Expected_Error=Accepted}
+{Id=19, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job ##, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=20, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job 123, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=21, Test_Case_Name=Validate_User_Job_Title, Given_Value=JobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleBigger, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=22, Test_Case_Name=Validate_User_Job_Title, Given_Value=, Expected_Error=Job Title is required!}
+{Id=23, Test_Case_Name=Validate_User_Employee_Type, Given_Value=, Expected_Error=Employee Type is required!}
+{Id=24, Test_Case_Name=Validate_User_Employee_Type, Given_Value=Contractor, Expected_Error=Accepted}
+{Id=25, Test_Case_Name=Validate_User_Work_Phone, Given_Value=werwrwr, Expected_Error=Work Phone number is not in the correct format.}
+{Id=26, Test_Case_Name=Validate_User_Work_Phone, Given_Value=5712259421, Expected_Error=Work Phone number is not in the correct format.}
+{Id=27, Test_Case_Name=Validate_User_Work_Phone, Given_Value=4654646, Expected_Error=Work Phone number is not in the correct format.}
+{Id=28, Test_Case_Name=Validate_User_Work_Phone, Given_Value=(201) 525-8562, Expected_Error=Work Phone number is not in the correct format.}
+{Id=29, Test_Case_Name=Validate_User_Work_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=30, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=werwrwr, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=31, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=5712259421, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=32, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=4654646, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=33, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=(201) 525-8562, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=34, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=35, Test_Case_Name=Validate_User_Office, Given_Value=ADCVD Office I, Expected_Error=Accepted}
+{Id=36, Test_Case_Name=Validate_User_Office, Given_Value=, Expected_Error=Office is required}
+{Id=37, Test_Case_Name=Validate_User_Manager, Given_Value=Carrington Metuge, Expected_Error=Accepted}
+{Id=38, Test_Case_Name=Validate_User_Manager, Given_Value=, Expected_Error=Manager is required.}
+Validate_User_Work_Phone
+Work Phone-----------
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+highlight User fields
+unhighlight User fields
+afterMethod()
+Validate_User_Work_Phone
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION/input_data
+beforeMethod()
+beforeMethod()
+Validate_User_Mobile_Phone
+{Id=1, Test_Case_Name=Validate_First_Name, Given_Value=David123, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=2, Test_Case_Name=Validate_First_Name, Given_Value=1234567, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=3, Test_Case_Name=Validate_First_Name, Given_Value=, Expected_Error=First Name required!}
+{Id=4, Test_Case_Name=Validate_First_Name, Given_Value=DaviddavidDaviddavidDaviddavidDaviddavidDaviddavidDaviddavidBigger, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=5, Test_Case_Name=Validate_First_Name, Given_Value=David, Expected_Error=Accepted}
+{Id=6, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts123, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=7, Test_Case_Name=Validate_Last_Name, Given_Value=1234, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=8, Test_Case_Name=Validate_Last_Name, Given_Value=RobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsBigger, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=9, Test_Case_Name=Validate_Last_Name, Given_Value=, Expected_Error=Last Name required!}
+{Id=10, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts, Expected_Error=Accepted}
+{Id=11, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts, Expected_Error=Please provide valid email address.}
+{Id=12, Test_Case_Name=Validate_User_Email, Given_Value=David Roberts@militsdev.onmicrosoft.com, Expected_Error=Please provide valid email address.}
+{Id=13, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud10@gmail.com, Expected_Error=Please provide valid email address.}
+{Id=14, Test_Case_Name=Validate_User_Email, Given_Value=, Expected_Error=Email Address is required!}
+{Id=15, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud1@gmail.com, Expected_Error=This email address is assigned to some other user, please update accordingly.}
+{Id=16, Test_Case_Name=Validate_User_Email, Given_Value=Mouloud#@gmail.com, Expected_Error=User email address cannot contain special characters.!}
+{Id=17, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts@militsdev.onmicrosoft.com, Expected_Error=Accepted}
+{Id=18, Test_Case_Name=Validate_User_Job_Title, Given_Value=First Job, Expected_Error=Accepted}
+{Id=19, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job ##, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=20, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job 123, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=21, Test_Case_Name=Validate_User_Job_Title, Given_Value=JobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleBigger, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=22, Test_Case_Name=Validate_User_Job_Title, Given_Value=, Expected_Error=Job Title is required!}
+{Id=23, Test_Case_Name=Validate_User_Employee_Type, Given_Value=, Expected_Error=Employee Type is required!}
+{Id=24, Test_Case_Name=Validate_User_Employee_Type, Given_Value=Contractor, Expected_Error=Accepted}
+{Id=25, Test_Case_Name=Validate_User_Work_Phone, Given_Value=werwrwr, Expected_Error=Work Phone number is not in the correct format.}
+{Id=26, Test_Case_Name=Validate_User_Work_Phone, Given_Value=5712259421, Expected_Error=Work Phone number is not in the correct format.}
+{Id=27, Test_Case_Name=Validate_User_Work_Phone, Given_Value=4654646, Expected_Error=Work Phone number is not in the correct format.}
+{Id=28, Test_Case_Name=Validate_User_Work_Phone, Given_Value=(201) 525-8562, Expected_Error=Work Phone number is not in the correct format.}
+{Id=29, Test_Case_Name=Validate_User_Work_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=30, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=werwrwr, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=31, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=5712259421, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=32, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=4654646, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=33, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=(201) 525-8562, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=34, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=35, Test_Case_Name=Validate_User_Office, Given_Value=ADCVD Office I, Expected_Error=Accepted}
+{Id=36, Test_Case_Name=Validate_User_Office, Given_Value=, Expected_Error=Office is required}
+{Id=37, Test_Case_Name=Validate_User_Manager, Given_Value=Carrington Metuge, Expected_Error=Accepted}
+{Id=38, Test_Case_Name=Validate_User_Manager, Given_Value=, Expected_Error=Manager is required.}
+Validate_User_Mobile_Phone
+Mobile Phone-----------
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+Get the text of the element Error Message
+highlight Error Message
+unhighlight Error Message
+Enter text for User fields
+Enter text for User fields
+highlight User fields
+unhighlight User fields
+afterMethod()
+Validate_User_Mobile_Phone
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION/input_data
+beforeMethod()
+beforeMethod()
+Validate_User_Mobile_Phone
+{Id=1, Test_Case_Name=Validate_First_Name, Given_Value=David123, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=2, Test_Case_Name=Validate_First_Name, Given_Value=1234567, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=3, Test_Case_Name=Validate_First_Name, Given_Value=, Expected_Error=First Name required!}
+{Id=4, Test_Case_Name=Validate_First_Name, Given_Value=DaviddavidDaviddavidDaviddavidDaviddavidDaviddavidDaviddavidBigger, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=5, Test_Case_Name=Validate_First_Name, Given_Value=David, Expected_Error=Accepted}
+{Id=6, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts123, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=7, Test_Case_Name=Validate_Last_Name, Given_Value=1234, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=8, Test_Case_Name=Validate_Last_Name, Given_Value=RobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsBigger, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=9, Test_Case_Name=Validate_Last_Name, Given_Value=, Expected_Error=Last Name required!}
+{Id=10, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts, Expected_Error=Accepted}
+{Id=11, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts, Expected_Error=Please provide valid email address.}
+{Id=12, Test_Case_Name=Validate_User_Email, Given_Value=David Roberts@militsdev.onmicrosoft.com, Expected_Error=Please provide valid email address.}
+{Id=13, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud10@gmail.com, Expected_Error=Please provide valid email address.}
+{Id=14, Test_Case_Name=Validate_User_Email, Given_Value=, Expected_Error=Email Address is required!}
+{Id=15, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud1@gmail.com, Expected_Error=This email address is assigned to some other user, please update accordingly.}
+{Id=16, Test_Case_Name=Validate_User_Email, Given_Value=Mouloud#@gmail.com, Expected_Error=User email address cannot contain special characters.!}
+{Id=17, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts@militsdev.onmicrosoft.com, Expected_Error=Accepted}
+{Id=18, Test_Case_Name=Validate_User_Job_Title, Given_Value=First Job, Expected_Error=Accepted}
+{Id=19, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job ##, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=20, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job 123, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=21, Test_Case_Name=Validate_User_Job_Title, Given_Value=JobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleBigger, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=22, Test_Case_Name=Validate_User_Job_Title, Given_Value=, Expected_Error=Job Title is required!}
+{Id=23, Test_Case_Name=Validate_User_Employee_Type, Given_Value=, Expected_Error=Employee Type is required!}
+{Id=24, Test_Case_Name=Validate_User_Employee_Type, Given_Value=Contractor, Expected_Error=Accepted}
+{Id=25, Test_Case_Name=Validate_User_Work_Phone, Given_Value=werwrwr, Expected_Error=Work Phone number is not in the correct format.}
+{Id=26, Test_Case_Name=Validate_User_Work_Phone, Given_Value=5712259421, Expected_Error=Work Phone number is not in the correct format.}
+{Id=27, Test_Case_Name=Validate_User_Work_Phone, Given_Value=4654646, Expected_Error=Work Phone number is not in the correct format.}
+{Id=28, Test_Case_Name=Validate_User_Work_Phone, Given_Value=(201) 525-8562, Expected_Error=Work Phone number is not in the correct format.}
+{Id=29, Test_Case_Name=Validate_User_Work_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=30, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=werwrwr, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=31, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=5712259421, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=32, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=4654646, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=33, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=(201) 525-8562, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=34, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=35, Test_Case_Name=Validate_User_Office, Given_Value=ADCVD Office I, Expected_Error=Accepted}
+{Id=36, Test_Case_Name=Validate_User_Office, Given_Value=, Expected_Error=Office is required}
+{Id=37, Test_Case_Name=Validate_User_Manager, Given_Value=Carrington Metuge, Expected_Error=Accepted}
+{Id=38, Test_Case_Name=Validate_User_Manager, Given_Value=, Expected_Error=Manager is required.}
+Validate_User_Office
+Office----w2--4-h----
+Scroll to element Save For Later
+Click  on  element Employee Office Click
+Click  on  element Employee Office
+Get the text of the element office error
+highlight office error
+unhighlight User fields
+Click  on  element Delete Office
+Get the text of the element office error
+highlight office error
+unhighlight User fields
+afterMethod()
+Validate_User_Office
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION/input_data
+beforeMethod()
+beforeMethod()
+Validate_User_Mobile_Phone
+{Id=1, Test_Case_Name=Validate_First_Name, Given_Value=David123, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=2, Test_Case_Name=Validate_First_Name, Given_Value=1234567, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=3, Test_Case_Name=Validate_First_Name, Given_Value=, Expected_Error=First Name required!}
+{Id=4, Test_Case_Name=Validate_First_Name, Given_Value=DaviddavidDaviddavidDaviddavidDaviddavidDaviddavidDaviddavidBigger, Expected_Error=First name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=5, Test_Case_Name=Validate_First_Name, Given_Value=David, Expected_Error=Accepted}
+{Id=6, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts123, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=7, Test_Case_Name=Validate_Last_Name, Given_Value=1234, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=8, Test_Case_Name=Validate_Last_Name, Given_Value=RobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsRobertsBigger, Expected_Error=Last name cannot contain alpha-numeric characters and must be less than 64 characters.}
+{Id=9, Test_Case_Name=Validate_Last_Name, Given_Value=, Expected_Error=Last Name required!}
+{Id=10, Test_Case_Name=Validate_Last_Name, Given_Value=Roberts, Expected_Error=Accepted}
+{Id=11, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts, Expected_Error=Please provide valid email address.}
+{Id=12, Test_Case_Name=Validate_User_Email, Given_Value=David Roberts@militsdev.onmicrosoft.com, Expected_Error=Please provide valid email address.}
+{Id=13, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud10@gmail.com, Expected_Error=Please provide valid email address.}
+{Id=14, Test_Case_Name=Validate_User_Email, Given_Value=, Expected_Error=Email Address is required!}
+{Id=15, Test_Case_Name=Validate_User_Email, Given_Value=hmouloud1@gmail.com, Expected_Error=This email address is assigned to some other user, please update accordingly.}
+{Id=16, Test_Case_Name=Validate_User_Email, Given_Value=Mouloud#@gmail.com, Expected_Error=User email address cannot contain special characters.!}
+{Id=17, Test_Case_Name=Validate_User_Email, Given_Value=David.Roberts@militsdev.onmicrosoft.com, Expected_Error=Accepted}
+{Id=18, Test_Case_Name=Validate_User_Job_Title, Given_Value=First Job, Expected_Error=Accepted}
+{Id=19, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job ##, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=20, Test_Case_Name=Validate_User_Job_Title, Given_Value=Job 123, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=21, Test_Case_Name=Validate_User_Job_Title, Given_Value=JobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleJobTitleBigger, Expected_Error=Job Title cannot contain special characters and must be less than 64 characters.}
+{Id=22, Test_Case_Name=Validate_User_Job_Title, Given_Value=, Expected_Error=Job Title is required!}
+{Id=23, Test_Case_Name=Validate_User_Employee_Type, Given_Value=, Expected_Error=Employee Type is required!}
+{Id=24, Test_Case_Name=Validate_User_Employee_Type, Given_Value=Contractor, Expected_Error=Accepted}
+{Id=25, Test_Case_Name=Validate_User_Work_Phone, Given_Value=werwrwr, Expected_Error=Work Phone number is not in the correct format.}
+{Id=26, Test_Case_Name=Validate_User_Work_Phone, Given_Value=5712259421, Expected_Error=Work Phone number is not in the correct format.}
+{Id=27, Test_Case_Name=Validate_User_Work_Phone, Given_Value=4654646, Expected_Error=Work Phone number is not in the correct format.}
+{Id=28, Test_Case_Name=Validate_User_Work_Phone, Given_Value=(201) 525-8562, Expected_Error=Work Phone number is not in the correct format.}
+{Id=29, Test_Case_Name=Validate_User_Work_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=30, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=werwrwr, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=31, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=5712259421, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=32, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=4654646, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=33, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=(201) 525-8562, Expected_Error=Mobile Phone number is not in the correct format.}
+{Id=34, Test_Case_Name=Validate_User_Mobile_Phone, Given_Value=+1(201) 525-8562, Expected_Error=Accepted}
+{Id=35, Test_Case_Name=Validate_User_Office, Given_Value=ADCVD Office I, Expected_Error=Accepted}
+{Id=36, Test_Case_Name=Validate_User_Office, Given_Value=, Expected_Error=Office is required}
+{Id=37, Test_Case_Name=Validate_User_Manager, Given_Value=Carrington Metuge, Expected_Error=Accepted}
+{Id=38, Test_Case_Name=Validate_User_Manager, Given_Value=, Expected_Error=Manager is required.}
+Validate_User_Manager
+Manager----2-------
+Scroll to element Save For Later
+Enter text for User fields
+Click  on  element User fields
+highlight User fields
+Element User fields was not found on GUI
+unhighlight User fields
+Element User fields was not found on Gui
+Click  on  element office error
+Get the text of the element manager error
+highlight manager error
+unhighlight manager error
+afterMethod()
+Validate_User_Manager
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION/input_data
+Executing After class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\git\automation\USER_MANAGEMENET_ERR_VALIDATION/input_data
+null
+
+===============================================
+Suite
+Total tests run: 9, Failures: 0, Skips: 0
+Configuration Failures: 1, Skips: 0
+===============================================
+

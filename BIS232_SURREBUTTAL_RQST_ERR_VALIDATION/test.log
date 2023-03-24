@@ -1,0 +1,158 @@
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SURREBUTTAL_RQST_ERR_VALIDATION/input_data
+{Scenarios=Scenario_01, Request_Id=999, Active=TRUE}
+{Scenarios=Scenario_02, Request_Id=351, Active=TRUE}
+{Scenarios=Scenario_03, Request_Id=339, Active=TRUE}
+{Scenarios=Scenario_04, Request_Id=357, Active=FALSE}
+{Scenarios=Scenario_05, Request_Id=357, Active=FALSE}
+{Scenarios=Scenario_01, OrgLegalName=, StreetAddress=, City=, State=Please Select, ZipCode=, POCName=, PhoneNumber=, EmailAddress=, WebsiteAddress=, SubstituteOrIdenticalProduct=Please Select, ManufacturingTime=Please Select, Quality=Yes, AvailableQuantity=Yes, DeliveryTime=Please Select, Active=TRUE}
+{Scenarios=Scenario_02, OrgLegalName=Comp Name, StreetAddress=2203 fairfax dr, City=Falls church, State=Virginia, ZipCode=444, POCName=POCTest, PhoneNumber=5712259455, EmailAddress=hmouloud@gmail.com, WebsiteAddress=https://adad@domain.com, SubstituteOrIdenticalProduct=Subtitute Product, ManufacturingTime=No, Quality=No, AvailableQuantity=Please Select, DeliveryTime=No, Active=TRUE}
+{Scenarios=Scenario_03, OrgLegalName=, StreetAddress=, City=, State=Please Select, ZipCode=, POCName=, PhoneNumber=kkk, EmailAddress=q@, WebsiteAddress=dss@, SubstituteOrIdenticalProduct=Identical Product, ManufacturingTime=Yes, Quality=Please Select, AvailableQuantity=No, DeliveryTime=Yes, Active=TRUE}
+{Scenarios=Scenario_04, OrgLegalName=MH, StreetAddress=2234 pimmit, City=Falls church, State=Virginia, ZipCode=22043, POCName=POCTest, PhoneNumber=5712259455, EmailAddress=hmouloud@gmail.com, WebsiteAddress=https://adad@domain.com, SubstituteOrIdenticalProduct=Please Select, ManufacturingTime=Yes, Quality=Yes, AvailableQuantity=Yes, DeliveryTime=Yes, Active=FALSE}
+{Scenarios=Scenario_05, OrgLegalName=MH, StreetAddress=2235 pimmit, City=Falls church, State=Virginia, ZipCode=22044, POCName=POCTest, PhoneNumber=5712259455, EmailAddress=hmouloud@gmail.com, WebsiteAddress=https://adad@domain.com, SubstituteOrIdenticalProduct=Please Select, ManufacturingTime=Yes, Quality=Yes, AvailableQuantity=Yes, DeliveryTime=Yes, Active=FALSE}
+{Scenarios=Scenario_01, CompanyName=, AuthOfficialName=, AuthOfficialTitle=, PhoneNumber=, AuthOfficialEmail=, POCEmail=, POCPhoneNumber=, Active=TRUE}
+{Scenarios=Scenario_02, CompanyName=comp name, AuthOfficialName=comp official, AuthOfficialTitle=test title, PhoneNumber=455, AuthOfficialEmail=ss@tesst, POCEmail=poc@gmail.com, POCPhoneNumber=33, Active=TRUE}
+{Scenarios=Scenario_03, CompanyName=, AuthOfficialName=, AuthOfficialTitle=wrong, PhoneNumber=455, AuthOfficialEmail=@tesst, POCEmail=poc@gmail.com, POCPhoneNumber=33, Active=TRUE}
+{Scenarios=Scenario_04, CompanyName=comp offcl name, AuthOfficialName=comp title, AuthOfficialTitle=5716695874, PhoneNumber=hm@gmail.com, AuthOfficialEmail=, POCEmail=5716695874, POCPhoneNumber=2222, Active=FALSE}
+{Scenarios=Scenario_05, CompanyName=comp offcl name, AuthOfficialName=comp title, AuthOfficialTitle=5716695874, PhoneNumber=hm@gmail.com, AuthOfficialEmail=poc@gmail.com, POCEmail=5716695874, POCPhoneNumber=, Active=FALSE}
+Executing Before class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SURREBUTTAL_RQST_ERR_VALIDATION/input_data
+{field_name=Preliminary Determination Item, field_tag=preliminaryDeterminationItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')], description=Step 3}
+{field_name=Decision on How to Proceed, field_tag=decisiononHowtoProceed, locator_type=xpath, locator_value=//span[contains(text(), 'Decision on How to Proceed')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a, description=Step 3}
+{field_name=Create New Exclusion Request, field_tag=CreateNewExclusionRequest, locator_type=xpath, locator_value=//a[text()='Create New Exclusion Request'], description=Step 3}
+{field_name= U.S. Department of Commerce, field_tag=HomePage, locator_type=xpath, locator_value=//a[contains(text(),'U.S. Department of Commerce')], description=Step 3}
+{field_name=Step 3, field_tag=tabName, locator_type=xpath, locator_value=//li[contains(text(),'~val~')], description=Step 3}
+{field_name=Element Minimum value, field_tag=ElementMinValue, locator_type=xpath, locator_value=//input[(@title = 'Minimal Percentage of ~val~') or (@title = 'Minimum Percentage of ~val~')   or (@title = 'Minimum ~val~') or (@title = '~val~ Percentage Minimum')  or (@title = '~val~ Minimum')], description=Step 3}
+{field_name=Element Maximum value, field_tag=ElementMaxValue, locator_type=xpath, locator_value=//input[(@title = 'Maximal Percentage of ~val~') or (@title = 'Maximum Percentage of ~val~')  or (@title = 'Maximum ~val~') or (@title = '~val~ Percentage Maximum')  or (@title = '~val~ Maximum')], description=Step 3}
+{field_name=Element Minimum value out of range, field_tag=ElementMinValueMessageTd, locator_type=xpath, locator_value=//input[(@title = 'Minimal Percentage of ~val~') or (@title = 'Minimum Percentage of ~val~')   or (@title = 'Minimum ~val~') or (@title = '~val~ Percentage Minimum')  or (@title = '~val~ Minimum')]/ancestor::td[1], description=Step 3}
+{field_name=Element Maximum value out of range, field_tag=ElementMaxValueMessageTd, locator_type=xpath, locator_value=//input[(@title = 'Maximal Percentage of ~val~') or (@title = 'Maximum Percentage of ~val~')   or (@title = 'Maximum ~val~') or (@title = '~val~ Percentage Maximum')  or (@title = '~val~ Maximum')]/ancestor::td[1], description=Step 3}
+{field_name=Element Minimum value out of range, field_tag=ElementMinValueMessage, locator_type=xpath, locator_value=//input[(@title = 'Minimal Percentage of ~val~') or (@title = 'Minimum Percentage of ~val~')  or (@title = 'Minimum ~val~') or (@title = '~val~ Percentage Minimum')  or (@title = '~val~ Minimum')]/following-sibling::span[1], description=Step 3}
+{field_name=Element Maximum value out of range, field_tag=ElementMaxValueMessage, locator_type=xpath, locator_value=//input[(@title = 'Maximal Percentage of ~val~') or (@title = 'Maximum Percentage of ~val~')  or (@title = 'Maximum ~val~') or (@title = '~val~ Percentage Maximum')  or (@title = '~val~ Maximum')]/following-sibling::span[1], description=Step 3}
+{field_name=submit form, field_tag=submitForm, locator_type=xpath, locator_value=//input[@value='Submit Form'], description=Step 3}
+{field_name=Product Description, field_tag=ProductDescription, locator_type=xpath, locator_value=//textarea[@title='Product Description'], description=Step 3}
+{field_name=Product Description, field_tag=ProductDescriptionMessage, locator_type=xpath, locator_value=//textarea[@title='Product Description']/following-sibling::span[1], description=Step 3}
+{field_name=Step 1 - Element, field_tag=StepOneElement, locator_type=xpath, locator_value=//input[(@title = '~val~') ], description=Step 1}
+{field_name=Step 1 - Element msg, field_tag=StepOneElementMessage, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/following-sibling::span[~val1~], description=Step 1}
+{field_name=Step 1 - Element div, field_tag=StepOneElementDiv, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/ancestor::div[2], description=Step 1}
+{field_name=Step 1 - Element select, field_tag=StepOneElementSelect, locator_type=xpath, locator_value=//select[(@title = '~val~') ], description=Step 1}
+{field_name=Step 1 - Element select msg, field_tag=StepOneElementSelectMessage, locator_type=xpath, locator_value=//select[(@title = '~val~') ]/following-sibling::span[1], description=Step 1}
+{field_name=Step 1 - Element select div, field_tag=StepOneElementSelectDiv, locator_type=xpath, locator_value=//select[(@title = '~val~') ]/ancestor::div[2], description=Step 1}
+{field_name=OwnershipAnswer_true, field_tag=OwnershipAnswer_true, locator_type=xpath, locator_value=//input[(@id = 'OwnershipAnswer_true') ], description=Step 2}
+{field_name=BehalfOf_true, field_tag=BehalfOf_true, locator_type=xpath, locator_value=//input[(@id = 'BehalfOf_true') ], description=Step 2}
+{field_name=Step 2 - Element , field_tag=StepTwoElement, locator_type=xpath, locator_value=//input[(@title = '~val~') ], description=Step 2}
+{field_name=Step 2 - Element msg, field_tag=StepTwoElementMessage, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/following-sibling::span[1], description=Step 2}
+{field_name=Step 2- Element div, field_tag=StepTwoElementDiv, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/ancestor::div[2], description=Step 2}
+{field_name=Step 2 - Element select, field_tag=StepTwoElementSelect, locator_type=xpath, locator_value=//select[(@title = '~val~') ], description=Step 2}
+{field_name=Step 2 - Element select msg, field_tag=StepTwoElementSelectMessage, locator_type=xpath, locator_value=//select[(@title = '~val~') ]/following-sibling::span[1], description=Step 2}
+{field_name=Step 2 - Element select div, field_tag=StepTwoElementSelectDiv, locator_type=xpath, locator_value=//select[(@title = '~val~') ]/ancestor::div[2], description=Step 2}
+{field_name=Application Suitability, field_tag=ApplicationSuitability, locator_type=xpath, locator_value=//textarea[@title='Application Suitability'], description=Step 4}
+{field_name=Origin Country, field_tag=OriginCountry, locator_type=xpath, locator_value=//select[contains(@id, 'OriginCountry')], description=Step 4}
+{field_name=Export Country, field_tag=ExportCountry, locator_type=xpath, locator_value=//select[contains(@id, 'ExportCountry')], description=Step 4}
+{field_name=CBP Distinguish Comments, field_tag=CBPDistinguishComments, locator_type=xpath, locator_value=//textarea[@title='CBP Distinguish Comments'], description=Step 4}
+{field_name=Application Suitability Message, field_tag=ApplicationSuitabilityMessage, locator_type=xpath, locator_value=//textarea[@title='Application Suitability']/following-sibling::span[1], description=Step 4}
+{field_name=Export Country Message, field_tag=OriginExportCountryMessage, locator_type=xpath, locator_value=//select[contains(@id, 'ExportCountry')]/ancestor::table[1]/following-sibling::span[1]/span[1], description=Step 4}
+{field_name=Application Suitability Message, field_tag=CBPDistinguishCommentsMessage, locator_type=xpath, locator_value=//textarea[@title='CBP Distinguish Comments']/following-sibling::span[1], description=Step 4}
+{field_name=contry table, field_tag=OriginExportCountryTable, locator_type=xpath, locator_value=//select[contains(@id, 'ExportCountry')]/ancestor::table[1], description=Step 4}
+{field_name=Step 5 - Element , field_tag=StepFiveElement, locator_type=xpath, locator_value=//input[(@title = '~val~') ], description=Step 5}
+{field_name=Step 5 - Element msg, field_tag=StepFiveElementMessage, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/following-sibling::span[1], description=Step 5}
+{field_name=Step 5 - Element div, field_tag=StepFiveElementDiv, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/ancestor::div[1], description=Step 5}
+{field_name=xx, field_tag=xx, locator_type=xpath, locator_value=xx}
+{field_name=search id, field_tag=SearchId, locator_type=xpath, locator_value=//input[(@title = 'Search ID') ], description=OBJECTION}
+{field_name=search id, field_tag=SearchComp, locator_type=xpath, locator_value=//input[(@title = 'Search Company') ], description=OBJECTION}
+{field_name=td searched, field_tag=tdSearchedId, locator_type=xpath, locator_value=//td[text()='~val~'], description=OBJECTION}
+{field_name=td searched status, field_tag=tdSearchedStatus, locator_type=xpath, locator_value=//td[text()='~val~']/ancestor::tr[1]/td[5], description=OBJECTION}
+{field_name=td searched details, field_tag=tdSearchedDetail, locator_type=xpath, locator_value=//td[text()='~val~']/ancestor::tr[1]/td[8]/a, description=OBJECTION}
+{field_name=create Objection Filing, field_tag=createObjectionFiling, locator_type=xpath, locator_value=//input[(@id = 'btnObjectionFiling') ], description=OBJECTION}
+{field_name=RE Step 1 - Element, field_tag=OR_StepOneElement, locator_type=xpath, locator_value=//h3[text()='Objecting Organization Information']/following-sibling::div[1]//label[text()='~val~']//ancestor::span[1]/following-sibling::input[1], description=OBJECTION}
+{field_name=RE Step 1 - Element msg, field_tag=OR_StepOneElementMessage, locator_type=xpath, locator_value=//h3[text()='Objecting Organization Information']/following-sibling::div[1]//label[text()='~val~']//ancestor::span[1]/following-sibling::input[1]/following-sibling::span[1], description=OBJECTION}
+{field_name=RE Step 1 - Element div, field_tag=OR_StepOneElementDiv, locator_type=xpath, locator_value=//h3[text()='Objecting Organization Information']/following-sibling::div[1]//label[text()='~val~']//ancestor::span[1]/following-sibling::input[1]/ancestor::div[2], description=OBJECTION}
+{field_name=RE Step 1 - Element select, field_tag=OR_StepOneElementSelect, locator_type=xpath, locator_value=//h3[text()='Objecting Organization Information']/following-sibling::div[1]//label[text()='~val~']//ancestor::span[1]/following-sibling::Select[1], description=OBJECTION}
+{field_name=RE Step 1 - Element select msg, field_tag=OR_StepOneElementSelectMessage, locator_type=xpath, locator_value=//h3[text()='Objecting Organization Information']/following-sibling::div[1]//label[text()='~val~']//ancestor::span[1]/following-sibling::Select[1]/following-sibling::span[1], description=OBJECTION}
+{field_name=RE Step 1 - Element select div, field_tag=OR_StepOneElementSelectDiv, locator_type=xpath, locator_value=//h3[text()='Objecting Organization Information']/following-sibling::div[1]//label[text()='~val~']//ancestor::span[1]/following-sibling::Select[1]/ancestor::div[2], description=OBJECTION}
+{field_name=RE Step 3 - Element select, field_tag=OR_StepThreeElementSelect, locator_type=xpath, locator_value=//label[text()='~val~']//ancestor::div[1]/following-sibling::div[1]/Select[1], description=OBJECTION}
+{field_name=RE Step 3 - Element select msg, field_tag=OR_StepThreeElementSelectMessage, locator_type=xpath, locator_value=//label[text()='~val~']//ancestor::div[1]/following-sibling::div[1]/span[1], description=OBJECTION}
+{field_name=RE Step 3 - Element select div, field_tag=OR_StepThreeElementSelectDiv, locator_type=xpath, locator_value=//label[text()='~val~']//ancestor::div[1]/following-sibling::div[1], description=OBJECTION}
+{field_name=RE Step 4 - Element select, field_tag=OR_StepFourElement, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ProductAvailabilityByReqOrg_~val~'], description=OBJECTION}
+{field_name=RE Step 4 - Element select msg, field_tag=OR_StepFourElementMessage, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ProductAvailabilityByReqOrg_~val~']/ancestor::div[1]/span, description=OBJECTION}
+{field_name=RE Step 4 - Element select div, field_tag=OR_StepFourElementDiv, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ProductAvailabilityByReqOrg_~val~']/ancestor::div[1], description=OBJECTION}
+{field_name=RE Step 4 - Element select msg, field_tag=OR_StepFourElementMessage2, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ProductAvailabilityByReqOrg_~val~']/ancestor::div[2]/span, description=OBJECTION}
+{field_name=RE Step 4 - Element select div, field_tag=OR_StepFourElementDiv2, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ProductAvailabilityByReqOrg_~val~']/ancestor::div[2], description=OBJECTION}
+{field_name=RE Step 4 - Element select div, field_tag=Home, locator_type=xpath, locator_value=//span[text()='Home'], description=OBJECTION}
+{field_name=RE Step 5 - Element select div, field_tag=OR_StepFiveElement, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_SubmissionCertification_~val~'], description=OBJECTION}
+{field_name=RE Step 5 - Element select msg, field_tag=OR_StepFiveElementMessage, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_SubmissionCertification_~val~']/ancestor::div[1]/span[2], description=OBJECTION}
+{field_name=RE Step 5 - Element select div, field_tag=OR_StepFiveElementDiv, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_SubmissionCertification_~val~']/ancestor::div[1], description=OBJECTION}
+{field_name=RE Step 2 - Element select div, field_tag=OR_StepTwoElement, locator_type=xpath, locator_value=//input[@id='~val~~val1~'], description=OBJECTION}
+{field_name=RE Step 2 - Element select msg, field_tag=OR_StepTwoElementMessage, locator_type=xpath, locator_value=//input[@id='~val~~val1~']/following-sibling::span[1], description=OBJECTION}
+{field_name=RE Step 2 - Element select div, field_tag=OR_StepTwoElementDiv0, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ReasonForObjection_ManufacturingLocations_0__~val~']/ancestor::td[1], description=OBJECTION}
+{field_name=RE Step 2 - Element select div, field_tag=OR_StepTwoElementDiv1, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ReasonForObjection_ProductionLocations_0__~val~']/ancestor::td[1], description=OBJECTION}
+{field_name=RE Step 2 - Element select div, field_tag=OR_StepTwoElementDiv2, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ReasonForObjection_SubstitueLocations_0__~val~']/ancestor::td[1], description=OBJECTION}
+{field_name=RE Step 2 - Element select div, field_tag=OR_StepTwoElementDiv3, locator_type=xpath, locator_value=//input[@id='BIS232Objection_JSONData_ReasonForObjection_ProductionSubstituteLocations_0__~val~']/ancestor::td[1], description=OBJECTION}
+{field_name=Rebuttal Request - DETAILS, field_tag=RE_details, locator_type=xpath, locator_value=//a[text()='Details'], description=OBJECTION}
+{field_name=create Objection Filing, field_tag=createObjectionRebuttal, locator_type=xpath, locator_value=//input[(@id = 'btnObjectionRebuttal') ], description=OBJECTION}
+{field_name=RE Step 1 - Element, field_tag=RE_StepOneElement, locator_type=xpath, locator_value=//input[contains(@id, '~val~')], description=REBUTTAL}
+{field_name=RE Step 1 - Element msg, field_tag=RE_StepOneElementMessage, locator_type=xpath, locator_value=//input[contains(@id, '~val~')]/following-sibling::span[1], description=REBUTTAL}
+{field_name=RE Step 1 - Element div, field_tag=RE_StepOneElementDiv, locator_type=xpath, locator_value=//input[contains(@id, '~val~')]/ancestor::div[1], description=REBUTTAL}
+{field_name=RE Step 1 - Element select, field_tag=RE_StepOneElementSelect, locator_type=xpath, locator_value=//select[contains(@id, '~val~')], description=REBUTTAL}
+{field_name=RE Step 1 - Element select msg, field_tag=RE_StepOneElementSelectMessage, locator_type=xpath, locator_value=//select[contains(@id, '~val~')]/following-sibling::span[1], description=REBUTTAL}
+{field_name=RE Step 1 - Element select div, field_tag=RE_StepOneElementSelectDiv, locator_type=xpath, locator_value=//select[contains(@id, '~val~')]/ancestor::div[2], description=REBUTTAL}
+{field_name=RE Step 5 - Element, field_tag=RE_StepFiveElement, locator_type=xpath, locator_value=//input[@id = 'BIS232ObjectionRebuttal_JSONData_SubmissionCertification_~val~'], description=REBUTTAL}
+{field_name=RE Step 5 - Element msg, field_tag=RE_StepFiveElementMessage, locator_type=xpath, locator_value=//input[@id = 'BIS232ObjectionRebuttal_JSONData_SubmissionCertification_~val~']/following-sibling::span[1], description=REBUTTAL}
+{field_name=RE Step 5 - Element div, field_tag=RE_StepFiveElementDiv, locator_type=xpath, locator_value=//input[@id = 'BIS232ObjectionRebuttal_JSONData_SubmissionCertification_~val~']/ancestor::div[1], description=REBUTTAL}
+{field_name=create Objection Filing, field_tag=createObjectionSURRebuttal, locator_type=xpath, locator_value=//input[(@id = 'btnObjectionRebuttal') ], description=SURREBUTTAL}
+{field_name=RE Step 5 - Element, field_tag=SRE_StepFiveElement, locator_type=xpath, locator_value=//input[@id = 'BIS232Surrebuttal_JSONData_SubmissionCertification_~val~'], description=SURREBUTTAL}
+{field_name=RE Step 5 - Element msg, field_tag=SRE_StepFiveElementMessage, locator_type=xpath, locator_value=//input[@id = 'BIS232Surrebuttal_JSONData_SubmissionCertification_~val~']/following-sibling::span[1], description=SURREBUTTAL}
+{field_name=RE Step 5 - Element div, field_tag=SRE_StepFiveElementDiv, locator_type=xpath, locator_value=//input[@id = 'BIS232Surrebuttal_JSONData_SubmissionCertification_~val~']/ancestor::div[1], description=SURREBUTTAL}
+beforeMethod()
+beforeMethod()
+0
+{Scenarios=Scenario_01, Request_Id=999, Active=TRUE}
+Scenario_01
+Creating Process...
+Creating Process...
+"chromedriver.exe","6624","Console","1","12,784 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:01","N/A"
+6624
+userDir C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SURREBUTTAL_RQST_ERR_VALIDATION
+this a windows machine
+C:/libs
+afterMethod()
+Scenario_01
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SURREBUTTAL_RQST_ERR_VALIDATION/input_data
+beforeMethod()
+beforeMethod()
+1
+{Scenarios=Scenario_02, Request_Id=351, Active=TRUE}
+Scenario_02
+Creating Process...
+"chrome.exe","5748","Console","1","102,132 K","Running","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:04","Web App - Unavailable - Google Chrome"
+"chrome.exe","9004","Console","1","7,288 K","Running","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+"chrome.exe","5236","Console","1","9,344 K","Running","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+"chrome.exe","14328","Console","1","118,344 K","Running","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:02","N/A"
+"chrome.exe","18056","Console","1","27,544 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+"chrome.exe","15936","Console","1","50,452 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:01","N/A"
+"chrome.exe","14592","Console","1","32,880 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+"chrome.exe","15888","Console","1","23,364 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+5748
+9004
+5236
+14328
+18056
+15936
+14592
+15888
+Creating Process...
+"chromedriver.exe","17156","Console","1","13,352 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:01","N/A"
+17156
+userDir C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SURREBUTTAL_RQST_ERR_VALIDATION
+this a windows machine
+C:/libs
+afterMethod()
+Scenario_02
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SURREBUTTAL_RQST_ERR_VALIDATION/input_data
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SURREBUTTAL_RQST_ERR_VALIDATION/input_data
+null
+
+===============================================
+Suite
+Total tests run: 3, Failures: 2, Skips: 1
+Configuration Failures: 1, Skips: 3
+===============================================
+

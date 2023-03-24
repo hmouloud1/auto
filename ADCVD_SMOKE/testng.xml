@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" guice-stage="DEVELOPMENT" junit="false" name="Suite" parallel="none" preserve-order="true" skipfailedinvocationcounts="false" thread-count="5">
+  <test allow-return-values="false" group-by-instances="false" junit="false" name="Test" preserve-order="true" skipfailedinvocationcounts="false" thread-count="5">
+    <classes>
+      <class name="tests.TestOne">
+    
+    <methods><include name="Create_Adcvd_Case"/><include name="Create_And_Validate_Petition"/><include name="Create_And_Validate_Investigation"/><include name="Create_Order"/><include name="Create_Segment_Administrative_Review"/><include name="Create_Segment_Anti_Circumvention_Review"/><include name="Create_Segment_Changed_Circumstances_Review"/><include name="Create_Segment_Expedited_Review"/><include name="Create_Segment_New_Shipper_Review"/><include name="Create_Segment_Scope_Inquiry"/><include name="Create_Segment_Sunset_Review"/></methods></class>
+    </classes>
+  </test> 
+</suite>

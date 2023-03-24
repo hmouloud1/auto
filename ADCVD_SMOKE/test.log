@@ -1,0 +1,189 @@
+MainMethod()
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_SCRIPT/input_data
+{Id=1.0, Test_Case_Name=Create_Adcvd_Case, Test_Case_Tag=TC_TAG_001, Test_Case_Description=Create AD/CVD Case, Record_Type=Self-Initiate, ADCVD_Case=C-, Commodity=Textiles, ADCVD_Case_Type=CVD, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=This is just a Test, Country=Spain, Lock_Record=No, Active=TRUE}
+{Id=1.0, Test_Case_Name=Create_And_Validate_Petition, Test_Case_Tag=TC_TAG_002, Test_Case_Description=Create petition and validate calculated dates, Record_Type=Self-Initiate, Office=III, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Actual_Initiation_Issues_To_DAS=10/31/2018, Actual_Initiation_Signature=11/1/2019, Actual_Initiation_Concurrence_to_DAS=11/3/2018, Petition_Outcome=Initiated from Petition, Lotus_Notes_History_Data=history test, Lock_Record=Yes, Product=MH-0002, Product_Short_Name=MH-02, Country=Spain, Commodity=Minerals, Status=In Progress, Lotus_Notes_Litigation_ID=11.0, Petition_Filed=11/5/2018, Litigation=No, Initiation_Extension=8, Litigation_Resolved=Yes, Initiation_Issues_Due_to_DAS=11/4/2018, Next_Announcement_Date=11/5/2018, Initiation_Concurrence_Due_to_DAS=11/6/2019, Next_Due_to_DAS_Deadline=11/7/2020, Calculated_Initiation_Signature=11/8/2021, Next_Major_Deadline=11/9/2022, Next_Office_Deadline=11/10/2023, Active=FALSE}
+{Id=1.0, Test_Case_Name=Create_And_Validate_Investigation, Test_Case_Tag=TC_TAG_003, Test_Case_Description=Create an investigation and validate calculated dates, Record_Type=CVD, Active=FALSE}
+{Id=1.0, Test_Case_Name=Create_Order, Test_Case_Tag=TC_TAG_004, Test_Case_Description=Create New Order, Active=FALSE}
+{Id=1.0, Test_Case_Name=Create_Segment_Administrative_Review, Test_Case_Tag=TC_TAG_005, Test_Case_Description=Create and validate 'Administrative Review' segment, Segment_Type=Administrative Review, Final_Date_Of_Anniversary_Month=11/29/2018, Request_Filed_Date=, Application_Accepted_Date=, Preliminary_Determination=, Calculated_Initiation_Signature=, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Actual_Date_Of_Decision_How_To_Proceed=, FR_Published_Date=, Active=FALSE}
+{Id=2.0, Test_Case_Name=Create_Segment_Anti_Circumvention_Review, Test_Case_Tag=TC_TAG_006, Test_Case_Description=Create and validate 'Anti-Circumvention Review' segment, Segment_Type=Anti-Circumvention Review, Final_Date_Of_Anniversary_Month=, Request_Filed_Date=11/29/2018, Application_Accepted_Date=11/29/2018, Preliminary_Determination=Yes, Calculated_Initiation_Signature=, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Actual_Date_Of_Decision_How_To_Proceed=, FR_Published_Date=, Active=FALSE}
+{Id=3.0, Test_Case_Name=Create_Segment_Changed_Circumstances_Review, Test_Case_Tag=TC_TAG_007, Test_Case_Description=Create and validate 'Changed Circumstances Review' segment, Segment_Type=Changed Circumstances Review, Final_Date_Of_Anniversary_Month=, Request_Filed_Date=11/29/2018, Application_Accepted_Date=, Preliminary_Determination=Yes, Calculated_Initiation_Signature=, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Actual_Date_Of_Decision_How_To_Proceed=, FR_Published_Date=, Active=FALSE}
+{Id=4.0, Test_Case_Name=Create_Segment_Expedited_Review, Test_Case_Tag=TC_TAG_008, Test_Case_Description=Create and validate 'Expedited Review' segment, Segment_Type=Expedited Review, Final_Date_Of_Anniversary_Month=, Request_Filed_Date=, Application_Accepted_Date=, Preliminary_Determination=, Calculated_Initiation_Signature=11/29/2018, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Actual_Date_Of_Decision_How_To_Proceed=, FR_Published_Date=, Active=FALSE}
+{Id=5.0, Test_Case_Name=Create_Segment_New_Shipper_Review, Test_Case_Tag=TC_TAG_009, Test_Case_Description=Create and validate 'New Shipper Review' segment, Segment_Type=New Shipper Review, Final_Date_Of_Anniversary_Month=, Request_Filed_Date=, Application_Accepted_Date=, Preliminary_Determination=, Calculated_Initiation_Signature=11/29/2018, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Actual_Date_Of_Decision_How_To_Proceed=, FR_Published_Date=, Active=FALSE}
+{Id=6.0, Test_Case_Name=Create_Segment_Scope_Inquiry, Test_Case_Tag=TC_TAG_010, Test_Case_Description=Create and validate 'Scope Inquiry' segment, Segment_Type=Scope Inquiry, Final_Date_Of_Anniversary_Month=, Request_Filed_Date=11/29/2018, Application_Accepted_Date=, Preliminary_Determination=, Calculated_Initiation_Signature=, Decision_On_How_To_Proceed=Formal, Type_Of_Scope_Ruling=K (1), Actual_Date_Of_Decision_How_To_Proceed=12/4/2018, FR_Published_Date=, Active=FALSE}
+{Id=7.0, Test_Case_Name=Create_Segment_Sunset_Review, Test_Case_Tag=TC_TAG_011, Test_Case_Description=Create and validate 'Sunset Review' segment, Segment_Type=Sunset Review, Final_Date_Of_Anniversary_Month=, Request_Filed_Date=, Application_Accepted_Date=, Preliminary_Determination=, Calculated_Initiation_Signature=, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Actual_Date_Of_Decision_How_To_Proceed=, FR_Published_Date=1/5/2019, Active=FALSE}
+Executing Before class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_SCRIPT/input_data
+{field_name=user name, field_tag=userName, locator_type=xpath, locator_value=//input[@id='username']}
+{field_name=password, field_tag=password, locator_type=xpath, locator_value=//input[@id='password']}
+{field_name=login button, field_tag=loginTo, locator_type=xpath, locator_value=//input[@id='Login']}
+{field_name=Organizations Tab, field_tag=organizationsLink, locator_type=xpath, locator_value=//a[contains(text(), 'Organizations')]}
+{field_name=view, field_tag=fcfView, locator_type=xpath, locator_value=//select[@name='fcf']}
+{field_name=New To Market App, field_tag=NewToMarketApp, locator_type=xpath, locator_value=//span[contains(text(), 'New To Market App')]}
+{field_name=testElement, field_tag=testElement, locator_type=xpath, locator_value=//a[contains(text(), '010121')]}
+{field_name=Copyright, field_tag=copyright, locator_type=xpath, locator_value=//span[contains(text(), 'Copyright')]}
+{field_name=Home, field_tag=homeObjectLink, locator_type=xpath, locator_value=//span[contains(text(), 'Home')], 0=}
+{field_name=Chater, field_tag=chaterObjectLink, locator_type=xpath, locator_value=//span[contains(text(), 'Chater')]}
+{field_name=ADCVD Cases, field_tag=adcvdCasesObjectLink, locator_type=xpath, locator_value=//a/span[text()='ADCVD Cases']}
+{field_name=Petitions, field_tag=petitionsObjectLink, locator_type=xpath, locator_value=//nav/ul/li/a/span[contains(text(), 'Petitions')]}
+{field_name=Investigations, field_tag=investigationsObjectLink, locator_type=xpath, locator_value=//span[contains(text(), 'Investigations')]}
+{field_name=ADCVD Litigation, field_tag=LitigationObjectLink, locator_type=xpath, locator_value=//a/span[@class='slds-truncate' and text()='Litigation']}
+{field_name=ADCVD Orders, field_tag=adcvdOrdersObjectLink, locator_type=xpath, locator_value=//span[contains(text(), 'ADCVD Orders')]}
+{field_name=Segments, field_tag=segmentsOrdersObjectLink, locator_type=xpath, locator_value=//span[contains(text(), 'Segments')]}
+{field_name=New Case, field_tag=newCaseLink, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//div[contains(text(), 'New')], 0=}
+{field_name=next button, field_tag=nextButton, locator_type=xpath, locator_value=//div[@class='forceChangeRecordTypeFooter']//button[2]}
+{field_name=radio button Filed, field_tag=recTypeFiled, locator_type=xpath, locator_value=//span[contains(text(), 'Filed')]/ancestor::label[1]//input[1], 0=}
+{field_name=radio button SelfInitiate, field_tag=recTypeSelfInitiated, locator_type=xpath, locator_value=//span[contains(text(), 'Self-Initiated')]/ancestor::label[1]//input[1]}
+{field_name=Case Name, field_tag=inputadcvdCase, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'ADCVD Case')]/ancestor::label[1]/following-sibling::input[1]}
+{field_name=CBP Case Number, field_tag=inputCbpCaseNumber, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'CBP Case Number')]/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Product, field_tag=inputProduct, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[text()= 'Product']/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Product Short Name, field_tag=inputProductShortName, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'Product Short Name')]/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Commodity, field_tag=selectCommodity, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'Commodity')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Commodity Item, field_tag=selectCommodityItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=ADCVD Case Type, field_tag=selectCaseType, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'ADCVD Case Type')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=ADCVD Case Type Item, field_tag=selectCaseTypeItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=Country, field_tag=selectCountry, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'Country')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Country Item, field_tag=selectCountryItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')], 0=}
+{field_name=Record Locked, field_tag=checkRecordLock, locator_type=xpath, locator_value=//span[contains(text(), 'Record Locked')]/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Save Case button, field_tag=saveCaseButton, locator_type=xpath, locator_value=//div[@class='modal-footer slds-modal__footer']/div/button/span[(contains(text(), 'Save')) and not (contains(text(), 'New'))]}
+{field_name=Cancel Case button, field_tag=CancelCaseButton, locator_type=xpath, locator_value=//div[@class='modal-footer slds-modal__footer']/div/button/span[(contains(text(), 'Cancel'))]}
+{field_name=review the error on this page, field_tag=newCreateError, locator_type=xpath, locator_value=//span[contains(text(), 'Review the errors on this page.')]}
+{field_name=new petition button, field_tag=newPetitionButton, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//ul/li/a/div[text()='New']}
+{field_name=Petition date, field_tag=inputPetitionDate, locator_type=xpath, locator_value=//span[contains(text(), '~val~')]/ancestor::label[1]/following-sibling::div[1]/input}
+{field_name=Petition Text box, field_tag=inputPetitionText, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[text() = '~val~']/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Petition Text drop down, field_tag=inputPetitionDropDown, locator_type=xpath, locator_value=//span[contains(text(), '~val~')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Petition Text drop down Item, field_tag=inputPetitionDropDownItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=Lotus note history data, field_tag=inputlnHistoryData, locator_type=xpath, locator_value=//span[text() = 'Lotus Notes History Data']/ancestor::label[1]/following-sibling::textarea[1]}
+{field_name=Case home page, field_tag=textCaseHomePage, locator_type=xpath, locator_value=//li/span[text() = 'ADCVD Case']/ancestor::div[1]}
+{field_name=New Petition, field_tag=linkNewPetition, locator_type=xpath, locator_value=//th[contains(text(), 'Petition Number')]//ancestor::thead[1]/following-sibling::tbody[1]/tr/th//a, 0=//span[contains(text(), 'Petition')]//ancestor::div[1]//a[contains(text(), 'C-') or contains(text(), 'A-')]}
+{field_name=Petition dates to validate, field_tag=genericPetitionDate, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[contains(text(), 'Path Key Fields') or contains(text(), 'Task Completion')]//ancestor::div[1]//span[contains(text(), '~val~')]/ancestor::div[1]/following-sibling::div[1]/span/span}
+{field_name=Investigations link, field_tag=linkInvestigation, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//div/ul//li//span[contains(text(), 'Investigations')]}
+{field_name=Investigations button, field_tag=newInvestigationButton, locator_type=xpath, locator_value=//span[contains(text(), 'Investigations')]/ancestor::header[1]/following-sibling::div[1]//a/div}
+{field_name=Investigations record type, field_tag=recordTypeInvestigation, locator_type=xpath, locator_value=//label/div//span[contains(text(), 'CVD')]}
+{field_name=Generic investigation field, field_tag=genericInvestigationField, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span//ancestor::div[1]//span[text() = '~val~']/ancestor::div[1]/following-sibling::div[1]/span/span}
+{field_name=Generic investigation field, field_tag=genericInvestigationFieldDiv, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span//ancestor::div[1]//span[text() = '~val~']/ancestor::div[2]}
+{field_name=Generic investigation link, field_tag=genericInvestigationLink, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span//ancestor::div[1]//span[text() = '~val~']/ancestor::div[1]/following-sibling::div[1]/span/div/a}
+{field_name=New created Investigation link, field_tag=linkNewCreatedInvestigation, locator_type=xpath, locator_value=//th[contains(text(), 'Investigation Outcome')]/ancestor::table[1]//tbody[1]/tr/th//a[contains(text(), '--I-')]}
+{field_name=Next button investigation, field_tag=nextButtonInvestigation, locator_type=xpath, locator_value=//div[@class='forceChangeRecordTypeFooter']//button[2]}
+{field_name=link ADCVD Order, field_tag=linkAdcvdOrder, locator_type=xpath, locator_value=//a/span[text()='ADCVD Orders']}
+{field_name=New order button, field_tag=buttonNewOrder, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//li/a/div[contains(text(), 'New')]}
+{field_name=cancel order button, field_tag=buttonCancelOrder, locator_type=xpath, locator_value=//div[@class='modal-footer slds-modal__footer']/div/button/span[contains(text(), 'Cancel')]}
+{field_name=Parent Investigtion, field_tag=inputInvestigation, locator_type=xpath, locator_value=//span[contains(text(), 'Investigation')]/ancestor::label[1]/following-sibling::div//input}
+{field_name=Parent Investigtion Id, field_tag=iInvestigationId, locator_type=xpath, locator_value=//ul/li/a/div/div[contains(text(), '~val~')]}
+{field_name=Segments tab, field_tag=linkSegments, locator_type=xpath, locator_value=//a/span[text()='Segments']}
+{field_name=Button new segment, field_tag=buttonNewSegment, locator_type=xpath, locator_value=//ul/li/a/div[text()='New']}
+{field_name=Radio button segment type, field_tag=radioSegmentType, locator_type=xpath, locator_value=//span[contains(text(), '~val~')]/ancestor::label[1]/div[1]}
+{field_name=Next button segment, field_tag=nextButtonSegment, locator_type=xpath, locator_value=//div[@class='forceChangeRecordTypeFooter']//button[2]}
+{field_name=Save segment button, field_tag=buttonSaveSegment, locator_type=xpath, locator_value=//div[@class='modal-footer slds-modal__footer']/div/button/span[(contains(text(), 'Save')) and not (contains(text(), 'New'))]}
+{field_name=Created new segment, field_tag=newSegmentCreated, locator_type=xpath, locator_value=//tbody[1]/tr/th//a[contains(text(), 'S-')]}
+{field_name=Generic investigation field, field_tag=genericSegmentField, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span//ancestor::div[1]//span[text() = '~val~']/ancestor::div[1]/following-sibling::div[1]/span/span}
+{field_name=Segment type, field_tag=segmentType, locator_type=xpath, locator_value=//span[contains(text(), '~val~')]/ancestor::td[1]}
+{field_name=Newly created Order, field_tag=newCreatedOrder, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span//ancestor::div[1]//span[text() = 'ADCVD Order']/ancestor::div[1]/following-sibling::div[1]/span/span}
+{field_name=Parent Order, field_tag=inputOrder, locator_type=xpath, locator_value=//span[contains(text(), 'ADCVD Order')]/ancestor::label[1]/following-sibling::div//input}
+{field_name=Parent Order Id, field_tag=iOrderId, locator_type=xpath, locator_value=//ul/li/a/div/div[contains(text(), '~val~')]}
+{field_name=Newly created Segment, field_tag=newCreatedSegment, locator_type=xpath, locator_value=//span[contains(text(), '~val~')]/ancestor::td[1]/ancestor::tr/th//a}
+{field_name=segment date, field_tag=inputSegmentDate, locator_type=xpath, locator_value=//span[text() = '~val~']/ancestor::label[1]/following-sibling::div/input[1]}
+{field_name=cancel segment button, field_tag=buttonCancelSegment, locator_type=xpath, locator_value=//div[@class='modal-footer slds-modal__footer']/div/button/span[contains(text(), 'Cancel')]}
+{field_name=segment text, field_tag=inputSegmentText, locator_type=xpath, locator_value=//span[text() = '~val~']/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Preliminary Determination, field_tag=preliminaryDetermination, locator_type=xpath, locator_value=//span[contains(text(), 'Preliminary Determination')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Preliminary Determination Item, field_tag=preliminaryDeterminationItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=Decision on How to Proceed, field_tag=decisiononHowtoProceed, locator_type=xpath, locator_value=//span[contains(text(), 'Decision on How to Proceed')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Decision on How to Proceed item, field_tag=decisiononHowtoProceedItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=Scope Rolling Type, field_tag=scopeRollingType, locator_type=xpath, locator_value=//span[contains(text(), 'Type of Scope Ruling')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Scope Rolling Type item, field_tag=scopeRollingTypeItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=Details, field_tag=objectDetails, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[text() = 'Details']}
+{field_name=FRs & Alignments, field_tag=objectFRs, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[text() = 'FRs & Alignments']}
+{field_name=New FRs button, field_tag=newFRButton, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//ul/li/a/div[text()='New']}
+{field_name=Federal Register Type, field_tag=FederalRegisterType, locator_type=xpath, locator_value=//span[contains(text(), 'Type')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Federal Register Type Item, field_tag=FederalRegisterTypeItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=Federal Registration date, field_tag=inputFRDate, locator_type=xpath, locator_value=//span[text() = '~val~']/ancestor::label[1]/following-sibling::div/input[1]}
+{field_name=segment text, field_tag=inputFRText, locator_type=xpath, locator_value=//span[text() = '~val~']/ancestor::label[1]/following-sibling::input[1]}
+{field_name=sunset review date, field_tag=sunSetReviewDate, locator_type=xpath, locator_value=//label[contains(text() , '~val~')]/ancestor::div[1]/following-sibling::div[1]/span}
+{field_name=Edit Button, field_tag=EditButton, locator_type=xpath, locator_value=//p[text() = 'Segment']/ancestor::div[1]/following-sibling::div[1]//input[@value = 'Edit']}
+{field_name=select value on sunset review, field_tag=selectOnSunSet, locator_type=xpath, locator_value=//label[text() = '~val~']/ancestor::div[1]/following-sibling::div[1]/select}
+{field_name=Save Button, field_tag=SaveButton, locator_type=xpath, locator_value=//p[text() = 'Segment']/ancestor::div[1]/following-sibling::div[1]//input[@value = 'Save']}
+{field_name=fram on sunset review, field_tag=frameOnSunsetReview, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//iframe}
+{field_name=type of sunset review, field_tag=sunsetReviewType, locator_type=xpath, locator_value=//legend[contains(text(),  '~val~')]}
+{field_name=generic segment dates to validate, field_tag=genericSegmentDate, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[contains(text(), 'Path Key Fields') or contains(text(), 'Task Completion')]//ancestor::div[1]//span[contains(text(), '~val~')]/ancestor::div[1]/following-sibling::div[1]/span/span}
+{field_name=edit Button of align to, field_tag=editAlignTo, locator_type=xpath, locator_value=//span[text()='AD Investigation Aligned To']/ancestor::div[1]/following-sibling::div[1]//button}
+{field_name=align to, field_tag=alignTo, locator_type=xpath, locator_value=//input[@title='Search Investigations']}
+{field_name=item from align to, field_tag=itemfromalignTo, locator_type=xpath, locator_value=//div[@title='~val~']}
+{field_name=save investigation, field_tag=saveInvestigation, locator_type=xpath, locator_value=//div[@class='footer active']//button/span[text()='Save']}
+{field_name=created case, field_tag=createdCase, locator_type=xpath, locator_value=//div[@title='~val~']}
+{field_name=linkedADText, field_tag=linkedADText, locator_type=xpath, locator_value=//span[text()='AD Investigation Aligned To']/ancestor::div[1]/following-sibling::div[1]//a[contains(text(), '~val~')]}
+{field_name=AD Investigation Aligned To div, field_tag=ADInvestigationAlignedToDiv, locator_type=xpath, locator_value=//span[text()='AD Investigation Aligned To']/ancestor::div[2]}
+{field_name=Object Link, field_tag=objectMenuLink, locator_type=xpath, locator_value=//a/span[text() = '~val~']}
+{field_name=new Litigation button, field_tag=newLitigationButton, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//ul/li/a/div[text()='New']}
+{field_name=radio button litigation type, field_tag=typeOfLitigationRadion, locator_type=xpath, locator_value=//span[contains(text(), '~val~')]/ancestor::label[1]/div[1]}
+{field_name=Input Litigation date, field_tag=inputLitigationDate, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), '~val~')]/ancestor::label[1]/following-sibling::div[1]/input}
+{field_name=Input Litigation Text, field_tag=inputLitigationText, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[text() = '~val~']/ancestor::label[1]/following-sibling::input[1]}
+{field_name=petition field on Litigation, field_tag=petitionsFieldOnLitigation, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//input[@title = 'Search Petitions']}
+{field_name=petition item on Litigation, field_tag=petitionsItemOnLitigation, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//div[@class='listContent']/ul/li[1]}
+{field_name=created litigation, field_tag=createdLitigation, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[contains (text(), 'Record Type')]/following-sibling::div[1]//span[contains(text(), '~val~')]}
+{field_name=Generic litigation field, field_tag=genericLitigationField, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span//ancestor::div[1]//span[text() = '~val~']/ancestor::div[1]/following-sibling::div[1]/span/span}
+{field_name=Petition Outcome, field_tag=selectPetitionOutcome, locator_type=xpath, locator_value=//span[contains(text(), 'Petition Outcome')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=Petition Outcome Item, field_tag=selectPetitionOutcomeItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=save edited petition, field_tag=saveEditedPetition, locator_type=xpath, locator_value=//div[@class='footer active']//button/span[text()='Save']}
+{field_name=FR Notice link, field_tag=linkFRNotice, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//div/ul//li//span[contains(text(), 'FR Notices')]}
+{field_name=new FR button, field_tag=newFRButton, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//ul/li/a/div[text()='New']}
+{field_name=FR Type, field_tag=frType, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), 'Type')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a}
+{field_name=FR Type Item, field_tag=frTypeItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')]}
+{field_name=FR notice date, field_tag=frDate, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[contains(text(), '~val~')]/ancestor::label[1]/following-sibling::div[1]/input}
+{field_name=FR notice text fileds, field_tag=frText, locator_type=xpath, locator_value=//div[@class='test-id__record-layout-container riseTransitionEnabled']//span[text() ='~val~']/ancestor::label[1]/following-sibling::input[1]}
+{field_name=Save FR button, field_tag=saveFRButton, locator_type=xpath, locator_value=//div[@class='modal-footer slds-modal__footer']/div/button/span[(contains(text(), 'Save')) and not (contains(text(), 'New'))]}
+{field_name=Created FR, field_tag=craetedFR, locator_type=xpath, locator_value=//a[contains(text(), 'FR-')]}
+{field_name=edit Button petition outcome, field_tag=editPetitionOutCome, locator_type=xpath, locator_value=//span[text()='Petition Outcome']/ancestor::div[1]/following-sibling::div[1]//button}
+{field_name=nsr edit Button of align to ar, field_tag=editAlignToAr, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[text()='Administrative Review Aligned To']/ancestor::div[1]/following-sibling::div[1]//button}
+{field_name=align to Ar, field_tag=alignToAr, locator_type=xpath, locator_value=//input[@title='Search Segments']}
+{field_name=item from align to Ar, field_tag=itemfromalignToAr, locator_type=xpath, locator_value=//div[@title='~val~']}
+{field_name=nsr edit Button of align to ar, field_tag=editAlignToArDiv, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//span[text()='Administrative Review Aligned To']/ancestor::div[2]}
+{field_name=Save edited segment, field_tag=saveEditedSegment, locator_type=xpath, locator_value=//div[@class='footer active']//button/span[text()='Save']}
+{field_name=aligned ar segment, field_tag=alignedSrSegment, locator_type=xpath, locator_value=//div[@class = 'windowViewMode-normal oneContent active lafPageHost']//a[text() = '~val~']}
+{field_name=Order, Susp, & Litigation, field_tag=linkOrderSuspLitigation, locator_type=xpath, locator_value=//span[contains(text(), 'Order, Susp, & Litigation')]}
+{field_name=New Order, Susp, & Litigation, field_tag=linkNewOrderSuspLitigation, locator_type=xpath, locator_value=//div[@class='flexipageComponent']//span[contains(text(), 'ADCVD Orders')]/ancestor::header/following-sibling::div//a/div[@title='New']}
+{field_name=New Segment from Order, field_tag=LinkSegmentFromOrder, locator_type=xpath, locator_value=//span[@class = 'title' and text()='Segments']}
+{field_name=New Segment from Order, field_tag=NewButtonSegmentFromOrder, locator_type=xpath, locator_value=//div[@class='flexipageComponent']//span[contains(text(), 'Segments')]/ancestor::header/following-sibling::div//a/div[@title='New']}
+{field_name=order from segment, field_tag=orderFromSegment, locator_type=xpath, locator_value=//div[@class='windowViewMode-normal oneContent active lafPageHost']//a[contains(text(), '~val~')]}
+{field_name=created newOrder link, field_tag=createdNewOrderLink, locator_type=xpath, locator_value=//span[contains(text(), 'Order FR Needed')]/ancestor::tr/th//a}
+{field_name=segmentViewAll, field_tag=SegmentsViewAll, locator_type=xpath, locator_value=//th[@title='Segment Number']/ancestor::section[@aria-expanded='true']//span[contains(text(), 'View All')]}
+beforeMethod()
+beforeMethod()
+Create_Adcvd_Case
+Create_Adcvd_Case
+start Test
+userDir C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_SCRIPT
+this a windows machine
+C:/libs
+Enter text for user name
+Enter text for password
+Click on element login button
+highlight Home
+Click on element ADCVD Cases
+Click on element New Case
+Click on element radio button SelfInitiate
+Click on element next button
+Enter text for Case Name
+Click on element Commodity
+Click on element Commodity Item
+Click on element ADCVD Case Type
+Click on element ADCVD Case Type Item
+Enter text for CBP Case Number
+Enter text for Product
+Enter text for Product Short Name
+Click on element Country
+Click on element Country Item
+Click on element Save Case button
+Get the text of the element Case home page
+highlight Case home page
+afterMethod()
+Create_Adcvd_Case
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_SCRIPT/input_data
+Executing After class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_SCRIPT/input_data
+null
+
+===============================================
+Suite
+Total tests run: 1, Failures: 0, Skips: 0
+Configuration Failures: 1, Skips: 0
+===============================================
+

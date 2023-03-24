@@ -1,0 +1,2374 @@
+MainMethod()
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+dataPoolPath C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data/datapool/Regession_TC.xlsx
+{Id=1.0, Test_Case_Name=CVD_Align_With_AD, Test_Case_Tag=TC_TAG_001, Test_Case_Description=Align CVD Investigation with AD Investigation, Record_Type=Self-Initiated, ADCVD_Case=A-, Commodity=Textiles, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=Testing CVD Align AD, Country=Spain, Lock_Record=No, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=complete}
+{Id=2.0, Test_Case_Name=Litigation_Dates_Validation, Test_Case_Tag=TC_TAG_002, Test_Case_Description=Validate litigation's dates(AD andCVD Records), Record_Type=Filed, ADCVD_Case=, Commodity=, ADCVD_Case_Type=, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=, Country=, Lock_Record=, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=complete}
+{Id=3.0, Test_Case_Name=Self_Initiated_Petition_Investigation_Dates, Test_Case_Tag=TC_TAG_003, Test_Case_Description=Populate and empty dates based on petition's type(initiated, self-initiated), Record_Type=Filed, ADCVD_Case=A-, Commodity=Textiles, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=Testing Inv Dates Validation, Country=Spain, Lock_Record=No, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=complete}
+{Id=4.0, Test_Case_Name=Align_NSR_To_AR, Test_Case_Tag=TC_TAG_004, Test_Case_Description=Align NSR to AR and Validate dates, Record_Type=Filed, ADCVD_Case=A-, Commodity=Textiles, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=Testing Align NSR to AR, Country=Spain, Lock_Record=No, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=complete}
+{Id=5.0, Test_Case_Name=Petition_Status_Validation, Test_Case_Tag=TC_TAG_005, Test_Case_Description=Validate statuses of petition, Record_Type=Filed, ADCVD_Case=A-, Commodity=Textiles, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=Validate statuses of petition, Country=Spain, Lock_Record=No, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=complete}
+{Id=6.0, Test_Case_Name=Investigation_Status_Validation, Test_Case_Tag=TC_TAG_006, Test_Case_Description=Validate statuses of investigaation, Record_Type=Filed, ADCVD_Case=A-, Commodity=Textiles, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=Validate statuses of investigaation, Country=Spain, Lock_Record=No, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=Not started, Clarifications needed by Josh or Paul}
+{Id=7.0, Test_Case_Name=Admin_Review_Status_Validation, Test_Case_Tag=TC_TAG_007, Test_Case_Description=Validate statuses of Admin_Review, Record_Type=Filed, ADCVD_Case=A-, Commodity=Textiles, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=Validate statuses of Admin_Review, Country=Spain, Lock_Record=No, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=complete}
+{Id=8.0, Test_Case_Name=Expedited_Review_Status_Validation, Test_Case_Tag=TC_TAG_008, Test_Case_Description=Validate statuses of Expedited_Review, Record_Type=Filed, ADCVD_Case=A-, Commodity=Textiles, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=Validate statuses of Expedited_Review, Country=Spain, Lock_Record=No, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=complete}
+{Id=9.0, Test_Case_Name=New_Shipper_Review_Status_Validation, Test_Case_Tag=TC_TAG_009, Test_Case_Description=Validate statuses of New Shipper Review, Record_Type=Filed, ADCVD_Case=A-, Commodity=Textiles, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=Validate statuses of New Shipper Review, Country=Spain, Lock_Record=No, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=complete}
+{Id=10.0, Test_Case_Name=Changed_Circumstance_Review_Status_Validation, Test_Case_Tag=TC_TAG_010, Test_Case_Description=Validate statuses of Changed Circumstance Review, Record_Type=Filed, ADCVD_Case=A-, Commodity=Textiles, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=Validate statuses of Changed Circumstance Review, Country=Spain, Lock_Record=No, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=complete}
+{Id=11.0, Test_Case_Name=Anticircumvention_Status_Validation, Test_Case_Tag=TC_TAG_011, Test_Case_Description=Validate statuses of Anticircumvention, Record_Type=Filed, ADCVD_Case=A-, Commodity=Textiles, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=Validate statuses of Anticircumvention, Country=Spain, Lock_Record=No, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=complete}
+{Id=12.0, Test_Case_Name=Scope_Status_Validation, Test_Case_Tag=TC_TAG_012, Test_Case_Description=Validate statuses of Scope, Record_Type=Filed, ADCVD_Case=A-, Commodity=Textiles, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=Validate statuses of Scope, Country=Spain, Lock_Record=No, Decision_On_How_To_Proceed=Formal, Type_Of_Scope_Ruling=K (1), Active=TRUE, Status=complete}
+{Id=13.0, Test_Case_Name=Sunset_Status_Validation, Test_Case_Tag=TC_TAG_013, Test_Case_Description=Validate statuses of Sunset, Record_Type=Filed, ADCVD_Case=A-, Commodity=Textiles, ADCVD_Case_Type=AD ME, CBP_Case_Number=, Product=Test_Automation, Product_Short_Name=Validate statuses of Sunset, Country=Spain, Lock_Record=No, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=Not started, Clarifications needed by Josh or Paul}
+{Id=14.0, Test_Case_Name=Remand_Status_Validation, Test_Case_Tag=TC_TAG_014, Test_Case_Description=Remand statuses of Sunset, Record_Type=Filed, ADCVD_Case=, Commodity=, ADCVD_Case_Type=, CBP_Case_Number=, Product=, Product_Short_Name=Remand statuses of validation, Country=Spain, Lock_Record=, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=Complete}
+{Id=15.0, Test_Case_Name=International_Litigation_Status_Validation, Test_Case_Tag=TC_TAG_015, Test_Case_Description=International Litigation statuses of Sunset, Record_Type=Filed, ADCVD_Case=, Commodity=, ADCVD_Case_Type=, CBP_Case_Number=, Product=, Product_Short_Name=International Litigation statuses validation, Country=Spain, Lock_Record=, Decision_On_How_To_Proceed=, Type_Of_Scope_Ruling=, Active=TRUE, Status=Hold Status missing, Clarifications needed by Josh or Paul}
+{}
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+testNgTemplate C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data/template/testng_template.xml
+testNgPath C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/testng.xml
+https://trade--marioqa.my.salesforce.com/services/oauth2/token?grant_type=password&client_id=3MVG9ic.6IFhNpPontcSxN2ckDE82GdMeUZkfw.uaJ1M9Kij7PCVWnsNutOB.XwcKufZVOcBxKojbYdNGQKgk&client_secret=954D7FD5C5982A03413440746E1EC1080239C0AB4A3AB229D5F715AE5988B513&username=mouloud.hamdidouche@trade.gov.marioqa&password=Hamdidouche_15zOO4Yvh6ShU9e9qo0wpwolWSAHTTP/1.1 200 OK
+Successful login
+instance URL: https://trade--MarioQA.my.salesforce.com
+access token/session ID: 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+baseUri: https://trade--MarioQA.my.salesforce.com/services/data/v45.0
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[TestNG] Running:
+  C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API\testng.xml
+
+Executing Before class
+beforeMethod()
+beforeMethod()
+CVD_Align_With_AD
+CVD_Align_With_AD
+start Test
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-741-193
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.45.22
+Key =  Product_Short_Name__c, Value = Testing CVD Align AD
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-741-193",
+ "Product_Short_Name__c": "Testing CVD Align AD",
+ "Product__c": "Test_Automation_2019-08-29-04.45.22"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9orAAC
+Key =  Petition_Filed__c, Value = 2019-08-29
+Key =  Actual_Initiation_Signature__c, Value = 2019-08-29
+Key =  Calculated_Initiation_Signature__c, Value = 2019-08-29
+Key =  Petition_Outcome__c, Value = Self-Initiated
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9orAAC",
+ "Actual_Initiation_Signature__c": "2019-08-29",
+ "Calculated_Initiation_Signature__c": "2019-08-29",
+ "Petition_Filed__c": "2019-08-29",
+ "Petition_Outcome__c": "Self-Initiated"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h51EAA'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05036",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h51EAA"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h51EAA
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h51EAA"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4OlEAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04776",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4OlEAK"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = C-140-052
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = CVD
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.45.39
+Key =  Product_Short_Name__c, Value = Testing CVD Align AD
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "CVD",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "C-140-052",
+ "Product_Short_Name__c": "Testing CVD Align AD",
+ "Product__c": "Test_Automation_2019-08-29-04.45.39"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9owAAC
+Key =  Petition_Filed__c, Value = 2019-08-29
+Key =  Actual_Initiation_Signature__c, Value = 2019-08-29
+Key =  Calculated_Initiation_Signature__c, Value = 2019-08-29
+Key =  Petition_Outcome__c, Value = Self-Initiated
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9owAAC",
+ "Actual_Initiation_Signature__c": "2019-08-29",
+ "Calculated_Initiation_Signature__c": "2019-08-29",
+ "Petition_Filed__c": "2019-08-29",
+ "Petition_Outcome__c": "Self-Initiated"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h56EAA'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05037",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h56EAA"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h56EAA
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h56EAA"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4OqEAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04777",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4OqEAK"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4OqEAK
+Key =  AD_Investigation_Aligned_To__c, Value = a3Sr0000000H4OlEAK
+JSON for record to be inserted:
+{"AD_Investigation_Aligned_To__c": "a3Sr0000000H4OlEAK"}
+afterMethod()
+CVD_Align_With_AD
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+Litigation_Dates_Validation
+Litigation_Dates_Validation
+start Test
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-824-347
+Key =  Commodity__c, Value = 
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.45.52
+Key =  Product_Short_Name__c, Value = 
+Key =  Country__c, Value = 
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "",
+ "Country__c": "",
+ "Name": "A-824-347",
+ "Product_Short_Name__c": "",
+ "Product__c": "Test_Automation_2019-08-29-04.45.52"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9p1AAC
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9p1AAC",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h5BEAQ'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05038",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5BEAQ"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Litigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Litigation__c/
+Key =  Petition__c, Value = a3Ur00000008h5BEAQ
+Key =  RecordTypeId, Value = 012t0000000TSjrAAG
+Key =  Request_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "Petition__c": "a3Ur00000008h5BEAQ",
+ "RecordTypeId": "012t0000000TSjrAAG",
+ "Request_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+id,name+from+litigation__c+where+id='a3Tr000000072V9EAI'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Id": "a3Tr000000072V9EAI",
+  "Name": "L-000277",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072V9EAI"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+id,name,Actual_Draft_Remand_Issues_to_DAS__c,Actual_Draft_Remand_Concurrence_to_DAS__c,Next_Office_Deadline__c,Next_Due_to_DAS_Deadline__c,Next_Major_Deadline__c,Final_Team_Meeting_Deadline__c,Final_Issues_Due_to_DAS__c,Final_Concurrence_Due_to_DAS__c,Calculated_Final_Signature__c,Draft_Remand_Concurrence_Due_to_DAS__c,Draft_Remand_Issues_Due_to_DAS__c,Calculated_Draft_Remand_release_to_party__c,Prelim_Team_Meeting_Deadline__c,Prelim_Concurrence_Due_to_DAS__c,Prelim_Issues_Due_to_DAS__c,Calculated_Preliminary_Signature__c,Expected_Final_Signature_Before_Ext__c,Request_Filed__c,Prelim_Extension_of_days__c,Final_Extension_of_days__c+from+litigation__c+where+id='a3Tr000000072V9EAI'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Actual_Draft_Remand_Concurrence_to_DAS__c": null,
+  "Actual_Draft_Remand_Issues_to_DAS__c": null,
+  "Calculated_Draft_Remand_release_to_party__c": null,
+  "Calculated_Final_Signature__c": "2020-02-25",
+  "Calculated_Preliminary_Signature__c": "2019-10-13",
+  "Draft_Remand_Concurrence_Due_to_DAS__c": null,
+  "Draft_Remand_Issues_Due_to_DAS__c": null,
+  "Expected_Final_Signature_Before_Ext__c": null,
+  "Final_Concurrence_Due_to_DAS__c": "2020-02-20",
+  "Final_Extension_of_days__c": null,
+  "Final_Issues_Due_to_DAS__c": "2020-02-15",
+  "Final_Team_Meeting_Deadline__c": "2020-02-04",
+  "Id": "a3Tr000000072V9EAI",
+  "Name": "L-000277",
+  "Next_Due_to_DAS_Deadline__c": "2019-10-03",
+  "Next_Major_Deadline__c": "2019-10-13",
+  "Next_Office_Deadline__c": "2019-09-22",
+  "Prelim_Concurrence_Due_to_DAS__c": "2019-10-08",
+  "Prelim_Extension_of_days__c": null,
+  "Prelim_Issues_Due_to_DAS__c": "2019-10-03",
+  "Prelim_Team_Meeting_Deadline__c": "2019-09-22",
+  "Request_Filed__c": "2019-08-29",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072V9EAI"
+  }
+ }],
+ "totalSize": 1
+}
+Calculated Preliminary Signature -- 2019-10-13 Versus 2019-10-13
+Prelim Issues Due to DAS -- 2019-10-03 Versus 2019-10-03
+Prelim Concurrence Due to DAS -- 2019-10-08 Versus 2019-10-08
+Prelim Team Meeting Deadline -- 2019-09-22 Versus 2019-09-22
+Calculated Final Signature -- 2020-02-25 Versus 2020-02-25
+Final Issues Due to DAS -- 2020-02-15 Versus 2020-02-15
+Final Concurrence Due to DAS -- 2020-02-20 Versus 2020-02-20
+Final Team Meeting Deadline -- 2020-02-04 Versus 2020-02-04
+Next Major Deadline -- 2019-10-13 Versus 2019-10-13
+Next Due to DAS Deadline -- 2019-10-03 Versus 2019-10-03
+Next Office Deadline -- 2019-09-22 Versus 2019-09-22
+
+_______________ INSERT Record to Litigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Litigation__c/
+Key =  Petition__c, Value = a3Ur00000008h5BEAQ
+Key =  RecordTypeId, Value = 012t0000000TSjsAAG
+Key =  Expected_Final_Signature_Before_Ext__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "Expected_Final_Signature_Before_Ext__c": "2019-08-29",
+ "Petition__c": "a3Ur00000008h5BEAQ",
+ "RecordTypeId": "012t0000000TSjsAAG"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+id,name+from+litigation__c+where+id='a3Tr000000072VEEAY'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Id": "a3Tr000000072VEEAY",
+  "Name": "L-000278",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VEEAY"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+id,name,Actual_Draft_Remand_Issues_to_DAS__c,Actual_Draft_Remand_Concurrence_to_DAS__c,Next_Office_Deadline__c,Next_Due_to_DAS_Deadline__c,Next_Major_Deadline__c,Final_Team_Meeting_Deadline__c,Final_Issues_Due_to_DAS__c,Final_Concurrence_Due_to_DAS__c,Calculated_Final_Signature__c,Draft_Remand_Concurrence_Due_to_DAS__c,Draft_Remand_Issues_Due_to_DAS__c,Calculated_Draft_Remand_release_to_party__c,Prelim_Team_Meeting_Deadline__c,Prelim_Concurrence_Due_to_DAS__c,Prelim_Issues_Due_to_DAS__c,Calculated_Preliminary_Signature__c,Expected_Final_Signature_Before_Ext__c,Request_Filed__c,Prelim_Extension_of_days__c,Final_Extension_of_days__c+from+litigation__c+where+id='a3Tr000000072VEEAY'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Actual_Draft_Remand_Concurrence_to_DAS__c": null,
+  "Actual_Draft_Remand_Issues_to_DAS__c": null,
+  "Calculated_Draft_Remand_release_to_party__c": "2019-08-01",
+  "Calculated_Final_Signature__c": "2019-08-29",
+  "Calculated_Preliminary_Signature__c": null,
+  "Draft_Remand_Concurrence_Due_to_DAS__c": "2019-07-27",
+  "Draft_Remand_Issues_Due_to_DAS__c": "2019-07-22",
+  "Expected_Final_Signature_Before_Ext__c": "2019-08-29",
+  "Final_Concurrence_Due_to_DAS__c": "2019-08-24",
+  "Final_Extension_of_days__c": null,
+  "Final_Issues_Due_to_DAS__c": "2019-08-19",
+  "Final_Team_Meeting_Deadline__c": null,
+  "Id": "a3Tr000000072VEEAY",
+  "Name": "L-000278",
+  "Next_Due_to_DAS_Deadline__c": "2019-07-22",
+  "Next_Major_Deadline__c": "2019-08-01",
+  "Next_Office_Deadline__c": "2019-07-22",
+  "Prelim_Concurrence_Due_to_DAS__c": null,
+  "Prelim_Extension_of_days__c": null,
+  "Prelim_Issues_Due_to_DAS__c": null,
+  "Prelim_Team_Meeting_Deadline__c": null,
+  "Request_Filed__c": null,
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VEEAY"
+  }
+ }],
+ "totalSize": 1
+}
+Calculated Draft Remand release to party -- 2019-08-01 Versus 2019-08-01
+Draft Remand Issues Due to DAS -- 2019-07-22 Versus 2019-07-22
+Draft Remand Concurrence Due to DAS -- 2019-07-27 Versus 2019-07-27
+Calculated Final Signature -- 2019-08-29 Versus 2019-08-29
+Final Issues Due to DAS -- 2019-08-19 Versus 2019-08-19
+Final Concurrence Due to DAS -- 2019-08-24 Versus 2019-08-24
+Next Major Deadline -- 2019-08-01 Versus 2019-08-01
+Next Due to DAS Deadline -- 2019-07-22 Versus 2019-07-22
+Next Office Deadline -- 2019-07-22 Versus 2019-07-22
+afterMethod()
+Litigation_Dates_Validation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+Self_Initiated_Petition_Investigation_Dates
+Self_Initiated_Petition_Investigation_Dates
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-925-543
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.46.04
+Key =  Product_Short_Name__c, Value = Testing Inv Dates Validation
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-925-543",
+ "Product_Short_Name__c": "Testing Inv Dates Validation",
+ "Product__c": "Test_Automation_2019-08-29-04.46.04"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9p6AAC
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9p6AAC",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h5GEAQ'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05039",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5GEAQ"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h5GEAQ
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h5GEAQ"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4OvEAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04778",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4OvEAK"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Name,Calculated_Preliminary_Signature__c,Prelim_Team_Meeting_Deadline__c,Prelim_Issues_Due_to_DAS__c,Prelim_Concurrence_Due_to_DAS__c,Calculated_Final_Signature__c,Final_Issues_Due_to_DAS__c,Final_Concurrence_Due_to_DAS__c,Final_Team_Meeting_Deadline__c,Final_Announcement_Date__c,Est_ITC_Notification_to_DOC_of_Final_Det__c,Estimated_Order_FR_Published__c,Next_Announcement_Date__c,Next_Major_Deadline__c+from+investigation__c+where+id='a3Sr0000000H4OvEAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Calculated_Final_Signature__c": "2020-04-20",
+  "Calculated_Preliminary_Signature__c": "2020-02-05",
+  "Est_ITC_Notification_to_DOC_of_Final_Det__c": "2020-06-04",
+  "Estimated_Order_FR_Published__c": "2020-06-11",
+  "Final_Announcement_Date__c": "2020-04-21",
+  "Final_Concurrence_Due_to_DAS__c": "2020-04-13",
+  "Final_Issues_Due_to_DAS__c": "2020-04-06",
+  "Final_Team_Meeting_Deadline__c": "2020-03-30",
+  "Name": "I-04778",
+  "Next_Announcement_Date__c": "2020-02-06",
+  "Next_Major_Deadline__c": "2020-02-05",
+  "Prelim_Concurrence_Due_to_DAS__c": "2020-01-29",
+  "Prelim_Issues_Due_to_DAS__c": "2020-01-22",
+  "Prelim_Team_Meeting_Deadline__c": "2020-01-15",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4OvEAK"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5GEAQ
+Key =  Actual_Initiation_Signature__c, Value = 2019-08-29
+Key =  Calculated_Initiation_Signature__c, Value = 2019-08-29
+Key =  Petition_Outcome__c, Value = Self-Initiated
+JSON for record to be inserted:
+{
+ "Actual_Initiation_Signature__c": "2019-08-29",
+ "Calculated_Initiation_Signature__c": "2019-08-29",
+ "Petition_Outcome__c": "Self-Initiated"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Name,Calculated_Preliminary_Signature__c,Prelim_Team_Meeting_Deadline__c,Prelim_Issues_Due_to_DAS__c,Prelim_Concurrence_Due_to_DAS__c,Calculated_Final_Signature__c,Final_Issues_Due_to_DAS__c,Final_Concurrence_Due_to_DAS__c,Final_Team_Meeting_Deadline__c,Final_Announcement_Date__c,Est_ITC_Notification_to_DOC_of_Final_Det__c,Estimated_Order_FR_Published__c,Next_Announcement_Date__c,Next_Major_Deadline__c+from+investigation__c+where+id='a3Sr0000000H4OvEAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Calculated_Final_Signature__c": null,
+  "Calculated_Preliminary_Signature__c": null,
+  "Est_ITC_Notification_to_DOC_of_Final_Det__c": null,
+  "Estimated_Order_FR_Published__c": null,
+  "Final_Announcement_Date__c": null,
+  "Final_Concurrence_Due_to_DAS__c": null,
+  "Final_Issues_Due_to_DAS__c": null,
+  "Final_Team_Meeting_Deadline__c": null,
+  "Name": "I-04778",
+  "Next_Announcement_Date__c": null,
+  "Next_Major_Deadline__c": null,
+  "Prelim_Concurrence_Due_to_DAS__c": null,
+  "Prelim_Issues_Due_to_DAS__c": null,
+  "Prelim_Team_Meeting_Deadline__c": null,
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4OvEAK"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Federal_Register__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Federal_Register__c/
+Key =  Petition__c, Value = a3Ur00000008h5GEAQ
+Key =  Published_Date__c, Value = 2019-08-29
+Key =  Cite_Number__c, Value = None
+Key =  Type__c, Value = Initiation
+JSON for record to be inserted:
+{
+ "Cite_Number__c": "None",
+ "Petition__c": "a3Ur00000008h5GEAQ",
+ "Published_Date__c": "2019-08-29",
+ "Type__c": "Initiation"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Name,Calculated_Preliminary_Signature__c,Prelim_Team_Meeting_Deadline__c,Prelim_Issues_Due_to_DAS__c,Prelim_Concurrence_Due_to_DAS__c,Calculated_Final_Signature__c,Final_Issues_Due_to_DAS__c,Final_Concurrence_Due_to_DAS__c,Final_Team_Meeting_Deadline__c,Final_Announcement_Date__c,Est_ITC_Notification_to_DOC_of_Final_Det__c,Estimated_Order_FR_Published__c,Next_Announcement_Date__c,Next_Major_Deadline__c+from+investigation__c+where+id='a3Sr0000000H4OvEAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Calculated_Final_Signature__c": "2020-03-31",
+  "Calculated_Preliminary_Signature__c": "2020-01-16",
+  "Est_ITC_Notification_to_DOC_of_Final_Det__c": "2020-05-15",
+  "Estimated_Order_FR_Published__c": "2020-05-22",
+  "Final_Announcement_Date__c": "2020-04-01",
+  "Final_Concurrence_Due_to_DAS__c": "2020-03-24",
+  "Final_Issues_Due_to_DAS__c": "2020-03-17",
+  "Final_Team_Meeting_Deadline__c": "2020-03-10",
+  "Name": "I-04778",
+  "Next_Announcement_Date__c": "2020-01-17",
+  "Next_Major_Deadline__c": "2020-01-16",
+  "Prelim_Concurrence_Due_to_DAS__c": "2020-01-09",
+  "Prelim_Issues_Due_to_DAS__c": "2020-01-02",
+  "Prelim_Team_Meeting_Deadline__c": "2019-12-26",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4OvEAK"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = C-033-753
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = CVD
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.46.21
+Key =  Product_Short_Name__c, Value = Testing Inv Dates Validation
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "CVD",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "C-033-753",
+ "Product_Short_Name__c": "Testing Inv Dates Validation",
+ "Product__c": "Test_Automation_2019-08-29-04.46.21"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9pBAAS
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9pBAAS",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h5LEAQ'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05040",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5LEAQ"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h5LEAQ
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h5LEAQ"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4P0EAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04779",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4P0EAK"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Name,Calculated_Preliminary_Signature__c,Prelim_Team_Meeting_Deadline__c,Prelim_Issues_Due_to_DAS__c,Prelim_Concurrence_Due_to_DAS__c,Calculated_Final_Signature__c,Final_Issues_Due_to_DAS__c,Final_Concurrence_Due_to_DAS__c,Final_Team_Meeting_Deadline__c,Final_Announcement_Date__c,Est_ITC_Notification_to_DOC_of_Final_Det__c,Estimated_Order_FR_Published__c,Next_Announcement_Date__c,Next_Major_Deadline__c+from+investigation__c+where+id='a3Sr0000000H4P0EAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Calculated_Final_Signature__c": "2020-02-05",
+  "Calculated_Preliminary_Signature__c": "2019-11-22",
+  "Est_ITC_Notification_to_DOC_of_Final_Det__c": "2020-03-23",
+  "Estimated_Order_FR_Published__c": "2020-03-30",
+  "Final_Announcement_Date__c": "2020-02-06",
+  "Final_Concurrence_Due_to_DAS__c": "2020-01-29",
+  "Final_Issues_Due_to_DAS__c": "2020-01-22",
+  "Final_Team_Meeting_Deadline__c": "2020-01-15",
+  "Name": "I-04779",
+  "Next_Announcement_Date__c": "2019-11-25",
+  "Next_Major_Deadline__c": "2019-11-22",
+  "Prelim_Concurrence_Due_to_DAS__c": "2019-11-15",
+  "Prelim_Issues_Due_to_DAS__c": "2019-11-07",
+  "Prelim_Team_Meeting_Deadline__c": "2019-11-01",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4P0EAK"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5LEAQ
+Key =  Actual_Initiation_Signature__c, Value = 2019-08-29
+Key =  Calculated_Initiation_Signature__c, Value = 2019-08-29
+Key =  Petition_Outcome__c, Value = Self-Initiated
+JSON for record to be inserted:
+{
+ "Actual_Initiation_Signature__c": "2019-08-29",
+ "Calculated_Initiation_Signature__c": "2019-08-29",
+ "Petition_Outcome__c": "Self-Initiated"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Name,Calculated_Preliminary_Signature__c,Prelim_Team_Meeting_Deadline__c,Prelim_Issues_Due_to_DAS__c,Prelim_Concurrence_Due_to_DAS__c,Calculated_Final_Signature__c,Final_Issues_Due_to_DAS__c,Final_Concurrence_Due_to_DAS__c,Final_Team_Meeting_Deadline__c,Final_Announcement_Date__c,Est_ITC_Notification_to_DOC_of_Final_Det__c,Estimated_Order_FR_Published__c,Next_Announcement_Date__c,Next_Major_Deadline__c+from+investigation__c+where+id='a3Sr0000000H4P0EAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Calculated_Final_Signature__c": null,
+  "Calculated_Preliminary_Signature__c": null,
+  "Est_ITC_Notification_to_DOC_of_Final_Det__c": null,
+  "Estimated_Order_FR_Published__c": null,
+  "Final_Announcement_Date__c": null,
+  "Final_Concurrence_Due_to_DAS__c": null,
+  "Final_Issues_Due_to_DAS__c": null,
+  "Final_Team_Meeting_Deadline__c": null,
+  "Name": "I-04779",
+  "Next_Announcement_Date__c": null,
+  "Next_Major_Deadline__c": null,
+  "Prelim_Concurrence_Due_to_DAS__c": null,
+  "Prelim_Issues_Due_to_DAS__c": null,
+  "Prelim_Team_Meeting_Deadline__c": null,
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4P0EAK"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Federal_Register__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Federal_Register__c/
+Key =  Petition__c, Value = a3Ur00000008h5LEAQ
+Key =  Published_Date__c, Value = 2019-08-29
+Key =  Cite_Number__c, Value = None
+Key =  Type__c, Value = Initiation
+JSON for record to be inserted:
+{
+ "Cite_Number__c": "None",
+ "Petition__c": "a3Ur00000008h5LEAQ",
+ "Published_Date__c": "2019-08-29",
+ "Type__c": "Initiation"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Name,Calculated_Preliminary_Signature__c,Prelim_Team_Meeting_Deadline__c,Prelim_Issues_Due_to_DAS__c,Prelim_Concurrence_Due_to_DAS__c,Calculated_Final_Signature__c,Final_Issues_Due_to_DAS__c,Final_Concurrence_Due_to_DAS__c,Final_Team_Meeting_Deadline__c,Final_Announcement_Date__c,Est_ITC_Notification_to_DOC_of_Final_Det__c,Estimated_Order_FR_Published__c,Next_Announcement_Date__c,Next_Major_Deadline__c+from+investigation__c+where+id='a3Sr0000000H4P0EAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Calculated_Final_Signature__c": "2020-01-21",
+  "Calculated_Preliminary_Signature__c": "2019-11-04",
+  "Est_ITC_Notification_to_DOC_of_Final_Det__c": "2020-03-06",
+  "Estimated_Order_FR_Published__c": "2020-03-13",
+  "Final_Announcement_Date__c": "2020-01-22",
+  "Final_Concurrence_Due_to_DAS__c": "2020-01-13",
+  "Final_Issues_Due_to_DAS__c": "2020-01-06",
+  "Final_Team_Meeting_Deadline__c": "2019-12-31",
+  "Name": "I-04779",
+  "Next_Announcement_Date__c": "2019-11-05",
+  "Next_Major_Deadline__c": "2019-11-04",
+  "Prelim_Concurrence_Due_to_DAS__c": "2019-10-28",
+  "Prelim_Issues_Due_to_DAS__c": "2019-10-21",
+  "Prelim_Team_Meeting_Deadline__c": "2019-10-15",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4P0EAK"
+  }
+ }],
+ "totalSize": 1
+}
+afterMethod()
+Self_Initiated_Petition_Investigation_Dates
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+Align_NSR_To_AR
+Align_NSR_To_AR
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-819-602
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.46.40
+Key =  Product_Short_Name__c, Value = Testing Align NSR to AR
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-819-602",
+ "Product_Short_Name__c": "Testing Align NSR to AR",
+ "Product__c": "Test_Automation_2019-08-29-04.46.40"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9pGAAS
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9pGAAS",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h5QEAQ'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05041",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5QEAQ"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h5QEAQ
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h5QEAQ"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4P5EAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04780",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4P5EAK"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to ADCVD_Order__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Order__c/
+Key =  Investigation__c, Value = a3Sr0000000H4P5EAK
+JSON for record to be inserted:
+{"Investigation__c": "a3Sr0000000H4P5EAK"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+ADCVD_Order__c+Where+id='a3Nr0000002DElgEAG'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "AO-0003136",
+  "attributes": {
+   "type": "ADCVD_Order__c",
+   "url": "/services/data/v45.0/sobjects/ADCVD_Order__c/a3Nr0000002DElgEAG"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr0000002DElgEAG
+Key =  RecordTypeId, Value = 012t0000000TSjxAAG
+Key =  Will_you_Amend_the_Final__c, Value = Yes
+Key =  Final_Date_of_Anniversary_Month__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr0000002DElgEAG",
+ "Final_Date_of_Anniversary_Month__c": "2019-08-29",
+ "RecordTypeId": "012t0000000TSjxAAG",
+ "Will_you_Amend_the_Final__c": "Yes"
+}
+Insertion unsuccessful. Status code returned is 400
+afterMethod()
+Align_NSR_To_AR
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+Petition_Status_Validation
+Petition_Status_Validation
+start Test
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-950-696
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.46.58
+Key =  Product_Short_Name__c, Value = Validate statuses of petition
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-950-696",
+ "Product_Short_Name__c": "Validate statuses of petition",
+ "Product__c": "Test_Automation_2019-08-29-04.46.58"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9pLAAS
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9pLAAS",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h5VEAQ'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05042",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5VEAQ"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+petition__c+where+id='a3Ur00000008h5VEAQ'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "In Progress",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5VEAQ"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/petition__c/a3Ur00000008h5VEAQ
+Key =  Actual_Initiation_Signature__c, Value = 2019-08-29
+Key =  Calculated_Initiation_Signature__c, Value = 2019-08-29
+Key =  Petition_Outcome__c, Value = Self-Initiated
+Key =  Litigation_YesNo__c, Value = Yes
+Key =  Litigation_Resolved__c, Value = No
+JSON for record to be inserted:
+{
+ "Actual_Initiation_Signature__c": "2019-08-29",
+ "Calculated_Initiation_Signature__c": "2019-08-29",
+ "Litigation_Resolved__c": "No",
+ "Litigation_YesNo__c": "Yes",
+ "Petition_Outcome__c": "Self-Initiated"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+petition__c+where+id='a3Ur00000008h5VEAQ'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Litigation",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5VEAQ"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/petition__c/a3Ur00000008h5VEAQ
+Key =  Petition_Outcome__c, Value = Deficient Petition/Did Not Initiate
+Key =  Actual_Initiation_Signature__c, Value = 
+Key =  Litigation_YesNo__c, Value = Yes
+Key =  Litigation_Resolved__c, Value = Yes
+JSON for record to be inserted:
+{
+ "Actual_Initiation_Signature__c": null,
+ "Litigation_Resolved__c": "Yes",
+ "Litigation_YesNo__c": "Yes",
+ "Petition_Outcome__c": "Deficient Petition/Did Not Initiate"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+petition__c+where+id='a3Ur00000008h5VEAQ'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Closed",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5VEAQ"
+  }
+ }],
+ "totalSize": 1
+}
+afterMethod()
+Petition_Status_Validation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+Investigation_Status_Validation
+Investigation_Status_Validation
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-988-652
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.47.09
+Key =  Product_Short_Name__c, Value = Validate statuses of investigaation
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-988-652",
+ "Product_Short_Name__c": "Validate statuses of investigaation",
+ "Product__c": "Test_Automation_2019-08-29-04.47.09"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9pQAAS
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9pQAAS",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h5aEAA'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05043",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5aEAA"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h5aEAA
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h5aEAA"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4PAEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04781",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Investigation__c+where+id='a3Sr0000000H4PAEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Prelim",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Federal_Register__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Federal_Register__c/
+Key =  Investigation__c, Value = a3Sr0000000H4PAEA0
+Key =  Published_Date__c, Value = 2019-08-29
+Key =  Cite_Number__c, Value = None
+Key =  Type__c, Value = Preliminary
+JSON for record to be inserted:
+{
+ "Cite_Number__c": "None",
+ "Investigation__c": "a3Sr0000000H4PAEA0",
+ "Published_Date__c": "2019-08-29",
+ "Type__c": "Preliminary"
+}
+
+_______________ Update Record In Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0
+Key =  Amend_the_Preliminary_Determination__c, Value = Yes
+JSON for record to be inserted:
+{"Amend_the_Preliminary_Determination__c": "Yes"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Investigation__c+where+id='a3Sr0000000H4PAEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Prelim",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0
+Key =  Actual_Preliminary_Signature__c, Value = 2019-08-29
+Key =  Actual_Amended_Prelim_Determination_Sig__c, Value = 2019-08-29
+Key =  Calculated_Preliminary_Signature__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "Actual_Amended_Prelim_Determination_Sig__c": "2019-08-29",
+ "Actual_Preliminary_Signature__c": "2019-08-29",
+ "Calculated_Preliminary_Signature__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Investigation__c+where+id='a3Sr0000000H4PAEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Final",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Federal_Register__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Federal_Register__c/
+Key =  Investigation__c, Value = a3Sr0000000H4PAEA0
+Key =  Published_Date__c, Value = 2019-08-29
+Key =  Cite_Number__c, Value = None
+Key =  Type__c, Value = Final
+JSON for record to be inserted:
+{
+ "Cite_Number__c": "None",
+ "Investigation__c": "a3Sr0000000H4PAEA0",
+ "Published_Date__c": "2019-08-29",
+ "Type__c": "Final"
+}
+
+_______________ Update Record In Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0
+Key =  Actual_Final_Signature__c, Value = 2019-08-29
+JSON for record to be inserted:
+{"Actual_Final_Signature__c": "2019-08-29"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Investigation__c+where+id='a3Sr0000000H4PAEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Pending Order",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0
+Key =  Investigation_Outcome__c, Value = Suspension Agreement
+JSON for record to be inserted:
+{"Investigation_Outcome__c": "Suspension Agreement"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Investigation__c+where+id='a3Sr0000000H4PAEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Suspended",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0
+Key =  Investigation_Outcome__c, Value = DOC Negative Final
+JSON for record to be inserted:
+{"Investigation_Outcome__c": "DOC Negative Final"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Investigation__c+where+id='a3Sr0000000H4PAEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Hold",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0
+Key =  Litigation_YesNo__c, Value = Yes
+Key =  Litigation_Resolved__c, Value = No
+JSON for record to be inserted:
+{
+ "Litigation_Resolved__c": "No",
+ "Litigation_YesNo__c": "Yes"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Investigation__c+where+id='a3Sr0000000H4PAEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Litigation",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0
+Key =  Litigation_YesNo__c, Value = Yes
+Key =  Litigation_Resolved__c, Value = Yes
+Key =  Have_Custom_Instruction_been_sent__c, Value = No
+JSON for record to be inserted:
+{
+ "Have_Custom_Instruction_been_sent__c": "No",
+ "Litigation_Resolved__c": "Yes",
+ "Litigation_YesNo__c": "Yes"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Investigation__c+where+id='a3Sr0000000H4PAEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Customs",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0
+Key =  Have_Custom_Instruction_been_sent__c, Value = Yes
+JSON for record to be inserted:
+{"Have_Custom_Instruction_been_sent__c": "Yes"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Investigation__c+where+id='a3Sr0000000H4PAEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Closed",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PAEA0"
+  }
+ }],
+ "totalSize": 1
+}
+afterMethod()
+Investigation_Status_Validation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+Admin_Review_Status_Validation
+Admin_Review_Status_Validation
+start Test
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-329-297
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.47.51
+Key =  Product_Short_Name__c, Value = Validate statuses of Admin_Review
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-329-297",
+ "Product_Short_Name__c": "Validate statuses of Admin_Review",
+ "Product__c": "Test_Automation_2019-08-29-04.47.51"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9pVAAS
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9pVAAS",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h5fEAA'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05044",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5fEAA"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h5fEAA
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h5fEAA"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4PFEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04782",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PFEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to ADCVD_Order__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Order__c/
+Key =  Investigation__c, Value = a3Sr0000000H4PFEA0
+JSON for record to be inserted:
+{"Investigation__c": "a3Sr0000000H4PFEA0"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+ADCVD_Order__c+Where+id='a3Nr0000002DEllEAG'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "AO-0003137",
+  "attributes": {
+   "type": "ADCVD_Order__c",
+   "url": "/services/data/v45.0/sobjects/ADCVD_Order__c/a3Nr0000002DEllEAG"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr0000002DEllEAG
+Key =  RecordTypeId, Value = 012t0000000TSjxAAG
+Key =  Will_you_Amend_the_Final__c, Value = Yes
+Key =  Final_Date_of_Anniversary_Month__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr0000002DEllEAG",
+ "Final_Date_of_Anniversary_Month__c": "2019-08-29",
+ "RecordTypeId": "012t0000000TSjxAAG",
+ "Will_you_Amend_the_Final__c": "Yes"
+}
+Insertion unsuccessful. Status code returned is 400
+afterMethod()
+Admin_Review_Status_Validation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+Expedited_Review_Status_Validation
+Expedited_Review_Status_Validation
+start Test
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-920-531
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.48.04
+Key =  Product_Short_Name__c, Value = Validate statuses of Expedited_Review
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-920-531",
+ "Product_Short_Name__c": "Validate statuses of Expedited_Review",
+ "Product__c": "Test_Automation_2019-08-29-04.48.04"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9paAAC
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9paAAC",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h5kEAA'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05045",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5kEAA"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h5kEAA
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h5kEAA"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4PKEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04783",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PKEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to ADCVD_Order__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Order__c/
+Key =  Investigation__c, Value = a3Sr0000000H4PKEA0
+JSON for record to be inserted:
+{"Investigation__c": "a3Sr0000000H4PKEA0"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+ADCVD_Order__c+Where+id='a3Nr0000002DElqEAG'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "AO-0003138",
+  "attributes": {
+   "type": "ADCVD_Order__c",
+   "url": "/services/data/v45.0/sobjects/ADCVD_Order__c/a3Nr0000002DElqEAG"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr0000002DElqEAG
+Key =  RecordTypeId, Value = 012t0000000TSk0AAG
+Key =  Calculated_Initiation_Signature__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr0000002DElqEAG",
+ "Calculated_Initiation_Signature__c": "2019-08-29",
+ "RecordTypeId": "012t0000000TSk0AAG"
+}
+Insertion unsuccessful. Status code returned is 400
+afterMethod()
+Expedited_Review_Status_Validation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+New_Shipper_Review_Status_Validation
+New_Shipper_Review_Status_Validation
+start Test
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-097-402
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.48.17
+Key =  Product_Short_Name__c, Value = Validate statuses of New Shipper Review
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-097-402",
+ "Product_Short_Name__c": "Validate statuses of New Shipper Review",
+ "Product__c": "Test_Automation_2019-08-29-04.48.17"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9pfAAC
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9pfAAC",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h5pEAA'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05046",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5pEAA"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h5pEAA
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h5pEAA"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4PPEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04784",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PPEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to ADCVD_Order__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Order__c/
+Key =  Investigation__c, Value = a3Sr0000000H4PPEA0
+JSON for record to be inserted:
+{"Investigation__c": "a3Sr0000000H4PPEA0"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+ADCVD_Order__c+Where+id='a3Nr0000002DElvEAG'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "AO-0003139",
+  "attributes": {
+   "type": "ADCVD_Order__c",
+   "url": "/services/data/v45.0/sobjects/ADCVD_Order__c/a3Nr0000002DElvEAG"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr0000002DElvEAG
+Key =  RecordTypeId, Value = 012t0000000TSk1AAG
+Key =  Calculated_Initiation_Signature__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr0000002DElvEAG",
+ "Calculated_Initiation_Signature__c": "2019-08-29",
+ "RecordTypeId": "012t0000000TSk1AAG"
+}
+Insertion unsuccessful. Status code returned is 400
+afterMethod()
+New_Shipper_Review_Status_Validation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+Changed_Circumstance_Review_Status_Validation
+Changed_Circumstance_Review_Status_Validation
+start Test
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-519-634
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.48.39
+Key =  Product_Short_Name__c, Value = Validate statuses of Changed Circumstance Review
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-519-634",
+ "Product_Short_Name__c": "Validate statuses of Changed Circumstance Review",
+ "Product__c": "Test_Automation_2019-08-29-04.48.39"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9pkAAC
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9pkAAC",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h5uEAA'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05047",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5uEAA"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h5uEAA
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h5uEAA"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4PUEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04785",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PUEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to ADCVD_Order__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Order__c/
+Key =  Investigation__c, Value = a3Sr0000000H4PUEA0
+JSON for record to be inserted:
+{"Investigation__c": "a3Sr0000000H4PUEA0"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+ADCVD_Order__c+Where+id='a3Nr0000002DEm0EAG'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "AO-0003140",
+  "attributes": {
+   "type": "ADCVD_Order__c",
+   "url": "/services/data/v45.0/sobjects/ADCVD_Order__c/a3Nr0000002DEm0EAG"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr0000002DEm0EAG
+Key =  RecordTypeId, Value = 012t0000000TSjzAAG
+Key =  Preliminary_Determination__c, Value = Yes
+Key =  Request_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr0000002DEm0EAG",
+ "Preliminary_Determination__c": "Yes",
+ "RecordTypeId": "012t0000000TSjzAAG",
+ "Request_Filed__c": "2019-08-29"
+}
+Insertion unsuccessful. Status code returned is 400
+afterMethod()
+Changed_Circumstance_Review_Status_Validation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+Anticircumvention_Status_Validation
+Anticircumvention_Status_Validation
+start Test
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-987-258
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.48.54
+Key =  Product_Short_Name__c, Value = Validate statuses of Anticircumvention
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-987-258",
+ "Product_Short_Name__c": "Validate statuses of Anticircumvention",
+ "Product__c": "Test_Automation_2019-08-29-04.48.54"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9ppAAC
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9ppAAC",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h5zEAA'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05048",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h5zEAA"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h5zEAA
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h5zEAA"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4PZEA0'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04786",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PZEA0"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to ADCVD_Order__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Order__c/
+Key =  Investigation__c, Value = a3Sr0000000H4PZEA0
+JSON for record to be inserted:
+{"Investigation__c": "a3Sr0000000H4PZEA0"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+ADCVD_Order__c+Where+id='a3Nr0000002DEm5EAG'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "AO-0003141",
+  "attributes": {
+   "type": "ADCVD_Order__c",
+   "url": "/services/data/v45.0/sobjects/ADCVD_Order__c/a3Nr0000002DEm5EAG"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr0000002DEm5EAG
+Key =  RecordTypeId, Value = 012t0000000TSjyAAG
+Key =  Application_Accepted__c, Value = 2019-08-29
+Key =  Type_of_Circumvention_Inquiry__c, Value = Later-Developed Merchandise
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr0000002DEm5EAG",
+ "Application_Accepted__c": "2019-08-29",
+ "RecordTypeId": "012t0000000TSjyAAG",
+ "Type_of_Circumvention_Inquiry__c": "Later-Developed Merchandise"
+}
+Insertion unsuccessful. Status code returned is 400
+afterMethod()
+Anticircumvention_Status_Validation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+Scope_Status_Validation
+Scope_Status_Validation
+start Test
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-414-227
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.49.08
+Key =  Product_Short_Name__c, Value = Validate statuses of Scope
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-414-227",
+ "Product_Short_Name__c": "Validate statuses of Scope",
+ "Product__c": "Test_Automation_2019-08-29-04.49.08"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9puAAC
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9puAAC",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h64EAA'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05049",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h64EAA"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h64EAA
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h64EAA"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4PeEAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04787",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PeEAK"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to ADCVD_Order__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Order__c/
+Key =  Investigation__c, Value = a3Sr0000000H4PeEAK
+JSON for record to be inserted:
+{"Investigation__c": "a3Sr0000000H4PeEAK"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+ADCVD_Order__c+Where+id='a3Nr0000002DEmAEAW'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "AO-0003142",
+  "attributes": {
+   "type": "ADCVD_Order__c",
+   "url": "/services/data/v45.0/sobjects/ADCVD_Order__c/a3Nr0000002DEmAEAW"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr0000002DEmAEAW
+Key =  RecordTypeId, Value = 012t0000000TSk2AAG
+Key =  Request_Filed__c, Value = 2019-08-29
+Key =  Actual_Date_of_Decision_on_HoP__c, Value = 2019-08-29
+Key =  Decision_on_How_to_Proceed__c, Value = Formal
+Key =  Type_of_Scope_Ruling__c, Value = K (1)
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr0000002DEmAEAW",
+ "Actual_Date_of_Decision_on_HoP__c": "2019-08-29",
+ "Decision_on_How_to_Proceed__c": "Formal",
+ "RecordTypeId": "012t0000000TSk2AAG",
+ "Request_Filed__c": "2019-08-29",
+ "Type_of_Scope_Ruling__c": "K (1)"
+}
+Insertion unsuccessful. Status code returned is 400
+afterMethod()
+Scope_Status_Validation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+Sunset_Status_Validation
+Sunset_Status_Validation
+start Test
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-501-492
+Key =  Commodity__c, Value = Textiles
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = Test_Automation_2019-08-29-04.49.23
+Key =  Product_Short_Name__c, Value = Validate statuses of Sunset
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "Textiles",
+ "Country__c": "Spain",
+ "Name": "A-501-492",
+ "Product_Short_Name__c": "Validate statuses of Sunset",
+ "Product__c": "Test_Automation_2019-08-29-04.49.23"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9pzAAC
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9pzAAC",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h69EAA'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05050",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h69EAA"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Investigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Investigation__c/
+Key =  Petition__c, Value = a3Ur00000008h69EAA
+JSON for record to be inserted:
+{"Petition__c": "a3Ur00000008h69EAA"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Investigation__c+where+id='a3Sr0000000H4PjEAK'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "I-04788",
+  "attributes": {
+   "type": "Investigation__c",
+   "url": "/services/data/v45.0/sobjects/Investigation__c/a3Sr0000000H4PjEAK"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to ADCVD_Order__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Order__c/
+Key =  Investigation__c, Value = a3Sr0000000H4PjEAK
+JSON for record to be inserted:
+{"Investigation__c": "a3Sr0000000H4PjEAK"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=Select+Name+From+ADCVD_Order__c+Where+id='a3Nr0000002DEmFEAW'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "AO-0003143",
+  "attributes": {
+   "type": "ADCVD_Order__c",
+   "url": "/services/data/v45.0/sobjects/ADCVD_Order__c/a3Nr0000002DEmFEAW"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Segment__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Segment__c/
+Key =  ADCVD_Order__c, Value = a3Nr0000002DEmFEAW
+Key =  RecordTypeId, Value = 012t0000000TSk3AAG
+Key =  Notice_of_intent_to_participate_Ips__c, Value = Yes
+Key =  Domestic_Party_File_Substan_Response__c, Value = No
+JSON for record to be inserted:
+{
+ "ADCVD_Order__c": "a3Nr0000002DEmFEAW",
+ "Domestic_Party_File_Substan_Response__c": "No",
+ "Notice_of_intent_to_participate_Ips__c": "Yes",
+ "RecordTypeId": "012t0000000TSk3AAG"
+}
+Insertion unsuccessful. Status code returned is 400
+afterMethod()
+Sunset_Status_Validation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+Remand_Status_Validation
+Remand_Status_Validation
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-801-605
+Key =  Commodity__c, Value = 
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = _2019-08-29-04.49.36
+Key =  Product_Short_Name__c, Value = Remand statuses of validation
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "",
+ "Country__c": "Spain",
+ "Name": "A-801-605",
+ "Product_Short_Name__c": "Remand statuses of validation",
+ "Product__c": "_2019-08-29-04.49.36"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9q4AAC
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9q4AAC",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h6EEAQ'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05051",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h6EEAQ"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Litigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Litigation__c/
+Key =  Petition__c, Value = a3Ur00000008h6EEAQ
+Key =  RecordTypeId, Value = 012t0000000TSjsAAG
+Key =  Expected_Final_Signature_Before_Ext__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "Expected_Final_Signature_Before_Ext__c": "2019-08-29",
+ "Petition__c": "a3Ur00000008h6EEAQ",
+ "RecordTypeId": "012t0000000TSjsAAG"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+id,name+from+litigation__c+where+id='a3Tr000000072VJEAY'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Id": "a3Tr000000072VJEAY",
+  "Name": "L-000279",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VJEAY"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Litigation__c+where+id='a3Tr000000072VJEAY'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Preliminary",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VJEAY"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Litigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VJEAY
+Key =  Actual_Draft_Remand_released_to_party__c, Value = 2019-08-29
+JSON for record to be inserted:
+{"Actual_Draft_Remand_released_to_party__c": "2019-08-29"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Litigation__c+where+id='a3Tr000000072VJEAY'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Final",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VJEAY"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Litigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VJEAY
+Key =  Actual_Final_Signature__c, Value = 2019-08-29
+JSON for record to be inserted:
+{"Actual_Final_Signature__c": "2019-08-29"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Litigation__c+where+id='a3Tr000000072VJEAY'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Closed",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VJEAY"
+  }
+ }],
+ "totalSize": 1
+}
+afterMethod()
+Remand_Status_Validation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+beforeMethod()
+beforeMethod()
+International_Litigation_Status_Validation
+
+_______________ INSERT Record to ADCVD_Case__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/ADCVD_Case__c/
+Key =  Name, Value = A-625-343
+Key =  Commodity__c, Value = 
+Key =  ADCVD_Case_Type__c, Value = AD ME
+Key =  Product__c, Value = _2019-08-29-04.49.49
+Key =  Product_Short_Name__c, Value = International Litigation statuses validation
+Key =  Country__c, Value = Spain
+JSON for record to be inserted:
+{
+ "ADCVD_Case_Type__c": "AD ME",
+ "Commodity__c": "",
+ "Country__c": "Spain",
+ "Name": "A-625-343",
+ "Product_Short_Name__c": "International Litigation statuses validation",
+ "Product__c": "_2019-08-29-04.49.49"
+}
+
+_______________ INSERT Record to Petition__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Petition__c/
+Key =  ADCVD_Case__c, Value = a3fr0000000C9q9AAC
+Key =  Petition_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "ADCVD_Case__c": "a3fr0000000C9q9AAC",
+ "Petition_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+name+from+Petition__c+where+id='a3Ur00000008h6JEAQ'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Name": "P-05052",
+  "attributes": {
+   "type": "Petition__c",
+   "url": "/services/data/v45.0/sobjects/Petition__c/a3Ur00000008h6JEAQ"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ INSERT Record to Litigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Litigation__c/
+Key =  Petition__c, Value = a3Ur00000008h6JEAQ
+Key =  RecordTypeId, Value = 012t0000000TSjrAAG
+Key =  Request_Filed__c, Value = 2019-08-29
+JSON for record to be inserted:
+{
+ "Petition__c": "a3Ur00000008h6JEAQ",
+ "RecordTypeId": "012t0000000TSjrAAG",
+ "Request_Filed__c": "2019-08-29"
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+id,name+from+litigation__c+where+id='a3Tr000000072VOEAY'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Id": "a3Tr000000072VOEAY",
+  "Name": "L-000280",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VOEAY"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Litigation__c+where+id='a3Tr000000072VOEAY'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Preliminary",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VOEAY"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Litigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VOEAY
+Key =  Actual_Draft_Remand_released_to_party__c, Value = 2019-08-29
+JSON for record to be inserted:
+{"Actual_Draft_Remand_released_to_party__c": "2019-08-29"}
+updating unsuccessful. Status code returned is 400
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Litigation__c+where+id='a3Tr000000072VOEAY'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Preliminary",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VOEAY"
+  }
+ }],
+ "totalSize": 1
+}
+
+_______________ Update Record In Litigation__c _______________
+urihttps://trade--MarioQA.my.salesforce.com/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VOEAY
+Key =  Actual_Final_Signature__c, Value = 2019-08-29
+JSON for record to be inserted:
+{"Actual_Final_Signature__c": "2019-08-29"}
+
+_______________ Query to return record from Object _______________
+Query URL: https://trade--MarioQA.my.salesforce.com/services/data/v45.0/query?q=select+Status__c+from+Litigation__c+where+id='a3Tr000000072VOEAY'
+oauthHeader2: Authorization: OAuth 00Dr00000001Zzu!AQYAQAqOwsijdy8bQkyuT_ZD7SqEgKMamcOItw7kPrOxBKa.lfB1PyQ2aCU39jtdBjKoSAcpHdROBRw5r63zd8eYqyyt65Xz
+JSON result of Query:
+{
+ "done": true,
+ "records": [{
+  "Status__c": "Preliminary",
+  "attributes": {
+   "type": "Litigation__c",
+   "url": "/services/data/v45.0/sobjects/Litigation__c/a3Tr000000072VOEAY"
+  }
+ }],
+ "totalSize": 1
+}
+afterMethod()
+International_Litigation_Status_Validation
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+Executing After class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\ADCVD_REGRESSION_API/input_data
+
+===============================================
+Suite
+Total tests run: 15, Failures: 8, Skips: 0
+Configuration Failures: 1, Skips: 0
+===============================================
+

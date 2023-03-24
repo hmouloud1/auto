@@ -1,0 +1,729 @@
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_EXCLUSION_REQUEST/input_data
+{Scenarios=Scenario_01, Active=TRUE}
+{Scenarios=Scenario_02, Active=TRUE}
+{Scenarios=Scenario_03, Active=FALSE}
+{Scenarios=Scenario_04, Active=FALSE}
+{Scenarios=Scenario_05, Active=FALSE}
+{Scenarios=Scenario_01, Metal Type=Aluminum, Metal Class=Sow, HTSUS Code=7216500000, Organization Legal Name=MH, Requesting Organization Street Address=, Requesting Organization City=dc, Requesting Organization State=Please Select, Requesting Organization Zipcode=555.0, Requesting Organization POC Name=7777.0, Requesting Organization Phone Number=5.8455555E7, Requesting Organization Email Address=5455@fff, Requesting Organization Website Address=ddd, Importer Legal Name=MH, Importer Street Address=, Importer City=arlington, Importer State=Arizona, Importer Zipcode=5555, Importer POC Name=77777, Importer Phone Number=454544545, Importer Email Address=5455@fff, Importer Website Address=ddd, Active=FALSE}
+{Scenarios=Scenario_02, Metal Type=Steel, Metal Class=Carbon and Alloy Long, HTSUS Code=7606923030, Organization Legal Name=, Requesting Organization Street Address=address, Requesting Organization City=33333.0, Requesting Organization State=Alabama, Requesting Organization Zipcode=zip, Requesting Organization POC Name=, Requesting Organization Phone Number=, Requesting Organization Email Address=, Requesting Organization Website Address=dss@, Importer Legal Name=, Importer Street Address=test add, Importer City=4545454, Importer State=Please Select, Importer Zipcode=, Importer POC Name=, Importer Phone Number=, Importer Email Address=, Importer Website Address=dss@, Active=TRUE}
+{Scenarios=Scenario_03, Metal Type=Steel, Metal Class=Carbon and Alloy Long, HTSUS Code=343, Organization Legal Name=, Requesting Organization Street Address=, Requesting Organization City=, Requesting Organization State=Please Select, Requesting Organization Zipcode=, Requesting Organization POC Name=, Requesting Organization Phone Number=org name, Requesting Organization Email Address=q@, Requesting Organization Website Address=dss@, Importer Legal Name=, Importer Street Address=, Importer City=, Importer State=Please Select, Importer Zipcode=fdfd, Importer POC Name=, Importer Phone Number=xxxx, Importer Email Address=q@, Importer Website Address=dss@, Active=FALSE}
+{Scenarios=Scenario_04, Metal Type=Steel, Metal Class=Carbon and Alloy Long, HTSUS Code=, Organization Legal Name=MH, Requesting Organization Street Address=2234 pimmit, Requesting Organization City=Falls church, Requesting Organization State=Virginia, Requesting Organization Zipcode=22043, Requesting Organization POC Name=POCTest, Requesting Organization Phone Number=5712259455, Requesting Organization Email Address=hmouloud@gmail.com, Requesting Organization Website Address=https://adad@domain.com, Importer Legal Name=MH test 2, Importer Street Address=m street, Importer City=georgeTown, Importer State=Washington, Importer Zipcode=22043, Importer POC Name=POCTest2, Importer Phone Number=5712259433, Importer Email Address=hmouloud@gmail.com, Importer Website Address=https://test@domain.com, Active=FALSE}
+{Scenarios=Scenario_05, Metal Type=Aluminum, Metal Class=Rods, HTSUS Code=, Organization Legal Name=MH, Requesting Organization Street Address=2235 pimmit, Requesting Organization City=Falls church, Requesting Organization State=Virginia, Requesting Organization Zipcode=22044, Requesting Organization POC Name=POCTest, Requesting Organization Phone Number=5712259455, Requesting Organization Email Address=hmouloud@gmail.com, Requesting Organization Website Address=https://adad@domain.com, Importer Legal Name=MH test 3, Importer Street Address=m street, Importer City=georgeTown, Importer State=Washington, Importer Zipcode=22044, Importer POC Name=POCTest3, Importer Phone Number=5712259433, Importer Email Address=hmouloud@gmail.com, Importer Website Address=https://test@domain.com, Active=FALSE}
+{Scenarios=Scenario_01, Authorized Representative Phone Number=3434f, Authorized Representative Email Address=wew@, Authorized Representative Website Address=https://sdsd, Ownership Activity=Please Select, Ownership Organization Name=sdsd, Ownership Headquarters Country=Please Select, Total Requested Annual Exclusion Quantity=334, Total Requested Average Annual Consumption=tyt, Exclusion Explanation=No U.S. Production, Percentage Not Available=454, Delivery Estimate=test, Manufacture Estimate=test, Shipment Days Estimate=test, Shipment Quantity Estimate=test, Non US Producer Name=ere, Non US Producer Headquarters Country=Algeria, Active=FALSE}
+{Scenarios=Scenario_02, Authorized Representative Phone Number=3434, Authorized Representative Email Address=wew@sdsd, Authorized Representative Website Address=webtest, Ownership Activity=Distributor, Ownership Organization Name=, Ownership Headquarters Country=Algeria, Total Requested Annual Exclusion Quantity=43, Total Requested Average Annual Consumption=3434, Exclusion Explanation=Please Select, Percentage Not Available=test, Delivery Estimate=454, Manufacture Estimate=rr545, Shipment Days Estimate=454, Shipment Quantity Estimate=454, Non US Producer Name=, Non US Producer Headquarters Country=Please Select, Active=FALSE}
+{Scenarios=Scenario_03, Authorized Representative Phone Number=pho, Authorized Representative Email Address=wew@, Authorized Representative Website Address=webtest, Ownership Activity=Please Select, Ownership Organization Name=, Ownership Headquarters Country=Please Select, Total Requested Annual Exclusion Quantity=quat, Total Requested Average Annual Consumption=consump, Exclusion Explanation=Please Select, Percentage Not Available=test, Delivery Estimate=test, Manufacture Estimate=, Shipment Days Estimate=test, Shipment Quantity Estimate=test, Non US Producer Name=, Non US Producer Headquarters Country=Please Select, Active=TRUE}
+{Scenarios=Scenario_04, Authorized Representative Phone Number=5712259845, Authorized Representative Email Address=test@gmail.com, Authorized Representative Website Address=ftp://uplod.com, Ownership Activity=Distributor, Ownership Organization Name=OrgName, Ownership Headquarters Country=Algeria, Total Requested Annual Exclusion Quantity=55, Total Requested Average Annual Consumption=44, Exclusion Explanation=Insufficient U.S. Availability, Percentage Not Available=5, Delivery Estimate=9, Manufacture Estimate=33, Shipment Days Estimate=3, Shipment Quantity Estimate=5, Non US Producer Name=USPNAME, Non US Producer Headquarters Country=Argentina, Active=TRUE}
+{Scenarios=Scenario_01, Product Description=descriotion test, Aluminum=-12.5|-3.6, Antimony=-12|, Bismuth=|344, Boron=12|@@@, Carbon=!!!|37, Chromium=dd|38, Cobalt=1222.6|39.8, Copper=12@|222.8, Iron=12|fdff, Lead=12|wew, Magnesium=4.|.4, Manganese=4.4|43, Molybdenum=12|44r, Nickel=12|45w, Niobium=12|463, Nitrogen=123|47, Phosphorus=12 |qq, Selenium=12|493, Silicon=12|503, Sulfur=12|451, Tellurium=12|fgdf, Titanium=12|dgd, Tungsten=122|54, Vanadium=12|55.6, Zinc=12|55, Zirconium=12|56, Other Chemical=ee|33, Thickness=122|54, Inside Diameter=12|55.6, Outside Diameter=12|55, Length=12|56, Width=ee|101, Height=ee|34, Tensile Strength=12|55, Yield Strength=101|56, Hardness=ee|101, Elogation=122|54, Reduction in Area=12|55.6, Hole Expansion=101|55, Bendability=12|101, Epstein Test=101|33, Greer Lab Method=ee|34, Stacked Wide Sheet=ee|101, Profilometer=ee|34, Active=TRUE}
+{Scenarios=Scenario_02, Product Description=, Aluminum=12|-33, Antimony=12|34, Bismuth=0|35, Boron=12|444, Carbon=12|373, Chromium=122|382, Cobalt=ww|39, Copper=12|40, Iron=ss|41, Lead=12|42, Magnesium=12|42, Manganese=12|43, Molybdenum=12|44, Nickel=312|45, Niobium=12|463, Nitrogen=12|47v, Phosphorus=12|484, Selenium=12|49, Silicon=12|50, Sulfur=12|514, Tellurium=12|52, Titanium=12|53, Tungsten=12|54ss, Vanadium=12|55, Zinc=12|55.6, Zirconium=12|56, Other Chemical=333|232, Thickness=12|54ss, Inside Diameter=12|55, Outside Diameter=12|55.6, Length=12|56, Width=333|232, Height=333|233, Tensile Strength=12|55.6, Yield Strength=12|56, Hardness=333|232, Elogation=12|54ss, Reduction in Area=12|55, Hole Expansion=12|55.6, Bendability=12|56, Epstein Test=333|232, Greer Lab Method=333|233, Stacked Wide Sheet=333|232, Profilometer=333|233, Active=FALSE}
+{Scenarios=Scenario_03, Product Description=, Aluminum=126|@@, Antimony=!!!|346, Bismuth=124|355, Boron=###|364, Carbon=123|374, Chromium=12h|224, Cobalt=12f|222, Copper=|qq, Iron=122|, Lead=23e|, Magnesium=12g|wew, Manganese=124|435, Molybdenum=12r|445, Nickel=125|453, Niobium=12v|46v, Nitrogen=v12|474, Phosphorus=12f|484, Selenium=123|49e, Silicon=12e|50w, Sulfur=123|514, Tellurium=123|52e, Titanium=12f|534, Tungsten=12f|54f, Vanadium=12.|55.e, Zinc=1j2|55.j, Zirconium=12.6w|565, Other Chemical=2e|255, Thickness=1r2|ww, Inside Diameter=12w|55.e, Outside Diameter=12w|, Length=|564s, Width=24e4|, Height=|3e44, Tensile Strength=12e22|5e52, Yield Strength=122#.6|562#, Hardness=^|#, Elogation=1s2|54s, Reduction in Area=1s2|5w5.e, Hole Expansion=12s2|a, Bendability=@@|56a, Epstein Test=2a|2a, Greer Lab Method=s2|3333s, Stacked Wide Sheet=266s|2s, Profilometer=2s|366s, Active=FALSE}
+{Scenarios=Scenario_04, Product Description=Test desc, Aluminum=12|33, Antimony=12|34, Bismuth=12|22, Boron=12|36, Carbon=12|66, Chromium=99|10, Cobalt=12|39, Copper=0|40, Iron=12|41, Lead=12|33, Magnesium=12|34, Manganese=12|22, Molybdenum=12|36, Nickel=12|66, Niobium=12|34, Nitrogen=12|39, Phosphorus=0|40, Selenium=12|41, Silicon=12|33, Sulfur=12|34, Tellurium=12|22, Titanium=12|36, Tungsten=12|66, Vanadium=12|34, Zinc=12|39, Zirconium=0|40, Other Chemical=12|41, Thickness=12|33, Inside Diameter=12|34, Outside Diameter=12|22, Length=12|36, Width=12|66, Height=12|34, Tensile Strength=12|39, Yield Strength=0|40, Hardness=12|41, Elogation=12|33, Reduction in Area=12|34, Hole Expansion=12|22, Bendability=12|36, Epstein Test=12|66, Greer Lab Method=12|34, Stacked Wide Sheet=12|39, Profilometer=0|40, Active=FALSE}
+{Scenarios=Scenario_01, Application Suitability=, Origin Country=Please Select, Export Country=Please Select, CBP Distinguish Comments=, Active=FALSE}
+{Scenarios=Scenario_02, Application Suitability=comment txt, Origin Country=Algeria, Export Country=Afghanistan, CBP Distinguish Comments=, Active=FALSE}
+{Scenarios=Scenario_03, Application Suitability=, Origin Country=Please Select, Export Country=Please Select, CBP Distinguish Comments=, Active=TRUE}
+{Scenarios=Scenario_04, Application Suitability=test, Origin Country=Anguilla, Export Country=Anguilla, CBP Distinguish Comments=test comment, Active=TRUE}
+{Scenarios=Scenario_01, Submission Certification Authorizing Official Company Name=, Submission Certification Authorizing Official Name=, Submission Certification Authorizing Official Title=, Submission Certification Authorizing Official Phone Number=, Submission Certification Authorizing Official Email=, Submission Certification POC Email=, Submission Certification POC Phone Number=, Active=FALSE}
+{Scenarios=Scenario_02, Submission Certification Authorizing Official Company Name=comp, Submission Certification Authorizing Official Name=test name, Submission Certification Authorizing Official Title=comp official, Submission Certification Authorizing Official Phone Number=test, Submission Certification Authorizing Official Email=test@, Submission Certification POC Email=@tesst, Submission Certification POC Phone Number=sss, Active=FALSE}
+{Scenarios=Scenario_03, Submission Certification Authorizing Official Company Name=, Submission Certification Authorizing Official Name=, Submission Certification Authorizing Official Title=, Submission Certification Authorizing Official Phone Number=wrong, Submission Certification Authorizing Official Email=3333, Submission Certification POC Email=@tesst, Submission Certification POC Phone Number=23232dd, Active=FALSE}
+{Scenarios=Scenario_04, Submission Certification Authorizing Official Company Name=compname, Submission Certification Authorizing Official Name=comp offcl name, Submission Certification Authorizing Official Title=comp title, Submission Certification Authorizing Official Phone Number=5716695874, Submission Certification Authorizing Official Email=hm@gmail.com, Submission Certification POC Email=poc@gmail.com, Submission Certification POC Phone Number=5716695874, Active=FALSE}
+{Scenarios=Scenario_05}
+Executing Before class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_EXCLUSION_REQUEST/input_data
+{field_name=Preliminary Determination Item, field_tag=preliminaryDeterminationItem, locator_type=xpath, locator_value=//ul/li/a[contains(text(), '~val~')], description=Step 3}
+{field_name=Decision on How to Proceed, field_tag=decisiononHowtoProceed, locator_type=xpath, locator_value=//span[contains(text(), 'Decision on How to Proceed')]/ancestor::span[1]/following-sibling::div[1]/div/div/div/a, description=Step 3}
+{field_name=Create New Exclusion Request, field_tag=CreateNewExclusionRequest, locator_type=xpath, locator_value=//a[text()='Create New Exclusion Request'], description=Step 3}
+{field_name= U.S. Department of Commerce, field_tag=HomePage, locator_type=xpath, locator_value=//a[contains(text(),'U.S. Department of Commerce')], description=Step 3}
+{field_name=Step 3, field_tag=tabName, locator_type=xpath, locator_value=//li[contains(text(),'~val~')], description=Step 3}
+{field_name=Element Minimum value, field_tag=ElementMinValue, locator_type=xpath, locator_value=//input[(@title = 'Minimal Percentage of ~val~') or (@title = 'Minimum Percentage of ~val~')   or (@title = 'Minimum ~val~') or (@title = '~val~ Percentage Minimum')  or (@title = '~val~ Minimum')], description=Step 3}
+{field_name=Element Maximum value, field_tag=ElementMaxValue, locator_type=xpath, locator_value=//input[(@title = 'Maximal Percentage of ~val~') or (@title = 'Maximum Percentage of ~val~')  or (@title = 'Maximum ~val~') or (@title = '~val~ Percentage Maximum')  or (@title = '~val~ Maximum')], description=Step 3}
+{field_name=Element Minimum value out of range, field_tag=ElementMinValueMessageTd, locator_type=xpath, locator_value=//input[(@title = 'Minimal Percentage of ~val~') or (@title = 'Minimum Percentage of ~val~')   or (@title = 'Minimum ~val~') or (@title = '~val~ Percentage Minimum')  or (@title = '~val~ Minimum')]/ancestor::td[1], description=Step 3}
+{field_name=Element Maximum value out of range, field_tag=ElementMaxValueMessageTd, locator_type=xpath, locator_value=//input[(@title = 'Maximal Percentage of ~val~') or (@title = 'Maximum Percentage of ~val~')   or (@title = 'Maximum ~val~') or (@title = '~val~ Percentage Maximum')  or (@title = '~val~ Maximum')]/ancestor::td[1], description=Step 3}
+{field_name=Element Minimum value out of range, field_tag=ElementMinValueMessage, locator_type=xpath, locator_value=//input[(@title = 'Minimal Percentage of ~val~') or (@title = 'Minimum Percentage of ~val~')  or (@title = 'Minimum ~val~') or (@title = '~val~ Percentage Minimum')  or (@title = '~val~ Minimum')]/following-sibling::span[1], description=Step 3}
+{field_name=Element Maximum value out of range, field_tag=ElementMaxValueMessage, locator_type=xpath, locator_value=//input[(@title = 'Maximal Percentage of ~val~') or (@title = 'Maximum Percentage of ~val~')  or (@title = 'Maximum ~val~') or (@title = '~val~ Percentage Maximum')  or (@title = '~val~ Maximum')]/following-sibling::span[1], description=Step 3}
+{field_name=submit form, field_tag=submitForm, locator_type=xpath, locator_value=//input[@value='Submit Form'], description=Step 3}
+{field_name=Product Description, field_tag=ProductDescription, locator_type=xpath, locator_value=//textarea[@title='Product Description'], description=Step 3}
+{field_name=Product Description, field_tag=ProductDescriptionMessage, locator_type=xpath, locator_value=//textarea[@title='Product Description']/following-sibling::span[1], description=Step 3}
+{field_name=Step 1 - Element, field_tag=StepOneElement, locator_type=xpath, locator_value=//input[(@title = '~val~') ], description=Step 1}
+{field_name=Step 1 - Element msg, field_tag=StepOneElementMessage, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/following-sibling::span[~val1~], description=Step 1}
+{field_name=Step 1 - Element div, field_tag=StepOneElementDiv, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/ancestor::div[2], description=Step 1}
+{field_name=Step 1 - Element select, field_tag=StepOneElementSelect, locator_type=xpath, locator_value=//select[(@title = '~val~') ], description=Step 1}
+{field_name=Step 1 - Element select msg, field_tag=StepOneElementSelectMessage, locator_type=xpath, locator_value=//select[(@title = '~val~') ]/following-sibling::span[1], description=Step 1}
+{field_name=Step 1 - Element select div, field_tag=StepOneElementSelectDiv, locator_type=xpath, locator_value=//select[(@title = '~val~') ]/ancestor::div[2], description=Step 1}
+{field_name=OwnershipAnswer_true, field_tag=OwnershipAnswer_true, locator_type=xpath, locator_value=//input[(@id = 'OwnershipAnswer_true') ], description=Step 2}
+{field_name=BehalfOf_true, field_tag=BehalfOf_true, locator_type=xpath, locator_value=//input[(@id = 'BehalfOf_true') ], description=Step 2}
+{field_name=Step 2 - Element , field_tag=StepTwoElement, locator_type=xpath, locator_value=//input[(@title = '~val~') ], description=Step 2}
+{field_name=Step 2 - Element msg, field_tag=StepTwoElementMessage, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/following-sibling::span[1], description=Step 2}
+{field_name=Step 2- Element div, field_tag=StepTwoElementDiv, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/ancestor::div[2], description=Step 2}
+{field_name=Step 2 - Element select, field_tag=StepTwoElementSelect, locator_type=xpath, locator_value=//select[(@title = '~val~') ], description=Step 2}
+{field_name=Step 2 - Element select msg, field_tag=StepTwoElementSelectMessage, locator_type=xpath, locator_value=//select[(@title = '~val~') ]/following-sibling::span[1], description=Step 2}
+{field_name=Step 2 - Element select div, field_tag=StepTwoElementSelectDiv, locator_type=xpath, locator_value=//select[(@title = '~val~') ]/ancestor::div[2], description=Step 2}
+{field_name=Application Suitability, field_tag=ApplicationSuitability, locator_type=xpath, locator_value=//textarea[@title='Application Suitability'], description=Step 4}
+{field_name=Origin Country, field_tag=OriginCountry, locator_type=xpath, locator_value=//select[contains(@id, 'OriginCountry')], description=Step 4}
+{field_name=Export Country, field_tag=ExportCountry, locator_type=xpath, locator_value=//select[contains(@id, 'ExportCountry')], description=Step 4}
+{field_name=CBP Distinguish Comments, field_tag=CBPDistinguishComments, locator_type=xpath, locator_value=//textarea[@title='CBP Distinguish Comments'], description=Step 4}
+{field_name=Application Suitability Message, field_tag=ApplicationSuitabilityMessage, locator_type=xpath, locator_value=//textarea[@title='Application Suitability']/following-sibling::span[1], description=Step 4}
+{field_name=Export Country Message, field_tag=OriginExportCountryMessage, locator_type=xpath, locator_value=//select[contains(@id, 'ExportCountry')]/ancestor::table[1]/following-sibling::span[1]/span[1], description=Step 4}
+{field_name=Application Suitability Message, field_tag=CBPDistinguishCommentsMessage, locator_type=xpath, locator_value=//textarea[@title='CBP Distinguish Comments']/following-sibling::span[1], description=Step 4}
+{field_name=contry table, field_tag=OriginExportCountryTable, locator_type=xpath, locator_value=//select[contains(@id, 'ExportCountry')]/ancestor::table[1], description=Step 4}
+{field_name=Step 5 - Element , field_tag=StepFiveElement, locator_type=xpath, locator_value=//input[(@title = '~val~') ], description=Step 5}
+{field_name=Step 5 - Element msg, field_tag=StepFiveElementMessage, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/following-sibling::span[1], description=Step 5}
+{field_name=Step 5 - Element div, field_tag=StepFiveElementDiv, locator_type=xpath, locator_value=//input[(@title = '~val~') ]/ancestor::div[1], description=Step 5}
+beforeMethod()
+beforeMethod()
+0
+{Scenarios=Scenario_01, Active=TRUE}
+Scenario_01
+Creating Process...
+"chrome.exe","3852","Console","1","76,184 K","Running","DESKTOP-P47OH58\Mouloud Hamdidouche","0:11:41","Profile: ADCVD CRU ~ Salesforce - Unlimited Edition - Google Chrome"
+"chrome.exe","10020","Console","1","6,712 K","Running","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+"chrome.exe","21384","Console","1","6,840 K","Running","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+"chrome.exe","16980","Console","1","58,564 K","Running","DESKTOP-P47OH58\Mouloud Hamdidouche","0:11:00","N/A"
+"chrome.exe","22196","Console","1","26,548 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:03:39","N/A"
+"chrome.exe","15660","Console","1","14,264 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+"chrome.exe","23892","Console","1","107,552 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:05:55","N/A"
+"chrome.exe","20244","Console","1","38,352 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:01:27","N/A"
+"chrome.exe","20164","Console","1","24,968 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:01","N/A"
+"chrome.exe","17824","Console","1","23,232 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:01","N/A"
+"chrome.exe","2800","Console","1","25,356 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:04","N/A"
+"chrome.exe","27576","Console","1","67,512 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:44","N/A"
+"chrome.exe","26876","Console","1","37,340 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:17","N/A"
+"chrome.exe","16444","Console","1","16,040 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+"chrome.exe","21496","Console","1","32,820 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:03","N/A"
+"chrome.exe","25152","Console","1","21,588 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:00","N/A"
+3852
+10020
+21384
+16980
+22196
+15660
+23892
+20244
+20164
+17824
+2800
+27576
+26876
+16444
+21496
+25152
+Creating Process...
+"chromedriver.exe","15896","Console","1","7,516 K","Unknown","DESKTOP-P47OH58\Mouloud Hamdidouche","0:00:01","N/A"
+15896
+userDir C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_EXCLUSION_REQUEST
+this a windows machine
+C:/libs
+highlight  U.S. Department of Commerce
+Click on element Create New Exclusion Request
+Click on element Step 3
+Enter text for Product Description
+Scroll to element Element Minimum value
+Key : Scenarios Value : Scenario_01
+Key : Product Description Value : descriotion test
+Key : Aluminum Value : -12.5|-3.6
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Antimony Value : -12|
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Bismuth Value : |344
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Boron Value : 12|@@@
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Carbon Value : !!!|37
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Chromium Value : dd|38
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Cobalt Value : 1222.6|39.8
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Copper Value : 12@|222.8
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Iron Value : 12|fdff
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Lead Value : 12|wew
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Magnesium Value : 4.|.4
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Manganese Value : 4.4|43
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Molybdenum Value : 12|44r
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Nickel Value : 12|45w
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Niobium Value : 12|463
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Nitrogen Value : 123|47
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Phosphorus Value : 12 |qq
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Selenium Value : 12|493
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Silicon Value : 12|503
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Sulfur Value : 12|451
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Tellurium Value : 12|fgdf
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Titanium Value : 12|dgd
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Tungsten Value : 122|54
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Vanadium Value : 12|55.6
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Zinc Value : 12|55
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Zirconium Value : 12|56
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Other Chemical Value : ee|33
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Thickness Value : 122|54
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Inside Diameter Value : 12|55.6
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Outside Diameter Value : 12|55
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Length Value : 12|56
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Width Value : ee|101
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Height Value : ee|34
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Tensile Strength Value : 12|55
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Yield Strength Value : 101|56
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Hardness Value : ee|101
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Elogation Value : 122|54
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Reduction in Area Value : 12|55.6
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Hole Expansion Value : 101|55
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Bendability Value : 12|101
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Epstein Test Value : 101|33
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Greer Lab Method Value : ee|34
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Stacked Wide Sheet Value : ee|101
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Profilometer Value : ee|34
+Enter text for Element Minimum value
+Enter text for Element Maximum value
+Key : Active Value : TRUE
+Click on element Step 3
+Scroll to element submit form
+Click on element submit form
+Click on element Step 3
+Click on element Step 3
+Scroll to element Product Description
+Get the text of the element Product Description
+highlight Product Description
+unhighlight Product Description
+Scroll to element Element Minimum value
+Key : Scenarios Value : Scenario_01
+Key : Product Description Value : descriotion test
+Key : Aluminum Value : -12.5|-3.6
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Antimony Value : -12|
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Bismuth Value : |344
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Boron Value : 12|@@@
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Carbon Value : !!!|37
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Chromium Value : dd|38
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Cobalt Value : 1222.6|39.8
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Copper Value : 12@|222.8
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Iron Value : 12|fdff
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Lead Value : 12|wew
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Magnesium Value : 4.|.4
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Manganese Value : 4.4|43
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Molybdenum Value : 12|44r
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Nickel Value : 12|45w
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Niobium Value : 12|463
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Nitrogen Value : 123|47
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Phosphorus Value : 12 |qq
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Selenium Value : 12|493
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Silicon Value : 12|503
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Sulfur Value : 12|451
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Tellurium Value : 12|fgdf
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Titanium Value : 12|dgd
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Tungsten Value : 122|54
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Vanadium Value : 12|55.6
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Zinc Value : 12|55
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Zirconium Value : 12|56
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Other Chemical Value : ee|33
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Thickness Value : 122|54
+Scroll to element Element Minimum value
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Inside Diameter Value : 12|55.6
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Outside Diameter Value : 12|55
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Length Value : 12|56
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Width Value : ee|101
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Height Value : ee|34
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Tensile Strength Value : 12|55
+Scroll to element Element Minimum value
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Yield Strength Value : 101|56
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Hardness Value : ee|101
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Elogation Value : 122|54
+Scroll to element Element Minimum value
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Reduction in Area Value : 12|55.6
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Hole Expansion Value : 101|55
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Bendability Value : 12|101
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Epstein Test Value : 101|33
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Greer Lab Method Value : ee|34
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Stacked Wide Sheet Value : ee|101
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Profilometer Value : ee|34
+Get the text of the element Element Minimum value out of range
+Get the text of the element Element Maximum value out of range
+highlight Element Minimum value out of range
+unhighlight Element Minimum value out of range
+highlight Element Maximum value out of range
+unhighlight Element Maximum value out of range
+Key : Active Value : TRUE
+afterMethod()
+Scenario_01
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_EXCLUSION_REQUEST/input_data
+beforeMethod()
+beforeMethod()
+1
+{Scenarios=Scenario_02, Active=TRUE}
+Scenario_02
+Click on element Step 3
+Key : Scenarios Value : Scenario_02
+Key : Metal Type Value : Steel
+select Steel from element Step 1 - Element select
+Key : Metal Class Value : Carbon and Alloy Long
+select Carbon and Alloy Long from element Step 1 - Element select
+Key : HTSUS Code Value : 7606923030
+Enter text for Step 1 - Element
+Key : Organization Legal Name Value : 
+Enter text for Step 1 - Element
+Key : Requesting Organization Street Address Value : address
+Enter text for Step 1 - Element
+Key : Requesting Organization City Value : 33333.0
+Enter text for Step 1 - Element
+Key : Requesting Organization State Value : Alabama
+select Alabama from element Step 1 - Element select
+Key : Requesting Organization Zipcode Value : zip
+Enter text for Step 1 - Element
+Key : Requesting Organization POC Name Value : 
+Enter text for Step 1 - Element
+Key : Requesting Organization Phone Number Value : 
+Enter text for Step 1 - Element
+Key : Requesting Organization Email Address Value : 
+Enter text for Step 1 - Element
+Key : Requesting Organization Website Address Value : dss@
+Enter text for Step 1 - Element
+Key : Importer Legal Name Value : 
+Enter text for Step 1 - Element
+Key : Importer Street Address Value : test add
+Enter text for Step 1 - Element
+Key : Importer City Value : 4545454
+Enter text for Step 1 - Element
+Key : Importer State Value : Please Select
+select Please Select from element Step 1 - Element select
+Key : Importer Zipcode Value : 
+Enter text for Step 1 - Element
+Key : Importer POC Name Value : 
+Enter text for Step 1 - Element
+Key : Importer Phone Number Value : 
+Enter text for Step 1 - Element
+Key : Importer Email Address Value : 
+Enter text for Step 1 - Element
+Key : Importer Website Address Value : dss@
+Enter text for Step 1 - Element
+Key : Active Value : TRUE
+Click on element Step 3
+Scroll to element submit form
+Click on element submit form
+Click on element Step 3
+Key : Scenarios Value :  Scenario_02
+Key : Metal Type Value :  Steel
+Key : Metal Class Value :  Carbon and Alloy Long
+Key : HTSUS Code Value :  7606923030
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Organization Legal Name Value :  
+Scroll to element Step 1 - Element
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Requesting Organization Street Address Value :  address
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Requesting Organization City Value :  33333.0
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Requesting Organization State Value :  Alabama
+Get the text of the element Step 1 - Element select msg
+highlight Step 1 - Element select div
+unhighlight Step 1 - Element select div
+Key : Requesting Organization Zipcode Value :  zip
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Requesting Organization POC Name Value :  
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Requesting Organization Phone Number Value :  
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Requesting Organization Email Address Value :  
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Requesting Organization Website Address Value :  dss@
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Importer Legal Name Value :  
+Scroll to element Step 1 - Element
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Importer Street Address Value :  test add
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Importer City Value :  4545454
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Importer State Value :  Please Select
+Get the text of the element Step 1 - Element select msg
+highlight Step 1 - Element select div
+unhighlight Step 1 - Element select div
+Key : Importer Zipcode Value :  
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Importer POC Name Value :  
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Importer Phone Number Value :  
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Importer Email Address Value :  
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Importer Website Address Value :  dss@
+Get the text of the element Step 1 - Element msg
+highlight Step 1 - Element div
+unhighlight Step 1 - Element div
+Key : Active Value :  TRUE
+afterMethod()
+Scenario_02
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_EXCLUSION_REQUEST/input_data
+Executing After class
+C:\Users\Mouloud Hamdidouche\Desktop\eclipse\SeleniumProjects\BIS232_SCRIPT_EXCLUSION_REQUEST/input_data
+null
+
+===============================================
+Suite
+Total tests run: 2, Failures: 0, Skips: 0
+Configuration Failures: 1, Skips: 0
+===============================================
+
